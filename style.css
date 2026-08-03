@@ -1,0 +1,241 @@
+:root {
+  --gold: #c9a96e;
+  --gold-bright: #e0be7f;
+  --dark-bg: #14100b;
+  --panel-bg: #1d1712;
+  --panel-border: #33291d;
+  --text: #ede4d3;
+  --text-dim: #a99d87;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--dark-bg);
+  color: var(--text);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+code {
+  background: rgba(201, 169, 110, 0.12);
+  color: var(--gold-bright);
+  padding: 0.15em 0.45em;
+  border-radius: 4px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.9em;
+}
+
+/* --- Hero --- */
+
+.hero {
+  padding: 4.5rem 1.5rem 3.5rem;
+  text-align: center;
+  background:
+    radial-gradient(ellipse at top, rgba(201, 169, 110, 0.10), transparent 60%),
+    var(--dark-bg);
+  border-bottom: 1px solid var(--panel-border);
+}
+
+.hero-inner {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.hero-icon {
+  width: 88px;
+  height: 88px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px var(--panel-border), 0 8px 30px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1.25rem;
+}
+
+.hero h1 {
+  font-size: 2.75rem;
+  font-weight: 800;
+  margin: 0 0 0.25rem;
+  color: #fff;
+  letter-spacing: -0.02em;
+}
+
+.tagline {
+  color: var(--gold);
+  font-weight: 600;
+  font-size: 1.05rem;
+  margin: 0 0 1.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.summary {
+  color: var(--text-dim);
+  font-size: 1.02rem;
+  text-align: left;
+  margin: 0 0 2.25rem;
+}
+
+.cta-row {
+  display: flex;
+  gap: 0.85rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.85rem 1.6rem;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 0.98rem;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+}
+
+.btn-primary {
+  background: linear-gradient(180deg, var(--gold-bright), var(--gold));
+  color: #1a1408;
+  box-shadow: 0 6px 20px rgba(201, 169, 110, 0.25);
+}
+
+.btn-primary:hover {
+  box-shadow: 0 8px 26px rgba(201, 169, 110, 0.4);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--text);
+  border: 1px solid var(--panel-border);
+}
+
+.btn-secondary:hover {
+  border-color: var(--gold);
+  color: var(--gold-bright);
+}
+
+.slash-note {
+  color: var(--text-dim);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+/* --- Main --- */
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3.5rem 1.5rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  margin: 0 0 1.5rem;
+}
+
+.features {
+  margin-bottom: 3.5rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.feature-card {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 12px;
+  padding: 1.25rem 1.4rem;
+}
+
+.feature-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.02rem;
+  color: var(--gold-bright);
+}
+
+.feature-card p {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.93rem;
+}
+
+.setup {
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 14px;
+  padding: 2rem 2.25rem;
+}
+
+.setup ol {
+  margin: 0 0 1rem;
+  padding-left: 1.25rem;
+}
+
+.setup li {
+  margin-bottom: 0.6rem;
+  color: var(--text);
+}
+
+.setup-note {
+  margin: 0;
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+.setup-note a {
+  color: var(--gold-bright);
+}
+
+/* --- Footer --- */
+
+footer {
+  text-align: center;
+  padding: 2.5rem 1.5rem 3rem;
+  border-top: 1px solid var(--panel-border);
+  color: var(--text-dim);
+  font-size: 0.9rem;
+}
+
+footer p {
+  margin: 0.35rem 0;
+}
+
+footer a {
+  color: var(--gold);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: var(--gold-bright);
+}
+
+/* --- Responsive --- */
+
+@media (max-width: 500px) {
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+  .hero {
+    padding: 3rem 1.25rem 2.5rem;
+  }
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+  .cta-row {
+    flex-direction: column;
+  }
+}

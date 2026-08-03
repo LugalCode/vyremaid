@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vyremaid — OSRS Clan Utility Bot</title>
+<meta name="description" content="A Discord bot for Old School RuneScape clans — hiscores, WOM role sync, money making guide, GE prices, shooting stars, Tears of Guthix, and more.">
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img src="assets/icon.png" alt="Vyremaid" class="hero-icon">
+    <h1>Vyremaid</h1>
+    <p class="tagline">OSRS Clan Utility Bot</p>
+    <p class="summary">
+      Vyremaid links each member's Discord account to their in-game RSN and keeps a clan role
+      in sync automatically via Wise Old Man group membership — no manual role management.
+      From there it covers the everyday utility stuff a clan actually needs: live hiscores and
+      skill lookups, boss kill counts, a money-making guide filtered to what you personally
+      qualify for, Grand Exchange prices and loot-split calculations, Skill/Boss of the Week
+      tracking, clan-wide XP leaderboards, and live trackers for shooting stars and Tears of
+      Guthix worlds.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=1522560442784940052&permissions=268520448&scope=bot%20applications.commands">
+        Invite Vyremaid to your server
+      </a>
+      <a class="btn btn-secondary" href="Vyremaid-Commands.pdf">
+        Full command reference (PDF)
+      </a>
+    </div>
+    <p class="slash-note">Every command works as both <code>!command</code> and <code>/command</code> with Discord's own autocomplete.</p>
+  </div>
+</header>
+
+<main>
+
+  <section class="features">
+    <h2>What it does</h2>
+    <div class="feature-grid">
+
+      <div class="feature-card">
+        <h3>Account Linking &amp; Roles</h3>
+        <p>Members link their RSN once with <code>/setusername</code>. The bot checks it against your Wise Old Man group and auto-assigns/removes a clan role — no admin busywork.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Hiscores &amp; Stats</h3>
+        <p>Full skill tables, single-skill lookups for all 24 skills, boss kill counts, combined EHP/EHB profile cards, and personal-best gain records via Wise Old Man.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Money Making Guide</h3>
+        <p><code>!mmg</code> shows methods filtered to what you personally qualify for, sorted by profit/hr — not a generic list you have to cross-reference yourself.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Prices &amp; Splits</h3>
+        <p>Live Grand Exchange prices, plus <code>!split &lt;item&gt; &lt;people&gt;</code> to instantly divide a drop's value across your team.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Shooting Stars</h3>
+        <p><code>!stars</code> shows active shooting stars filtered to what your Mining level can actually mine, hiding anything already gone stale.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Tears of Guthix</h3>
+        <p><code>!tog</code> surfaces the best crowd-confirmed worlds for this week's stream order.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>SOTW &amp; Leaderboards</h3>
+        <p>Auto-detected Skill/Boss of the Week standings, plus clan-wide top XP/level gainer leaderboards over any time period.</p>
+      </div>
+
+      <div class="feature-card">
+        <h3>Auto-Responses &amp; Welcome DMs</h3>
+        <p>Configurable trigger-word replies, and a customizable DM new members get automatically on join.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="setup">
+    <h2>Quick setup</h2>
+    <ol>
+      <li>Click <strong>Invite Vyremaid</strong> above and add it to your server.</li>
+      <li>Position the bot's role above any role you want it to manage (Server Settings → Roles).</li>
+      <li>Run <code>!setgroup &lt;your Wise Old Man group link&gt;</code> to link your clan's WOM group.</li>
+      <li>Run <code>!setclanrole @YourRole</code> to pick which role gets auto-synced.</li>
+      <li>Have members run <code>!setusername &lt;their RSN&gt;</code> — done.</li>
+    </ol>
+    <p class="setup-note">Full walkthrough (including optional channel restrictions and WOM auto-refresh) is in the <a href="Vyremaid-Commands.pdf">command reference PDF</a>.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Vyremaid — built for OSRS clans.</p>
+  <p><a href="https://ko-fi.com/lugal">☕ Buy Lugal a white Monster</a></p>
+</footer>
+
+</body>
+</html>
