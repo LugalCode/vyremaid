@@ -306,6 +306,11 @@ h2 {
   grid-template-columns: repeat(3, minmax(90px, 1fr));
 }
 
+.dc-fields-2 {
+  grid-template-columns: repeat(2, minmax(180px, 1fr));
+  gap: 0.75rem 1.25rem;
+}
+
 .dc-field-name {
   color: #b5bac1;
   font-size: 0.65rem;
@@ -319,6 +324,24 @@ h2 {
   color: #dbdee1;
   font-size: 0.8rem;
   margin-bottom: 0.4rem;
+}
+
+/* For fields whose "name" is a full sentence (e.g. MMG method + profit) rather than a short
+   label like a skill name — Discord doesn't uppercase field names, so dc-field-name's small
+   caps treatment would look wrong here. */
+.dc-field-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  margin-bottom: 0.15rem;
+}
+
+.dc-field-desc {
+  color: #949ba4;
+  font-size: 0.76rem;
+  margin-bottom: 0.65rem;
+  line-height: 1.4;
 }
 
 .dc-embed-footer {
