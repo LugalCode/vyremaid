@@ -24,8 +24,8 @@
       From there it covers the everyday utility stuff a clan actually needs: live hiscores and
       skill lookups, boss kill counts, a money-making guide filtered to what you personally
       qualify for, Grand Exchange prices and loot-split calculations, Skill/Boss of the Week
-      tracking, clan-wide XP leaderboards, and live trackers for shooting stars and Tears of
-      Guthix worlds.
+      tracking, clan-wide XP leaderboards, live trackers for shooting stars and Tears of Guthix
+      worlds, and recurring reminders/announcements.
     </p>
     <div class="cta-row">
       <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=1522560442784940052&permissions=268520448&scope=bot%20applications.commands">
@@ -35,7 +35,7 @@
         Full command reference (PDF)
       </a>
     </div>
-    <p class="slash-note">Every command works as both <code>!command</code> and <code>/command</code> with Discord's own autocomplete.</p>
+    <p class="slash-note">Every command works as both <code>!command</code> and <code>/command</code> with Discord's own autocomplete. Click any feature below to see a real example.</p>
   </div>
 </header>
 
@@ -43,61 +43,269 @@
 
   <section class="features">
     <h2>What it does</h2>
+    <p class="section-note">Examples below use the real, live <strong>DragonForce</strong> OSRS account — nothing staged.</p>
     <div class="feature-grid">
 
       <div class="feature-card">
         <h3>Account Linking &amp; Roles</h3>
         <p>Members link their RSN once with <code>/setusername</code>. The bot checks it against your Wise Old Man group and auto-assigns/removes a clan role — no admin busywork.</p>
+        <details class="example">
+          <summary>Show example</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <p class="dc-plain-text">✅ Saved — your default RSN is now <strong>DragonForce</strong>.</p>
+            <p class="dc-plain-text">✅ Matched you to the clan on Wise Old Man — gave you the <span class="dc-mention">@Clan Member</span> role.</p>
+          </div>
+        </details>
       </div>
 
       <div class="feature-card">
         <h3>Hiscores &amp; Stats</h3>
         <p>Full skill tables, single-skill lookups for all 24 skills, boss kill counts, combined EHP/EHB profile cards, and personal-best gain records via Wise Old Man.</p>
+        <details class="example">
+          <summary>Show example — !hiscores DragonForce</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <div class="dc-embed" style="--embed-color:#f1c40f">
+              <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+              <div class="dc-embed-title">📊 Hiscores: DragonForce</div>
+              <div class="dc-embed-fields dc-fields-3">
+                <div><div class="dc-field-name">Attack</div><div class="dc-field-value">1</div>
+                     <div class="dc-field-name">Strength</div><div class="dc-field-value">99</div>
+                     <div class="dc-field-name">Defence</div><div class="dc-field-value">99</div></div>
+                <div><div class="dc-field-name">Hitpoints</div><div class="dc-field-value">99</div>
+                     <div class="dc-field-name">Ranged</div><div class="dc-field-value">65</div>
+                     <div class="dc-field-name">Magic</div><div class="dc-field-value">60</div></div>
+                <div><div class="dc-field-name">Slayer</div><div class="dc-field-value">97</div>
+                     <div class="dc-field-name">Sailing</div><div class="dc-field-value">99</div>
+                     <div class="dc-field-name">Runecraft</div><div class="dc-field-value">99</div></div>
+              </div>
+              <div class="dc-embed-fields">
+                <div class="dc-plain-text">🏆 <strong>Total Level:</strong> 2203 &nbsp; ✨ <strong>Total XP:</strong> 758,070,982 &nbsp; 🏅 <strong>Rank:</strong> #14,221</div>
+              </div>
+              <div class="dc-embed-footer">Buy Lugal a white Monster — https://ko-fi.com/lugal</div>
+            </div>
+          </div>
+        </details>
       </div>
 
       <div class="feature-card">
         <h3>Money Making Guide</h3>
         <p><code>!mmg</code> shows methods filtered to what you personally qualify for, sorted by profit/hr — not a generic list you have to cross-reference yourself.</p>
+        <details class="example">
+          <summary>Show example — !mmg DragonForce</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <div class="dc-embed" style="--embed-color:#2ecc71">
+              <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+              <div class="dc-embed-title">💰 Money Making — DragonForce</div>
+              <div class="dc-embed-fields">
+                <div>
+                  <div class="dc-field-name">Top method</div>
+                  <div class="dc-field-value">Making divine super combat potions — <strong>14,380,800 gp/hr</strong><br><span style="color:#949ba4">Needs Herblore 97 (you have 99)</span></div>
+                </div>
+              </div>
+              <div class="dc-embed-footer">Buy Lugal a white Monster — https://ko-fi.com/lugal</div>
+            </div>
+          </div>
+        </details>
       </div>
 
       <div class="feature-card">
         <h3>Prices &amp; Splits</h3>
         <p>Live Grand Exchange prices, plus <code>!split &lt;item&gt; &lt;people&gt;</code> to instantly divide a drop's value across your team.</p>
+        <details class="example">
+          <summary>Show example — !split twisted bow 5</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <div class="dc-embed" style="--embed-color:#f1c40f">
+              <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+              <div class="dc-embed-title">💰 Splitting Twisted bow</div>
+              <div class="dc-embed-fields">
+                <div><div class="dc-field-name">Item value</div><div class="dc-field-value">1,353,161,702 gp</div></div>
+                <div><div class="dc-field-name">Split between</div><div class="dc-field-value">5 people</div></div>
+              </div>
+              <div class="dc-embed-fields">
+                <div><div class="dc-field-name">Each share</div><div class="dc-field-value"><strong>270,632,340 gp</strong></div></div>
+              </div>
+              <div class="dc-embed-footer">Value = average of current insta-buy/insta-sell — actual proceeds will vary with GE tax and price movement.<br>Buy Lugal a white Monster — https://ko-fi.com/lugal</div>
+            </div>
+          </div>
+        </details>
       </div>
 
       <div class="feature-card">
         <h3>Shooting Stars</h3>
         <p><code>!stars</code> shows active shooting stars filtered to what your Mining level can actually mine, hiding anything already gone stale.</p>
+        <details class="example">
+          <summary>Show example — !stars</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <div class="dc-embed" style="--embed-color:#f1c40f">
+              <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+              <div class="dc-embed-title">⭐ Active Shooting Stars</div>
+              <pre class="dc-code">Tier World  Time     Location
+T9   370    1m ago   Prifddinas Zalcano entrance
+T9   518    6m ago   Coal Trucks west of Seers'
+T9   323    7m ago   Southwest of Brimhaven
+T9   613    11m ago  Lunar Isle mine entrance
+T8   317    0m ago   Port Khazard mine
+T8   480    0m ago   Port Khazard mine</pre>
+              <div class="dc-embed-footer">Filtered to your Mining level (99), top 2 tiers only.<br>Buy Lugal a white Monster — https://ko-fi.com/lugal</div>
+            </div>
+          </div>
+        </details>
       </div>
 
       <div class="feature-card">
         <h3>Tears of Guthix</h3>
         <p><code>!tog</code> surfaces the best crowd-confirmed worlds for this week's stream order.</p>
+        <details class="example">
+          <summary>Show example — !tog</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <div class="dc-embed" style="--embed-color:#3498db">
+              <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+              <div class="dc-embed-title">💧 Best Tears of Guthix Worlds</div>
+              <pre class="dc-code">World  Hits  Stream Order
+403    2952  gggbbb
+504    1173  gggbbb
+360    509   gggbbb
+536    426   gggbbb
+355    334   gggbbb</pre>
+              <div class="dc-embed-footer">Hits = how many times the community confirmed that world's stream order this week.<br>Buy Lugal a white Monster — https://ko-fi.com/lugal</div>
+            </div>
+          </div>
+        </details>
       </div>
 
       <div class="feature-card">
         <h3>SOTW &amp; Leaderboards</h3>
-        <p>Auto-detected Skill/Boss of the Week standings, plus clan-wide top XP/level gainer leaderboards over any time period.</p>
+        <p>Auto-detected Skill/Boss of the Week standings, clan-wide top XP/level gainer leaderboards, and <code>!avg</code> for the whole group's average stats — computed by Wise Old Man in one request, no per-member scraping.</p>
+        <details class="example">
+          <summary>Show example — !avg</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <div class="dc-embed" style="--embed-color:#f1c40f">
+              <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+              <div class="dc-embed-title">📊 Group Average Skill Levels</div>
+              <div class="dc-embed-fields dc-fields-3">
+                <div><div class="dc-field-name">Attack</div><div class="dc-field-value">93</div>
+                     <div class="dc-field-name">Strength</div><div class="dc-field-value">97</div>
+                     <div class="dc-field-name">Defence</div><div class="dc-field-value">90</div></div>
+                <div><div class="dc-field-name">Hitpoints</div><div class="dc-field-value">99</div>
+                     <div class="dc-field-name">Ranged</div><div class="dc-field-value">97</div>
+                     <div class="dc-field-name">Prayer</div><div class="dc-field-value">85</div></div>
+                <div><div class="dc-field-name">Runecraft</div><div class="dc-field-value">78</div>
+                     <div class="dc-field-name">Construction</div><div class="dc-field-value">82</div>
+                     <div class="dc-field-name">Sailing</div><div class="dc-field-value">82</div></div>
+              </div>
+              <div class="dc-embed-fields">
+                <div class="dc-plain-text">🏆 <strong>Avg Total Level:</strong> 2088 &nbsp; ✨ <strong>Avg Total XP:</strong> 119,854,712</div>
+              </div>
+              <div class="dc-embed-footer">Maxed in group: 4 total level, 16 combat, 1 200m all skills.<br>Buy Lugal a white Monster — https://ko-fi.com/lugal</div>
+            </div>
+          </div>
+        </details>
+      </div>
+
+      <div class="feature-card">
+        <h3>Reminders &amp; Announcements</h3>
+        <p>Recurring reminders (<code>!addreminder</code>) or one-off announcements (<code>!announce</code>) posted automatically. Auto-deletes the previous post so they don't stack up, can skip firing into a dead/overnight channel, and suppresses link previews by default.</p>
+        <details class="example">
+          <summary>Show example — !addreminder</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <p class="dc-plain-text">✅ Saved — reminder <strong>#3</strong> will post in <span class="dc-mention">#awards</span> every 1d: "Don't forget to vote for this week's award! 🏆"</p>
+          </div>
+        </details>
       </div>
 
       <div class="feature-card">
         <h3>Auto-Responses &amp; Welcome DMs</h3>
         <p>Configurable trigger-word replies, and a customizable DM new members get automatically on join.</p>
+        <details class="example">
+          <summary>Show example — trigger word</summary>
+          <div class="discord-mock">
+            <div class="dc-user">
+              <span class="dc-username" style="color:#f2f3f5">Some Member</span>
+            </div>
+            <p class="dc-plain-text">anyone got a spare zenyte shard</p>
+            <div class="dc-user" style="margin-top:0.5rem">
+              <img class="dc-avatar" src="assets/icon.png" alt="">
+              <span class="dc-username">Vyremaid</span>
+              <span class="dc-bot-tag">BOT</span>
+            </div>
+            <p class="dc-plain-text">Check the GE first — try <code>!price zenyte shard</code> 💎</p>
+          </div>
+        </details>
       </div>
 
     </div>
   </section>
 
   <section class="setup">
-    <h2>Quick setup</h2>
+    <h2>Setting up the bot</h2>
+    <p class="section-note">The two things worth getting right on day one: inviting it with the right permissions, and deciding which channels it's allowed to talk in.</p>
+
+    <h3>1. Invite &amp; permissions</h3>
     <ol>
-      <li>Click <strong>Invite Vyremaid</strong> above and add it to your server.</li>
-      <li>Position the bot's role above any role you want it to manage (Server Settings → Roles).</li>
-      <li>Run <code>!setgroup &lt;your Wise Old Man group link&gt;</code> to link your clan's WOM group.</li>
-      <li>Run <code>!setclanrole @YourRole</code> to pick which role gets auto-synced.</li>
-      <li>Have members run <code>!setusername &lt;their RSN&gt;</code> — done.</li>
+      <li>Click <strong>Invite Vyremaid</strong> at the top of this page and pick your server.</li>
+      <li>The invite link already requests everything it needs: <code>Send Messages</code>, <code>Embed Links</code>, <code>Read Message History</code>, <code>View Channel</code>, and <code>Manage Roles</code>. Don't untick any of these — features silently stop working without them.</li>
+      <li>In <strong>Server Settings → Roles</strong>, drag the bot's own role <em>above</em> any role you want it to manage (e.g. your clan role). Discord blocks bots from assigning or removing roles ranked above their own — this is the #1 reason role sync doesn't work after setup.</li>
     </ol>
-    <p class="setup-note">Full walkthrough (including optional channel restrictions and WOM auto-refresh) is in the <a href="Vyremaid-Commands.pdf">command reference PDF</a>.</p>
+
+    <h3>2. Choose which channels it can be used in</h3>
+    <p>By default every command works in <em>every</em> channel — fine for a small server, noisy for a bigger one. If you want to keep it contained:</p>
+    <ol>
+      <li>Pick a channel (e.g. <code>#bot-commands</code>) and run <code>!addbotchannel #bot-commands</code> there. This is <strong>opt-in</strong> — the moment you approve one channel, everyday commands stop working everywhere else.</li>
+      <li>Run it again for any other channel you want approved (e.g. a general chat where hiscores lookups are welcome) — <code>!addbotchannel</code> can be used as many times as you like, it's additive, not a single slot.</li>
+      <li>Check what's currently approved anytime with <code>!listbotchannels</code>, and remove one with <code>!removebotchannel #channel</code>.</li>
+      <li>If someone runs a restricted command in the wrong channel, the bot deletes their message and posts a short-lived reminder pointing at the right channel — no manual moderation needed.</li>
+      <li><code>/setusername</code> is the one exception: the slash version always works from any channel and replies privately, so new members can link their account without hunting for the right place first.</li>
+    </ol>
+
+    <h3>3. Connect it to your clan</h3>
+    <ol>
+      <li>Run <code>!setgroup &lt;your Wise Old Man group link&gt;</code> — powers <code>!sotw</code> auto-detection, <code>!top</code>, <code>!avg</code>, and role sync.</li>
+      <li>Run <code>!setclanrole @YourRole</code> to pick which role gets auto-assigned/removed based on WOM group membership.</li>
+      <li>Have members run <code>!setusername &lt;their RSN&gt;</code> — this saves their account and immediately checks/applies the clan role. An admin can run <code>!setuser @member &lt;rsn&gt;</code> on someone's behalf if they haven't done it themselves.</li>
+      <li>Optionally run <code>!syncroles</code> once to backfill roles for anyone who linked before setup finished.</li>
+    </ol>
+
+    <p class="setup-note">That's everything — role sync re-checks every 30 minutes automatically from here. Full command-by-command reference (including reminders, WOM auto-refresh, and every admin command) is in the <a href="Vyremaid-Commands.pdf">command reference PDF</a>.</p>
   </section>
 
 </main>
