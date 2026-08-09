@@ -63,6 +63,12 @@ code {
   letter-spacing: -0.02em;
 }
 
+.by-line {
+  color: var(--text-dim);
+  font-size: 0.95rem;
+  margin: 0 0 1rem;
+}
+
 .tagline {
   color: var(--gold);
   font-weight: 600;
@@ -70,6 +76,35 @@ code {
   margin: 0 0 1.75rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
+}
+
+.page-tabs {
+  display: flex;
+  gap: 0.6rem;
+  justify-content: center;
+  margin: 0 0 1.75rem;
+}
+
+.page-tabs a {
+  padding: 0.5rem 1.3rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.88rem;
+  color: var(--text-dim);
+  border: 1px solid var(--panel-border);
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.page-tabs a.active {
+  background: linear-gradient(180deg, var(--gold-bright), var(--gold));
+  color: #1a1408;
+  border-color: transparent;
+}
+
+.page-tabs a:hover:not(.active) {
+  color: var(--gold-bright);
+  border-color: var(--gold);
 }
 
 .summary {
@@ -400,6 +435,96 @@ h2 {
 
 .setup-note a {
   color: var(--gold-bright);
+}
+
+/* --- RPG page: data tables, tier cards, callouts --- */
+
+.rpg-section {
+  margin-bottom: 3.5rem;
+}
+
+.rpg-section h3 {
+  color: var(--gold-bright);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.6rem;
+}
+
+.rpg-section h3:first-of-type {
+  margin-top: 0;
+}
+
+.rpg-section p {
+  color: var(--text-dim);
+  font-size: 0.94rem;
+  margin: 0 0 0.9rem;
+}
+
+.callout {
+  background: rgba(201, 169, 110, 0.08);
+  border: 1px solid var(--panel-border);
+  border-left: 3px solid var(--gold);
+  border-radius: 8px;
+  padding: 0.85rem 1.1rem;
+  margin: 0 0 1.25rem;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.callout strong {
+  color: var(--gold-bright);
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 0 0 1.5rem;
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.83rem;
+  background: var(--panel-bg);
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.5rem 0.8rem;
+  text-align: left;
+  border-bottom: 1px solid var(--panel-border);
+  white-space: nowrap;
+}
+
+.data-table th {
+  color: var(--gold-bright);
+  font-weight: 700;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  background: rgba(201, 169, 110, 0.06);
+}
+
+.data-table tr:last-child td {
+  border-bottom: none;
+}
+
+.data-table td.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+.cmd-table td:first-child {
+  color: var(--gold-bright);
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.82rem;
+  white-space: nowrap;
+}
+
+.cmd-table td:last-child {
+  white-space: normal;
+  color: var(--text-dim);
 }
 
 /* --- Footer --- */

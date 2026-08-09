@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vyremaid RPG — Idle Slayer Minigame</title>
+<meta name="description" content="Vyremaid's built-in idle RPG: OSRS-themed slayer tasks, gear, and processing skills you run alongside actual Old School RuneScape.">
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img src="assets/icon.png" alt="Vyremaid" class="hero-icon">
+    <h1>Vyremaid</h1>
+    <p class="by-line">by Lugal 𒈗</p>
+    <p class="tagline">RPG System</p>
+    <nav class="page-tabs">
+      <a href="index.html">Overview</a>
+      <a href="rpg.html" class="active">RPG System</a>
+    </nav>
+    <p class="summary">
+      A small idle RPG built into the bot, on top of an OSRS skin — get a slayer task, let it
+      run in the background while you do literally anything else (including actually playing
+      OSRS), come back to loot and levels. Everything below runs entirely inside Discord —
+      <code>!slaytask</code> to start, one active task at a time, completion posts
+      automatically wherever you started it.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://discord.com/api/oauth2/authorize?client_id=1522560442784940052&permissions=268520448&scope=bot%20applications.commands">
+        Invite Vyremaid to your server
+      </a>
+      <a class="btn btn-secondary" href="index.html">
+        ← Back to overview
+      </a>
+    </div>
+    <p class="slash-note">Every command works as both <code>!command</code> and <code>/command</code>. Click any feature below to see a real example.</p>
+  </div>
+</header>
+
+<main>
+
+  <section class="rpg-section">
+    <h2>How the loop works</h2>
+    <p class="section-note">Two task types share one system — you can only have one running at a time, of either kind.</p>
+
+    <div class="callout">
+      <strong>Idle by design.</strong> Task times are deliberately slow (minutes, not seconds) —
+      this is meant to run in the background while you're doing something else, not something
+      you sit and watch. A completion embed posts automatically when it's done, with a ✅/❌
+      reaction to instantly queue the same thing again.
+    </div>
+
+    <h3>Slayer tasks — combat</h3>
+    <p><code>!slaytask</code> assigns a monster and a kill count (8–15) based on your current Slayer level. It resolves as one batch when the timer's up — all the kills, loot, and XP land at once.</p>
+    <details class="example">
+      <summary>Show example — !slaytask</summary>
+      <div class="discord-mock">
+        <div class="dc-user">
+          <img class="dc-avatar" src="assets/icon.png" alt="">
+          <span class="dc-username">Vyremaid</span>
+          <span class="dc-bot-tag">BOT</span>
+        </div>
+        <div class="dc-embed" style="--embed-color:#8b2e2e">
+          <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+          <div class="dc-embed-title">🗡️ New slayer task</div>
+          <p class="dc-plain-text" style="margin:0">12x Cave crawler — back in about 6m 24s.</p>
+        </div>
+      </div>
+    </details>
+    <details class="example">
+      <summary>Show example — task complete</summary>
+      <div class="discord-mock">
+        <div class="dc-user">
+          <img class="dc-avatar" src="assets/icon.png" alt="">
+          <span class="dc-username">Vyremaid</span>
+          <span class="dc-bot-tag">BOT</span>
+        </div>
+        <div class="dc-embed" style="--embed-color:#8b2e2e">
+          <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+          <div class="dc-embed-title">🗡️ Slayer task complete</div>
+          <p class="dc-plain-text" style="margin:0 0 0.5rem">@Player finished 12x Cave crawler</p>
+          <div class="dc-embed-fields dc-fields-3">
+            <div class="dc-field-name">XP gained</div>
+            <div class="dc-field-value">Attack: +140 xp (Lv 6)<br>Strength: +140 xp (Lv 6)<br>Defence: +140 xp (Lv 6)<br>Hitpoints: +134 xp (Lv 7)<br>Slayer: +63 xp (Lv 4)</div>
+            <div class="dc-field-name">Loot</div>
+            <div class="dc-field-value">132 gp<br>12x Bones</div>
+            <div class="dc-field-name">Slayer points</div>
+            <div class="dc-field-value">+1 (total: 7)</div>
+          </div>
+        </div>
+        <p class="dc-plain-text" style="margin-top:0.4rem;font-size:0.72rem;color:#949ba4">React ✅ for another task, ❌ to skip (expires in 2 min)</p>
+      </div>
+    </details>
+
+    <h3>!use — processing skills</h3>
+    <p><code>!use &lt;item&gt; [qty|all]</code> queues Cooking, Crafting, or Prayer as a timed batch (~2s/unit) — the same idle pattern, just for turning loot into something useful instead of fighting. One command covers all three skills, since the natural verbs (<code>!cook</code>, <code>!craft</code>) already collide with the bot's real-account hiscores lookups.</p>
+    <details class="example">
+      <summary>Show example — !use Raw chicken 50</summary>
+      <div class="discord-mock">
+        <div class="dc-user">
+          <img class="dc-avatar" src="assets/icon.png" alt="">
+          <span class="dc-username">Vyremaid</span>
+          <span class="dc-bot-tag">BOT</span>
+        </div>
+        <div class="dc-embed" style="--embed-color:#1a7a6e">
+          <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+          <div class="dc-embed-title">🛠️ Cooking queued</div>
+          <p class="dc-plain-text" style="margin:0">50x Raw chicken — back in about 1m 40s.</p>
+        </div>
+      </div>
+    </details>
+    <details class="example">
+      <summary>Show example — multi-output recipe (Leather)</summary>
+      <div class="discord-mock">
+        <div class="dc-user">
+          <img class="dc-avatar" src="assets/icon.png" alt="">
+          <span class="dc-username">Vyremaid</span>
+          <span class="dc-bot-tag">BOT</span>
+        </div>
+        <div class="dc-embed" style="--embed-color:#3a3550">
+          <p class="dc-plain-text" style="margin:0">What do you want to make with 5x Leather?<br>
+          1️⃣ Leather quiver<br>2️⃣ Leather coif<br>3️⃣ Leather body<br>4️⃣ Leather chaps<br>5️⃣ Leather vambraces<br>6️⃣ Leather boots</p>
+        </div>
+        <p class="dc-plain-text" style="margin-top:0.4rem;font-size:0.72rem;color:#949ba4">React with a number to pick — some recipes (like Leather → range armor) have more than one possible output.</p>
+      </div>
+    </details>
+  </section>
+
+  <section class="rpg-section">
+    <h2>Monsters &amp; slayer tasks</h2>
+    <p class="section-note">Two tiers so far — tutorial monsters are meant to be outgrown fast, early-slayer unlocks as your Slayer level rises. More tiers are planned once this loop's proven out.</p>
+
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Monster</th><th>Tier</th><th class="num">Combat Lv</th><th class="num">HP</th><th class="num">Slayer req</th><th>Notable drops</th></tr></thead>
+        <tbody>
+          <tr><td>Chicken</td><td>Tutorial</td><td class="num">1</td><td class="num">3</td><td class="num">—</td><td>Raw chicken, Feather</td></tr>
+          <tr><td>Rat</td><td>Tutorial</td><td class="num">1</td><td class="num">1</td><td class="num">—</td><td>Bones only</td></tr>
+          <tr><td>Cow</td><td>Tutorial</td><td class="num">2</td><td class="num">8</td><td class="num">—</td><td>Cowhide</td></tr>
+          <tr><td>Goblin</td><td>Tutorial</td><td class="num">2</td><td class="num">5</td><td class="num">—</td><td>Goblin mail (rare)</td></tr>
+          <tr><td>Cave bug</td><td>Early slayer</td><td class="num">4</td><td class="num">5</td><td class="num">7</td><td>Bones only</td></tr>
+          <tr><td>Crawling hand</td><td>Early slayer</td><td class="num">8</td><td class="num">15</td><td class="num">5</td><td>Uncut sapphire (rare)</td></tr>
+          <tr><td>Cave crawler</td><td>Early slayer</td><td class="num">23</td><td class="num">21</td><td class="num">10</td><td>Bones only</td></tr>
+          <tr><td>Banshee</td><td>Early slayer</td><td class="num">23</td><td class="num">19</td><td class="num">15</td><td>Nature rune</td></tr>
+          <tr><td>Rockslug</td><td>Early slayer</td><td class="num">28</td><td class="num">33</td><td class="num">20</td><td>Bones only</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Bones drop from almost everything, matching real OSRS — feed them to <code>!use Bones</code> for Prayer XP, or sell them.</p>
+  </section>
+
+  <section class="rpg-section">
+    <h2>Combat styles &amp; equipment</h2>
+    <p class="section-note"><code>!style &lt;melee|mage|ranged&gt;</code> sets which skills your tasks train and which gear applies. (Not <code>!melee</code>/<code>!mage</code>/<code>!range</code> as separate commands — those collide with the bot's real-account skill lookups.)</p>
+
+    <h3>10 equipment slots</h3>
+    <p>Weapon, shield, head, body, legs, hands, feet are style-locked (only usable with the matching <code>!style</code>). Cape, amulet, and ring are universal — equip once, they apply no matter which style is active.</p>
+
+    <div class="callout">
+      <strong>Speed vs. defense.</strong> Only the <strong>weapon</strong> and <strong>ring</strong> slots reduce task time (up to 30% and 4%). Every other slot carries a <strong>defense rating</strong> instead — currently inert, reserved for a planned food-consumption / death-chance system on harder content. Real OSRS precedent: a Berserker ring boosts damage, a Rune helm is purely defensive.
+    </div>
+
+    <h3>Level speed bonus</h3>
+    <p>Your average level across a style's trained skills also reduces task time — <code>0.3% per level</code>, so level 99 is 29.7%, not 99%. Combined gear + level speed is capped at a 30% floor (max ~70% reduction) so nothing approaches an instant kill.</p>
+
+    <h3>Melee gear (Bronze → Dragon)</h3>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Weapon</th><th class="num">Speed</th><th class="num">Price</th><th>Shield</th><th class="num">Def</th><th class="num">Price</th></tr></thead>
+        <tbody>
+          <tr><td>Bronze sword</td><td class="num">—</td><td class="num">Free</td><td>Bronze kiteshield</td><td class="num">+1</td><td class="num">Free</td></tr>
+          <tr><td>Iron scimitar</td><td class="num">-8%</td><td class="num">200gp</td><td>Iron kiteshield</td><td class="num">+2</td><td class="num">256gp</td></tr>
+          <tr><td>Steel scimitar</td><td class="num">-12%</td><td class="num">500gp</td><td>Steel kiteshield</td><td class="num">+3</td><td class="num">576gp</td></tr>
+          <tr><td>—</td><td class="num">—</td><td class="num">—</td><td>Mithril kiteshield</td><td class="num">+5</td><td class="num">1,024gp</td></tr>
+          <tr><td>Adamant scimitar</td><td class="num">-18%</td><td class="num">1,200gp</td><td>Adamant kiteshield</td><td class="num">+6</td><td class="num">1,600gp</td></tr>
+          <tr><td>—</td><td class="num">—</td><td class="num">—</td><td>Rune kiteshield</td><td class="num">+7</td><td class="num">2,304gp</td></tr>
+          <tr><td>Abyssal whip</td><td class="num">-30%</td><td class="num">15,000gp</td><td>Dragon kiteshield</td><td class="num">+8</td><td class="num">3,136gp</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Head/body/legs/hands/feet follow the same Bronze→Dragon ladder — full helm, platebody, platelegs, gloves, boots — all defense-rating only. Check <code>!gear</code> in-Discord for exact current numbers on every slot.</p>
+
+    <h3>Ranged gear (Leather → Black d'hide)</h3>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Weapon</th><th class="num">Speed</th><th class="num">Price</th></tr></thead>
+        <tbody>
+          <tr><td>Shortbow</td><td class="num">—</td><td class="num">Free</td></tr>
+          <tr><td>Willow shortbow</td><td class="num">-12%</td><td class="num">300gp</td></tr>
+          <tr><td>Magic shortbow</td><td class="num">-25%</td><td class="num">10,000gp</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Armor line: Leather → Studded leather → Green d'hide → Blue d'hide → Red d'hide → Black d'hide, across quiver/coif/body/chaps/vambraces/boots — again, defense-rating only.</p>
+
+    <h3>Magic gear (Apprentice → Ancestral)</h3>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Weapon</th><th class="num">Speed</th><th class="num">Price</th></tr></thead>
+        <tbody>
+          <tr><td>Staff of fire</td><td class="num">—</td><td class="num">Free</td></tr>
+          <tr><td>Mystic fire staff</td><td class="num">-15%</td><td class="num">1,500gp</td></tr>
+          <tr><td>Trident of the seas</td><td class="num">-28%</td><td class="num">12,000gp</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Armor line: Apprentice → Splitbark → Infinity → Ancestral, across spellbook (offhand)/hat/robe top/robe bottom/gloves/boots.</p>
+
+    <h3>Universal accessories (any style)</h3>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Tier</th><th>Cape</th><th>Amulet</th><th>Ring</th><th class="num">Ring speed</th></tr></thead>
+        <tbody>
+          <tr><td>Basic</td><td>Free</td><td>Free</td><td>Free</td><td class="num">-1%</td></tr>
+          <tr><td>Fine</td><td>120gp</td><td>160gp</td><td>160gp</td><td class="num">-2%</td></tr>
+          <tr><td>Superior</td><td>270gp</td><td>360gp</td><td>360gp</td><td class="num">-2%</td></tr>
+          <tr><td>Exquisite</td><td>480gp</td><td>640gp</td><td>640gp</td><td class="num">-3%</td></tr>
+          <tr><td>Legendary</td><td>750gp</td><td>1,000gp</td><td>1,000gp</td><td class="num">-4%</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <details class="example">
+      <summary>Show example — !gear</summary>
+      <div class="discord-mock">
+        <div class="dc-user">
+          <img class="dc-avatar" src="assets/icon.png" alt="">
+          <span class="dc-username">Vyremaid</span>
+          <span class="dc-bot-tag">BOT</span>
+        </div>
+        <div class="dc-embed" style="--embed-color:#5c4a8c">
+          <div class="dc-embed-author"><img src="assets/icon.png" alt="">Vyremaid — by Lugal 𒈗</div>
+          <div class="dc-embed-title">Gear catalog — Melee</div>
+          <p class="dc-plain-text" style="margin:0 0 0.5rem;font-size:0.78rem">Style-locked slots below use your current style; cape/amulet/ring work with any style.</p>
+          <div class="dc-embed-fields dc-fields-2">
+            <div class="dc-field-name">Weapon</div>
+            <div class="dc-field-value">Bronze sword (-0%, Free) → Iron scimitar (-8%, 200gp) → Steel scimitar (-12%, 500gp) → Adamant scimitar (-18%, 1,200gp) → Abyssal whip (-30%, 15,000gp)</div>
+            <div class="dc-field-name">Shield</div>
+            <div class="dc-field-value">Bronze kiteshield (+1 def, Free) → … → Dragon kiteshield (+8 def, 3,136gp)</div>
+          </div>
+        </div>
+      </div>
+    </details>
+  </section>
+
+  <section class="rpg-section">
+    <h2>Processing skills</h2>
+    <p class="section-note">Cooking, Crafting, and Prayer — all queued through <code>!use</code>. Recipes convert raw slayer loot into something more valuable.</p>
+
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Raw item</th><th>Skill</th><th class="num">Level req</th><th class="num">XP/unit</th><th>Produces</th></tr></thead>
+        <tbody>
+          <tr><td>Raw chicken</td><td>Cooking</td><td class="num">1</td><td class="num">150</td><td>Cooked chicken</td></tr>
+          <tr><td>Cowhide</td><td>Crafting</td><td class="num">1</td><td class="num">100</td><td>Leather</td></tr>
+          <tr><td>Leather</td><td>Crafting</td><td class="num">5</td><td class="num">80</td><td>Pick one: quiver / coif / body / chaps / vambraces / boots</td></tr>
+          <tr><td>Uncut sapphire</td><td>Crafting</td><td class="num">20</td><td class="num">250</td><td>Sapphire</td></tr>
+          <tr><td>Bones</td><td>Prayer</td><td class="num">1</td><td class="num">23</td><td>XP only, no item</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p><code>!use Bones all</code> queues however many you're holding — no need to check <code>!inventory</code> first to count. Works the same on <code>!gesell</code>.</p>
+  </section>
+
+  <section class="rpg-section">
+    <h2>Economy</h2>
+    <p class="section-note">A self-contained in-game currency, not tied to real GE prices.</p>
+
+    <h3>Buying &amp; selling</h3>
+    <div class="table-scroll">
+      <table class="data-table cmd-table">
+        <tbody>
+          <tr><td>!ge &lt;item&gt;</td><td>Shows price, confirm with ✅/❌, deducts gp and adds it to your inventory. Check <code>!gear</code> first for what's available.</td></tr>
+          <tr><td>!equip &lt;item&gt;</td><td>Equips an owned item into the right slot automatically.</td></tr>
+          <tr><td>!gesell &lt;item&gt; [qty|all]</td><td>Sells at half a weapon/armor's buy price, or a fixed rate for loot. Every item is sellable, even free starter gear (minimum 1gp).</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Processed goods sell for more</h3>
+    <p>Cooking/Crafting a raw drop into something else multiplies its sell value <strong>7x</strong> — a real incentive to process loot instead of just selling it raw, and a fast way to build starting capital.</p>
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Raw</th><th class="num">Sell</th><th>Processed</th><th class="num">Sell</th></tr></thead>
+        <tbody>
+          <tr><td>Raw chicken</td><td class="num">1gp</td><td>Cooked chicken</td><td class="num">7gp</td></tr>
+          <tr><td>Cowhide</td><td class="num">5gp</td><td>Leather</td><td class="num">35gp</td></tr>
+          <tr><td>Uncut sapphire</td><td class="num">50gp</td><td>Sapphire</td><td class="num">350gp</td></tr>
+          <tr><td>—</td><td class="num">—</td><td>Any Leather armor piece</td><td class="num">35gp</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h3>Tutorial nudge</h3>
+    <p>The first time your Attack hits level 5, you're handed exactly enough gp for a Steel scimitar (500gp), with a prompt to buy and equip it — walks a new player through <code>!ge</code>/<code>!equip</code> once, using their own progress as the trigger instead of a wall of setup text.</p>
+
+    <h3>Slayer points</h3>
+    <p>+1 per completed slayer task, shown in <code>!char</code>. A points shop is planned but not built yet.</p>
+  </section>
+
+  <section class="rpg-section">
+    <h2>Full command reference</h2>
+    <div class="table-scroll">
+      <table class="data-table cmd-table">
+        <tbody>
+          <tr><td>!slaytask</td><td>Get a slayer task, or check time remaining on your current one.</td></tr>
+          <tr><td>!use &lt;item&gt; [qty|all]</td><td>Queue Cooking/Crafting/Prayer on an owned item.</td></tr>
+          <tr><td>!char</td><td>Character card — all skill levels, active style + gear + speed bonus, coins, slayer points, current task.</td></tr>
+          <tr><td>!inventory</td><td>Items and gp you're currently holding.</td></tr>
+          <tr><td>!style &lt;melee|mage|ranged&gt;</td><td>Set which skills/gear your tasks use.</td></tr>
+          <tr><td>!gear</td><td>Full tier progression (price + bonus) for every slot, for your current style.</td></tr>
+          <tr><td>!ge &lt;item&gt;</td><td>Buy a piece of gear.</td></tr>
+          <tr><td>!equip &lt;item&gt;</td><td>Equip an owned item.</td></tr>
+          <tr><td>!gesell &lt;item&gt; [qty|all]</td><td>Sell an owned item for gp.</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="setup">
+    <h2>Setting it up</h2>
+    <p class="section-note">One extra step beyond the main bot setup — the RPG has its own channel allowlist, separate from everyday commands, so task spam doesn't flood existing channels.</p>
+
+    <h3>1. Approve a channel (admin, optional but recommended)</h3>
+    <ol>
+      <li>Pick a channel (e.g. <code>#rpg</code>) and run <code>!addrpgchannel #rpg</code> there. This is opt-in — until you approve one, RPG commands work anywhere.</li>
+      <li>Run it again for any other channel you want approved — additive, not a single slot.</li>
+      <li>Check what's approved with <code>!listrpgchannels</code>, remove one with <code>!removerpgchannel #channel</code>.</li>
+    </ol>
+
+    <h3>2. Start playing</h3>
+    <ol>
+      <li>Run <code>!slaytask</code> to get your first task — starts at the tutorial tier automatically.</li>
+      <li>Let it run in the background. Completion posts automatically with a ✅ reaction to queue the next one.</li>
+      <li>Process loot with <code>!use</code>, sell what you don't need with <code>!gesell</code>, gear up with <code>!ge</code> + <code>!equip</code>.</li>
+      <li>Switch combat style anytime with <code>!style</code> — melee, mage, or ranged.</li>
+    </ol>
+
+    <p class="setup-note">This is a first pass — gathering skills (Woodcutting/Mining/Fishing), Fletching, Smithing, and a slayer-points shop are planned but not built yet. See the <a href="index.html">overview page</a> for everything else the bot does.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>Vyremaid — by Lugal 𒈗 — built for OSRS clans.</p>
+  <p><a href="https://ko-fi.com/lugal">☕ Buy Lugal a white Monster</a></p>
+</footer>
+
+</body>
+</html>
