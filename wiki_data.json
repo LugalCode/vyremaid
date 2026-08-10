@@ -1165,7 +1165,7 @@
       "name": "Oak shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 100,
+      "price": 26,
       "level_req": 5,
       "speed_pct": 6,
       "defense_rating": null
@@ -1174,7 +1174,7 @@
       "name": "Willow shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 300,
+      "price": 60,
       "level_req": 20,
       "speed_pct": 12,
       "defense_rating": null
@@ -1183,7 +1183,7 @@
       "name": "Maple shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 1200,
+      "price": 150,
       "level_req": 30,
       "speed_pct": 17,
       "defense_rating": null
@@ -1192,7 +1192,7 @@
       "name": "Yew shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 4000,
+      "price": 400,
       "level_req": 40,
       "speed_pct": 21,
       "defense_rating": null
@@ -1201,7 +1201,7 @@
       "name": "Magic shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 10000,
+      "price": 800,
       "level_req": 50,
       "speed_pct": 25,
       "defense_rating": null
@@ -2621,7 +2621,7 @@
     },
     {
       "item": "Magic shortbow (u)",
-      "sell_value": 2500
+      "sell_value": 200
     },
     {
       "item": "Maple logs",
@@ -2629,7 +2629,7 @@
     },
     {
       "item": "Maple shortbow (u)",
-      "sell_value": 300
+      "sell_value": 38
     },
     {
       "item": "Mithril bar",
@@ -2649,7 +2649,7 @@
     },
     {
       "item": "Oak shortbow (u)",
-      "sell_value": 25
+      "sell_value": 6
     },
     {
       "item": "Raw chicken",
@@ -2725,7 +2725,7 @@
     },
     {
       "item": "Willow shortbow (u)",
-      "sell_value": 75
+      "sell_value": 15
     },
     {
       "item": "Yew logs",
@@ -2733,7 +2733,7 @@
     },
     {
       "item": "Yew shortbow (u)",
-      "sell_value": 1000
+      "sell_value": 100
     }
   ],
   "food": [
