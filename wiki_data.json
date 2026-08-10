@@ -1884,6 +1884,12 @@
           "qty_min": 3,
           "qty_max": 8,
           "chance": 0.2
+        },
+        {
+          "item": "Lucky coin pouch",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -1902,6 +1908,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 1.0
+        },
+        {
+          "item": "Lucky coin pouch",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -1926,6 +1938,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 1.0
+        },
+        {
+          "item": "Lucky coin pouch",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -1950,6 +1968,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.03
+        },
+        {
+          "item": "Lucky coin pouch",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -1974,6 +1998,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.08
+        },
+        {
+          "item": "Lucky coin pouch",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -1992,6 +2022,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 1.0
+        },
+        {
+          "item": "Lucky coin pouch",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2688,6 +2724,10 @@
     {
       "item": "Logs",
       "sell_value": 2
+    },
+    {
+      "item": "Lucky coin pouch",
+      "sell_value": 10000
     },
     {
       "item": "Magic logs",
