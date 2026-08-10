@@ -2818,6 +2818,10 @@
       "sell_value": 400
     },
     {
+      "item": "Super combat potion",
+      "sell_value": 300
+    },
+    {
       "item": "Uncut diamond",
       "sell_value": 300
     },
