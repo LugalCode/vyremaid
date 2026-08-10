@@ -1516,6 +1516,36 @@
       "tick_seconds": 2.0
     },
     {
+      "input": "Uncut emerald",
+      "skill": "Crafting",
+      "level_req": 27,
+      "xp_per_unit": 338,
+      "outputs": [
+        "Emerald"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Uncut ruby",
+      "skill": "Crafting",
+      "level_req": 34,
+      "xp_per_unit": 425,
+      "outputs": [
+        "Ruby"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Uncut diamond",
+      "skill": "Crafting",
+      "level_req": 43,
+      "xp_per_unit": 538,
+      "outputs": [
+        "Diamond"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
       "input": "Logs",
       "skill": "Fletching",
       "level_req": 1,
@@ -1971,8 +2001,8 @@
       "hp": 21,
       "slayer_req": 20,
       "tick_seconds": 32,
-      "gp_min": 16,
-      "gp_max": 30,
+      "gp_min": 80,
+      "gp_max": 150,
       "difficulty": "medium",
       "drops": [
         {
@@ -1980,6 +2010,30 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 1.0
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -1989,8 +2043,8 @@
       "hp": 19,
       "slayer_req": 25,
       "tick_seconds": 32,
-      "gp_min": 16,
-      "gp_max": 30,
+      "gp_min": 80,
+      "gp_max": 150,
       "difficulty": "medium",
       "drops": [
         {
@@ -2004,6 +2058,30 @@
           "qty_min": 1,
           "qty_max": 3,
           "chance": 0.08
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2013,8 +2091,8 @@
       "hp": 33,
       "slayer_req": 30,
       "tick_seconds": 38,
-      "gp_min": 20,
-      "gp_max": 40,
+      "gp_min": 100,
+      "gp_max": 200,
       "difficulty": "medium",
       "drops": [
         {
@@ -2022,6 +2100,30 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 1.0
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2031,8 +2133,8 @@
       "hp": 45,
       "slayer_req": 35,
       "tick_seconds": 42,
-      "gp_min": 30,
-      "gp_max": 55,
+      "gp_min": 150,
+      "gp_max": 275,
       "difficulty": "medium",
       "drops": [
         {
@@ -2046,6 +2148,30 @@
           "qty_min": 2,
           "qty_max": 5,
           "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2055,8 +2181,8 @@
       "hp": 52,
       "slayer_req": 38,
       "tick_seconds": 45,
-      "gp_min": 35,
-      "gp_max": 65,
+      "gp_min": 175,
+      "gp_max": 325,
       "difficulty": "medium",
       "drops": [
         {
@@ -2070,6 +2196,30 @@
           "qty_min": 1,
           "qty_max": 2,
           "chance": 0.08
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2079,8 +2229,8 @@
       "hp": 58,
       "slayer_req": 40,
       "tick_seconds": 48,
-      "gp_min": 40,
-      "gp_max": 70,
+      "gp_min": 200,
+      "gp_max": 350,
       "difficulty": "medium",
       "drops": [
         {
@@ -2092,8 +2242,26 @@
         {
           "item": "Uncut sapphire",
           "qty_min": 1,
-          "qty_max": 2,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2103,8 +2271,8 @@
       "hp": 65,
       "slayer_req": 50,
       "tick_seconds": 50,
-      "gp_min": 25,
-      "gp_max": 45,
+      "gp_min": 200,
+      "gp_max": 360,
       "difficulty": "hard",
       "drops": [
         {
@@ -2118,6 +2286,30 @@
           "qty_min": 3,
           "qty_max": 8,
           "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2127,8 +2319,8 @@
       "hp": 72,
       "slayer_req": 55,
       "tick_seconds": 52,
-      "gp_min": 30,
-      "gp_max": 50,
+      "gp_min": 240,
+      "gp_max": 400,
       "difficulty": "hard",
       "drops": [
         {
@@ -2142,6 +2334,30 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.08
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2151,8 +2367,8 @@
       "hp": 80,
       "slayer_req": 60,
       "tick_seconds": 55,
-      "gp_min": 35,
-      "gp_max": 60,
+      "gp_min": 280,
+      "gp_max": 480,
       "difficulty": "hard",
       "drops": [
         {
@@ -2166,6 +2382,30 @@
           "qty_min": 1,
           "qty_max": 3,
           "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2175,8 +2415,8 @@
       "hp": 90,
       "slayer_req": 70,
       "tick_seconds": 60,
-      "gp_min": 45,
-      "gp_max": 75,
+      "gp_min": 360,
+      "gp_max": 600,
       "difficulty": "hard",
       "drops": [
         {
@@ -2190,6 +2430,30 @@
           "qty_min": 1,
           "qty_max": 2,
           "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2199,8 +2463,8 @@
       "hp": 100,
       "slayer_req": 85,
       "tick_seconds": 65,
-      "gp_min": 55,
-      "gp_max": 90,
+      "gp_min": 440,
+      "gp_max": 720,
       "difficulty": "hard",
       "drops": [
         {
@@ -2214,6 +2478,30 @@
           "qty_min": 1,
           "qty_max": 3,
           "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     }
@@ -2241,7 +2529,7 @@
     },
     {
       "item": "Bow string",
-      "sell_value": 21
+      "sell_value": 30
     },
     {
       "item": "Bronze bar",
@@ -2253,31 +2541,31 @@
     },
     {
       "item": "Cooked chicken",
-      "sell_value": 7
+      "sell_value": 10
     },
     {
       "item": "Cooked lobster",
-      "sell_value": 70
+      "sell_value": 100
     },
     {
       "item": "Cooked salmon",
-      "sell_value": 42
+      "sell_value": 60
     },
     {
       "item": "Cooked shark",
-      "sell_value": 210
+      "sell_value": 300
     },
     {
       "item": "Cooked shrimp",
-      "sell_value": 7
+      "sell_value": 10
     },
     {
       "item": "Cooked swordfish",
-      "sell_value": 105
+      "sell_value": 150
     },
     {
       "item": "Cooked trout",
-      "sell_value": 28
+      "sell_value": 40
     },
     {
       "item": "Copper ore",
@@ -2288,8 +2576,16 @@
       "sell_value": 5
     },
     {
+      "item": "Diamond",
+      "sell_value": 3000
+    },
+    {
       "item": "Dragon bones",
       "sell_value": 18
+    },
+    {
+      "item": "Emerald",
+      "sell_value": 900
     },
     {
       "item": "Feather",
@@ -2313,7 +2609,7 @@
     },
     {
       "item": "Leather",
-      "sell_value": 35
+      "sell_value": 50
     },
     {
       "item": "Logs",
@@ -2384,6 +2680,10 @@
       "sell_value": 4
     },
     {
+      "item": "Ruby",
+      "sell_value": 1600
+    },
+    {
       "item": "Rune bar",
       "sell_value": 90
     },
@@ -2393,7 +2693,7 @@
     },
     {
       "item": "Sapphire",
-      "sell_value": 350
+      "sell_value": 500
     },
     {
       "item": "Shortbow (u)",
@@ -2402,6 +2702,18 @@
     {
       "item": "Steel bar",
       "sell_value": 20
+    },
+    {
+      "item": "Uncut diamond",
+      "sell_value": 300
+    },
+    {
+      "item": "Uncut emerald",
+      "sell_value": 90
+    },
+    {
+      "item": "Uncut ruby",
+      "sell_value": 160
     },
     {
       "item": "Uncut sapphire",
@@ -2428,38 +2740,38 @@
     {
       "item": "Cooked shrimp",
       "heal_value": 0.3,
-      "shop_price": 14,
-      "sell_value": 7
+      "shop_price": 20,
+      "sell_value": 10
     },
     {
       "item": "Cooked trout",
       "heal_value": 0.5,
-      "shop_price": 56,
-      "sell_value": 28
+      "shop_price": 80,
+      "sell_value": 40
     },
     {
       "item": "Cooked salmon",
       "heal_value": 0.7,
-      "shop_price": 84,
-      "sell_value": 42
+      "shop_price": 120,
+      "sell_value": 60
     },
     {
       "item": "Cooked lobster",
       "heal_value": 1.0,
-      "shop_price": 140,
-      "sell_value": 70
+      "shop_price": 200,
+      "sell_value": 100
     },
     {
       "item": "Cooked swordfish",
       "heal_value": 1.4,
-      "shop_price": 210,
-      "sell_value": 105
+      "shop_price": 300,
+      "sell_value": 150
     },
     {
       "item": "Cooked shark",
       "heal_value": 2.0,
-      "shop_price": 420,
-      "sell_value": 210
+      "shop_price": 600,
+      "sell_value": 300
     }
   ],
   "constants": {
@@ -2495,7 +2807,7 @@
     "process_tick_seconds": 2.0,
     "min_tick_fraction": 0.3,
     "level_speed_pct_per_level": 0.3,
-    "processed_sell_multiplier": 7,
+    "processed_sell_multiplier": 10,
     "food_shop_markup": 2,
     "tier_ladders": {
       "melee": [
