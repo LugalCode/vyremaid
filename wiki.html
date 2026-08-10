@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vyremaid RPG Wiki — Full Item &amp; Recipe Reference</title>
+<meta name="description" content="The full, exact Vyremaid RPG data reference: every gear item and price, every gathering resource, every recipe, every monster and its drop table — generated straight from the bot's live data.">
+<link rel="icon" href="assets/icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-inner">
+    <img src="assets/icon.png" alt="Vyremaid" class="hero-icon">
+    <h1>Vyremaid</h1>
+    <p class="by-line">by Lugal 𒈗</p>
+    <p class="tagline">RPG Wiki</p>
+    <nav class="page-tabs">
+      <a href="index.html">Overview</a>
+      <a href="rpg.html">RPG System</a>
+      <a href="wiki.html" class="active">RPG Wiki</a>
+    </nav>
+    <p class="summary">
+      The full data reference — every gear item and its price, every gathering resource, every
+      processing recipe, every monster and its drop table, every food item. Generated straight
+      from the bot's own data files, not hand-typed, so it can't drift out of sync with what
+      <code>!ge</code>/<code>!gather</code>/<code>!use</code>/<code>!slaytask</code> actually show
+      you in Discord. For the narrative walkthrough of how the systems fit together, see the
+      <a href="rpg.html">RPG System page</a> instead — this page is pure lookup tables.
+    </p>
+  </div>
+</header>
+
+<div class="wiki-toolbar">
+  <input id="wiki-search" class="wiki-search" type="text" placeholder="Search items, resources, monsters…" autocomplete="off">
+  <span id="wiki-count" class="wiki-count"></span>
+  <nav class="wiki-jump">
+    <a href="#gear">Gear/GE</a>
+    <a href="#gathering">Gathering</a>
+    <a href="#recipes">Processing</a>
+    <a href="#firemaking">Firemaking</a>
+    <a href="#stringing">Fletching (string)</a>
+    <a href="#monsters">Monsters</a>
+    <a href="#food">Food</a>
+    <a href="#sellvalues">Sell values</a>
+    <a href="#constants">Formulas</a>
+  </nav>
+</div>
+
+<main>
+
+  <section class="rpg-section" id="gear">
+    <h2>Gear catalog (!ge / !gear / !equip)</h2>
+    <p class="section-note">
+      Every buyable item, split by combat style. <strong>Weapon</strong> and <strong>ring</strong>
+      are the only slots that reduce task time (Speed); every other slot carries a Defense rating
+      instead, which reduces how much food a Medium/Hard slayer task burns through (see
+      <a href="#constants">Formulas</a>). Buying via <code>!ge</code> is never level-gated —
+      only <code>!equip</code> checks the level requirement.
+    </p>
+    <div id="gear-tables"></div>
+  </section>
+
+  <section class="rpg-section" id="gathering">
+    <h2>Gathering resources (!gather)</h2>
+    <p class="section-note">
+      Woodcutting, Mining, Fishing, and Flax (Crafting) — open-ended, runs until you
+      <code>!stopgather</code>. <code>!gather</code> fuzzy-matches past filler words ("ore",
+      "rock", "spot"), so <code>!gather copper</code> and <code>!gather copper ore</code> both work.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="gathering-table">
+        <thead><tr>
+          <th>Skill</th><th>Resource</th><th class="num">Level req</th><th class="num">XP/unit</th>
+          <th class="num">Sec/unit</th><th class="num">XP/hr</th><th>Produces</th><th class="num">Sell value</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="recipes">
+    <h2>Processing recipes (!use)</h2>
+    <p class="section-note">
+      Cooking, Crafting, Prayer, Fletching, and Smithing — all queued through <code>!use</code>,
+      flat 2s/unit regardless of tier (unlike gathering, which gets slower at higher tiers).
+      Recipes with more than one possible output prompt you to pick one via reaction when you
+      start it.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="recipes-table">
+        <thead><tr>
+          <th>Skill</th><th>Input</th><th class="num">Level req</th><th class="num">XP/unit</th><th>Produces</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="firemaking">
+    <h2>Firemaking (!burn)</h2>
+    <p class="section-note">
+      Its own command since Firemaking and Fletching both want to consume the same log items —
+      burning always grants Firemaking xp only, no item produced.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="firemaking-table">
+        <thead><tr><th>Logs</th><th class="num">Level req</th><th class="num">XP/unit</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="stringing">
+    <h2>Bow stringing (!string)</h2>
+    <p class="section-note">
+      Finishes an unstrung bow (from Fletching's log recipes) using 1 Bow string per bow (Bow
+      string comes from <code>!use Flax</code>). Roughly doubles the bow's sell value over
+      leaving it unstrung.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="stringing-table">
+        <thead><tr><th>Unstrung bow</th><th class="num">Level req</th><th class="num">XP/unit</th><th>Produces</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="monsters">
+    <h2>Monsters &amp; drop tables (!slaytask)</h2>
+    <p class="section-note">
+      Easy tasks never need food. Medium/Hard burn cooked food per kill (reduced by your Defense
+      rating, never eliminated) — see <a href="#constants">Formulas</a> for the exact rates.
+      Drop chance is per-kill, independent of the guaranteed bones drop.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="monsters-table">
+        <thead><tr>
+          <th>Tier</th><th>Monster</th><th class="num">Combat Lv</th><th class="num">HP</th>
+          <th class="num">Slayer req</th><th class="num">Sec/kill</th><th class="num">GP/kill</th><th>Drops</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="food">
+    <h2>Food (!ge / cooking)</h2>
+    <p class="section-note">
+      Cook your own via <code>!use &lt;raw fish&gt;</code>, or buy straight from <code>!ge</code>
+      at 2x sell value — gp from any skill can fund slayer food, not just Fishing+Cooking.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="food-table">
+        <thead><tr>
+          <th>Food</th><th class="num">Heal value</th><th class="num">Shop price</th><th class="num">Sell value</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="sellvalues">
+    <h2>Full sell-value index (!gesell)</h2>
+    <p class="section-note">
+      Every raw/dropped/gathered/processed item's flat sell value. Gear (weapons/armor) isn't
+      listed here — those sell for half their <code>!ge</code> buy price instead; see the
+      <a href="#gear">Gear catalog</a> above.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="sellvalues-table">
+        <thead><tr><th>Item</th><th class="num">Sell value</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="constants">
+    <h2>Formulas &amp; tunables</h2>
+    <p class="section-note">The actual numbers behind task speed, difficulty gating, and food demand — for anyone who wants to do the math themselves rather than take it on faith.</p>
+    <div id="constants-body"></div>
+  </section>
+
+</main>
+
+<footer>
+  <p>Vyremaid — by Lugal 𒈗 — built for OSRS clans.</p>
+  <p><a href="https://ko-fi.com/lugal">☕ Buy Lugal a white Monster</a></p>
+</footer>
+
+<script>
+const fmtGp = n => n.toLocaleString() + "gp";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function badge(text, cls) {
+  return `<span class="badge badge-${cls}">${esc(text)}</span>`;
+}
+
+fetch("wiki_data.json")
+  .then(r => r.json())
+  .then(render)
+  .catch(err => {
+    document.querySelector("main").innerHTML =
+      `<p style="color:#e08787">Couldn't load wiki_data.json — ${esc(err.message)}</p>`;
+  });
+
+function render(data) {
+  renderGear(data.gear);
+  renderRows("gathering-table", data.gathering, r => `
+    <tr><td>${esc(r.skill)}</td><td>${esc(r.resource)}</td><td class="num">${r.level_req}</td>
+    <td class="num">${r.xp_per_unit}</td><td class="num">${r.tick_seconds}</td>
+    <td class="num">${r.xp_per_hour.toLocaleString()}</td><td>${esc(r.produces)}</td>
+    <td class="num">${r.sell_value != null ? fmtGp(r.sell_value) : "—"}</td></tr>`);
+
+  renderRows("recipes-table", data.recipes, r => `
+    <tr><td>${esc(r.skill)}</td><td>${esc(r.input)}</td><td class="num">${r.level_req}</td>
+    <td class="num">${r.xp_per_unit}</td>
+    <td>${r.outputs.length ? esc(r.outputs.join(r.outputs.length > 1 ? " / " : "")) : "XP only, no item"}</td></tr>`);
+
+  renderRows("firemaking-table", data.firemaking, r => `
+    <tr><td>${esc(r.input)}</td><td class="num">${r.level_req}</td><td class="num">${r.xp_per_unit}</td></tr>`);
+
+  renderRows("stringing-table", data.stringing, r => `
+    <tr><td>${esc(r.input)}</td><td class="num">${r.level_req}</td><td class="num">${r.xp_per_unit}</td>
+    <td>${esc(r.output)}</td></tr>`);
+
+  renderRows("monsters-table", data.monsters, r => `
+    <tr><td>${badge(r.difficulty, r.difficulty)}</td><td>${esc(r.name)}</td>
+    <td class="num">${r.combat_level}</td><td class="num">${r.hp}</td>
+    <td class="num">${r.slayer_req}</td><td class="num">${r.tick_seconds}</td>
+    <td class="num">${r.gp_min}–${r.gp_max}</td>
+    <td>${r.drops.map(d => `${esc(d.item)} ×${d.qty_min === d.qty_max ? d.qty_min : d.qty_min + "-" + d.qty_max} (${Math.round(d.chance * 100)}%)`).join(", ")}</td></tr>`);
+
+  renderRows("food-table", data.food, r => `
+    <tr><td>${esc(r.item)}</td><td class="num">${r.heal_value}</td>
+    <td class="num">${fmtGp(r.shop_price)}</td>
+    <td class="num">${r.sell_value != null ? fmtGp(r.sell_value) : "—"}</td></tr>`);
+
+  renderRows("sellvalues-table", data.loot_values, r => `
+    <tr><td>${esc(r.item)}</td><td class="num">${fmtGp(r.sell_value)}</td></tr>`);
+
+  renderConstants(data.constants);
+  setupSearch();
+}
+
+function renderRows(tableId, rows, rowHtml) {
+  document.querySelector(`#${tableId} tbody`).innerHTML = rows.map(rowHtml).join("");
+}
+
+function renderGear(gear) {
+  const styleOrder = ["melee", "range", "mage", "any"];
+  const styleLabel = { melee: "Melee", range: "Ranged", mage: "Magic", any: "Universal (any style)" };
+  const container = document.getElementById("gear-tables");
+  container.innerHTML = styleOrder.map(style => {
+    const rows = gear.filter(g => g.style === style);
+    if (!rows.length) return "";
+    const bySlot = {};
+    rows.forEach(r => { (bySlot[r.slot] = bySlot[r.slot] || []).push(r); });
+    const slotOrder = ["weapon", "shield", "head", "body", "legs", "hands", "feet", "cape", "amulet", "ring"];
+    const body = slotOrder.filter(s => bySlot[s]).map(slot =>
+      bySlot[slot].map(r => `
+        <tr><td>${esc(slot)}</td><td>${esc(r.name)}</td><td class="num">${r.level_req}</td>
+        <td class="num">${r.price === 0 ? "Free" : fmtGp(r.price)}</td>
+        <td class="num">${r.speed_pct != null ? "-" + r.speed_pct + "%" : "—"}</td>
+        <td class="num">${r.defense_rating != null ? "+" + r.defense_rating : "—"}</td></tr>`
+      ).join("")
+    ).join("");
+    return `
+      <h3>${badge(styleLabel[style], style)}</h3>
+      <div class="table-scroll">
+        <table class="data-table gear-table" data-style="${style}">
+          <thead><tr><th>Slot</th><th>Item</th><th class="num">Level req</th>
+          <th class="num">Price</th><th class="num">Speed</th><th class="num">Defense</th></tr></thead>
+          <tbody>${body}</tbody>
+        </table>
+        <p class="no-results">No matches.</p>
+      </div>`;
+  }).join("");
+}
+
+function renderConstants(c) {
+  const rows = [
+    ["Slayer task size", `${c.task_kills_base_min}-${c.task_kills_base_max} kills at Slayer 0, +1 to both ends per Slayer level`],
+    ["Difficulty gate", `Medium needs Slayer ${c.tier_min_slayer_level.medium}, Hard needs Slayer ${c.tier_min_slayer_level.hard} (on top of each monster's own req)`],
+    ["Difficulty tick multiplier", `Easy ×${c.tier_tick_multiplier.easy}, Medium ×${c.tier_tick_multiplier.medium}, Hard ×${c.tier_tick_multiplier.hard} (stacks on top of each monster's own tick_seconds)`],
+    ["Slayer points per task", `Easy +${c.tier_slayer_points.easy}, Medium +${c.tier_slayer_points.medium}, Hard +${c.tier_slayer_points.hard}`],
+    ["Food demand per kill", `Easy needs none, Medium ${c.tier_food_demand_per_kill.medium}, Hard ${c.tier_food_demand_per_kill.hard} food points/kill`],
+    ["Defense → food reduction", `-${(c.defense_food_reduction_per_point * 100).toFixed(0)}% demand per point of Defense rating, floored at ${(c.defense_food_floor * 100).toFixed(0)}% of base demand — armor can never fully remove the need for food`],
+    ["Processing speed", `Flat ${c.process_tick_seconds}s/unit for !use, !burn, !string — not gear/level scaled`],
+    ["Level speed bonus", `${c.level_speed_pct_per_level}% task-time reduction per average level in your active style's trained skills (e.g. 29.7% at level 99)`],
+    ["Speed floor", `Combined gear + level speed bonus can't push a kill below ${(c.min_tick_fraction * 100).toFixed(0)}% of its base time`],
+    ["Processed goods multiplier", `Cooking/Crafting a raw drop into something else multiplies its sell value ${c.processed_sell_multiplier}x`],
+    ["Food shop markup", `Buying cooked food via !ge costs ${c.food_shop_markup}x its sell value — cooking your own is cheaper`],
+  ];
+  document.getElementById("constants-body").innerHTML = `
+    <div class="table-scroll">
+      <table class="data-table cmd-table"><tbody>
+        ${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}
+      </tbody></table>
+    </div>`;
+}
+
+function setupSearch() {
+  const input = document.getElementById("wiki-search");
+  const countEl = document.getElementById("wiki-count");
+  const allTables = () => document.querySelectorAll(".data-table");
+
+  function apply() {
+    const q = input.value.trim().toLowerCase();
+    let shown = 0, total = 0;
+    allTables().forEach(table => {
+      const rows = table.querySelectorAll("tbody tr");
+      let visibleInTable = 0;
+      rows.forEach(row => {
+        total++;
+        const match = !q || row.textContent.toLowerCase().includes(q);
+        row.style.display = match ? "" : "none";
+        if (match) { shown++; visibleInTable++; }
+      });
+      const wrap = table.closest(".table-scroll");
+      const noResults = wrap && wrap.querySelector(".no-results");
+      if (noResults) noResults.style.display = (q && visibleInTable === 0) ? "block" : "none";
+      if (wrap) wrap.style.display = (q && visibleInTable === 0 && rows.length > 0) ? "none" : "";
+      const h3 = table.closest("div") && table.closest("div").previousElementSibling;
+    });
+    countEl.textContent = q ? `${shown} / ${total} rows match` : "";
+  }
+
+  input.addEventListener("input", apply);
+}
+</script>
+
+</body>
+</html>

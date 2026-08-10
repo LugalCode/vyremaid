@@ -527,6 +527,93 @@ h2 {
   color: var(--text-dim);
 }
 
+/* --- Wiki page: search, quick-jump, badges --- */
+
+.wiki-toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: rgba(20, 16, 11, 0.92);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--panel-border);
+  padding: 0.85rem 1.5rem;
+  display: flex;
+  gap: 0.9rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wiki-search {
+  flex: 1 1 240px;
+  max-width: 360px;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 8px;
+  padding: 0.55rem 0.85rem;
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+}
+
+.wiki-search:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+.wiki-jump {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.wiki-jump a {
+  color: var(--text-dim);
+  text-decoration: none;
+  font-size: 0.8rem;
+  padding: 0.35rem 0.7rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+
+.wiki-jump a:hover {
+  color: var(--gold-bright);
+  border-color: var(--panel-border);
+}
+
+.wiki-count {
+  color: var(--text-dim);
+  font-size: 0.78rem;
+  white-space: nowrap;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.1em 0.55em;
+  border-radius: 5px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.badge-easy { background: rgba(90, 170, 100, 0.18); color: #7fd88f; }
+.badge-medium { background: rgba(201, 169, 110, 0.18); color: var(--gold-bright); }
+.badge-hard { background: rgba(190, 70, 70, 0.2); color: #e08787; }
+.badge-melee { background: rgba(190, 70, 70, 0.15); color: #e08787; }
+.badge-range { background: rgba(90, 150, 90, 0.15); color: #8fd18f; }
+.badge-mage { background: rgba(90, 110, 200, 0.18); color: #a6b4f0; }
+.badge-any { background: rgba(150, 150, 150, 0.15); color: #c5c5c5; }
+
+.wiki-section-nav-spacer { height: 0.25rem; }
+
+.no-results {
+  color: var(--text-dim);
+  font-size: 0.85rem;
+  padding: 0.75rem 0.9rem;
+  display: none;
+}
+
 /* --- Footer --- */
 
 footer {

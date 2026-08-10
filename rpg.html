@@ -22,6 +22,7 @@
     <nav class="page-tabs">
       <a href="index.html">Overview</a>
       <a href="rpg.html" class="active">RPG System</a>
+      <a href="wiki.html">RPG Wiki</a>
     </nav>
     <p class="summary">
       A small idle RPG built into the bot, on top of an OSRS skin — get a slayer task, let it
@@ -98,7 +99,7 @@
     </details>
 
     <h3>!use — processing skills</h3>
-    <p><code>!use &lt;item&gt; [qty|all]</code> queues Cooking, Crafting, or Prayer as a timed batch (~2s/unit) — the same idle pattern, just for turning loot into something useful instead of fighting. One command covers all three skills, since the natural verbs (<code>!cook</code>, <code>!craft</code>) already collide with the bot's real-account hiscores lookups.</p>
+    <p><code>!use &lt;item&gt; [qty|all]</code> queues Cooking, Crafting, Prayer, Fletching, or Smithing as a timed batch (~2s/unit) — the same idle pattern, just for turning loot into something useful instead of fighting. One command covers all five skills, since the natural verbs (<code>!cook</code>, <code>!craft</code>) already collide with the bot's real-account hiscores lookups.</p>
     <details class="example">
       <summary>Show example — !use Raw chicken 50</summary>
       <div class="discord-mock">
@@ -126,9 +127,12 @@
           <p class="dc-plain-text" style="margin:0">What do you want to make with 5x Leather?<br>
           1️⃣ Leather quiver<br>2️⃣ Leather coif<br>3️⃣ Leather body<br>4️⃣ Leather chaps<br>5️⃣ Leather vambraces<br>6️⃣ Leather boots</p>
         </div>
-        <p class="dc-plain-text" style="margin-top:0.4rem;font-size:0.72rem;color:#949ba4">React with a number to pick — some recipes (like Leather → range armor) have more than one possible output.</p>
+        <p class="dc-plain-text" style="margin-top:0.4rem;font-size:0.72rem;color:#949ba4">React with a number to pick — some recipes (like Leather → range armor, or a Smithing bar → melee armor) have more than one possible output.</p>
       </div>
     </details>
+
+    <h3>!burn — Firemaking</h3>
+    <p><code>!burn &lt;logs&gt; [qty|all]</code> is the same queued-batch idea, kept as its own command because Firemaking and Fletching both want to consume the same log items and <code>!use</code> only supports one recipe per item. Burning always just grants Firemaking xp — no item produced.</p>
   </section>
 
   <section class="rpg-section">
@@ -191,7 +195,10 @@
         <thead><tr><th>Weapon</th><th class="num">Speed</th><th class="num">Price</th></tr></thead>
         <tbody>
           <tr><td>Shortbow</td><td class="num">—</td><td class="num">Free</td></tr>
+          <tr><td>Oak shortbow</td><td class="num">-6%</td><td class="num">100gp</td></tr>
           <tr><td>Willow shortbow</td><td class="num">-12%</td><td class="num">300gp</td></tr>
+          <tr><td>Maple shortbow</td><td class="num">-17%</td><td class="num">1,200gp</td></tr>
+          <tr><td>Yew shortbow</td><td class="num">-21%</td><td class="num">4,000gp</td></tr>
           <tr><td>Magic shortbow</td><td class="num">-25%</td><td class="num">10,000gp</td></tr>
         </tbody>
       </table>
@@ -249,8 +256,42 @@
   </section>
 
   <section class="rpg-section">
+    <h2>Gathering skills</h2>
+    <p class="section-note">Woodcutting, Mining, and Fishing — started with <code>!gather &lt;resource&gt;</code>, stopped with <code>!stopgather</code>. Unlike Slayer or <code>!use</code>, gathering has no fixed duration: it just runs until you stop it, so it's the one meant for genuinely long AFK stretches (overnight etc) rather than the several-minute-to-an-hour scale everything else runs at. XP and items are paid out based on real elapsed time when you stop.</p>
+
+    <p><code>!gather</code> fuzzy-matches the resource name — filler words like "ore", "rock", and "spot" are ignored, so <code>!gather Copper</code> and <code>!gather Copper ore</code> both start the same node.</p>
+
+    <div class="table-scroll">
+      <table class="data-table">
+        <thead><tr><th>Resource</th><th>Skill</th><th class="num">Level req</th><th class="num">XP/unit</th><th class="num">Seconds/unit</th><th>Produces</th></tr></thead>
+        <tbody>
+          <tr><td>Logs</td><td>Woodcutting</td><td class="num">1</td><td class="num">125</td><td class="num">4</td><td>Logs</td></tr>
+          <tr><td>Oak logs</td><td>Woodcutting</td><td class="num">15</td><td class="num">187</td><td class="num">6</td><td>Oak logs</td></tr>
+          <tr><td>Willow logs</td><td>Woodcutting</td><td class="num">30</td><td class="num">337</td><td class="num">8</td><td>Willow logs</td></tr>
+          <tr><td>Maple logs</td><td>Woodcutting</td><td class="num">45</td><td class="num">500</td><td class="num">12</td><td>Maple logs</td></tr>
+          <tr><td>Yew logs</td><td>Woodcutting</td><td class="num">60</td><td class="num">875</td><td class="num">20</td><td>Yew logs</td></tr>
+          <tr><td>Magic logs</td><td>Woodcutting</td><td class="num">75</td><td class="num">1,250</td><td class="num">35</td><td>Magic logs</td></tr>
+          <tr><td>Copper</td><td>Mining</td><td class="num">1</td><td class="num">87</td><td class="num">4</td><td>Copper ore</td></tr>
+          <tr><td>Iron</td><td>Mining</td><td class="num">15</td><td class="num">175</td><td class="num">7</td><td>Iron ore</td></tr>
+          <tr><td>Coal</td><td>Mining</td><td class="num">30</td><td class="num">250</td><td class="num">10</td><td>Coal</td></tr>
+          <tr><td>Mithril</td><td>Mining</td><td class="num">55</td><td class="num">400</td><td class="num">15</td><td>Mithril ore</td></tr>
+          <tr><td>Adamantite</td><td>Mining</td><td class="num">70</td><td class="num">475</td><td class="num">22</td><td>Adamantite ore</td></tr>
+          <tr><td>Runite</td><td>Mining</td><td class="num">85</td><td class="num">625</td><td class="num">40</td><td>Runite ore</td></tr>
+          <tr><td>Shrimp</td><td>Fishing</td><td class="num">1</td><td class="num">50</td><td class="num">4</td><td>Raw shrimp</td></tr>
+          <tr><td>Trout</td><td>Fishing</td><td class="num">20</td><td class="num">250</td><td class="num">6</td><td>Raw trout</td></tr>
+          <tr><td>Salmon</td><td>Fishing</td><td class="num">30</td><td class="num">350</td><td class="num">8</td><td>Raw salmon</td></tr>
+          <tr><td>Lobster</td><td>Fishing</td><td class="num">40</td><td class="num">450</td><td class="num">10</td><td>Raw lobster</td></tr>
+          <tr><td>Swordfish</td><td>Fishing</td><td class="num">50</td><td class="num">500</td><td class="num">15</td><td>Raw swordfish</td></tr>
+          <tr><td>Shark</td><td>Fishing</td><td class="num">76</td><td class="num">550</td><td class="num">25</td><td>Raw shark</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>Gathered logs feed straight into Fletching and Firemaking, ore into Smithing, and raw fish into Cooking — see Processing skills below.</p>
+  </section>
+
+  <section class="rpg-section">
     <h2>Processing skills</h2>
-    <p class="section-note">Cooking, Crafting, and Prayer — all queued through <code>!use</code>. Recipes convert raw slayer loot into something more valuable.</p>
+    <p class="section-note">Cooking, Crafting, Prayer, Fletching, and Smithing — all queued through <code>!use</code> (Firemaking is the one exception, via <code>!burn</code> — see above). Recipes convert raw slayer/gathering loot into something more valuable.</p>
 
     <div class="table-scroll">
       <table class="data-table">
@@ -261,10 +302,14 @@
           <tr><td>Leather</td><td>Crafting</td><td class="num">5</td><td class="num">80</td><td>Pick one: quiver / coif / body / chaps / vambraces / boots</td></tr>
           <tr><td>Uncut sapphire</td><td>Crafting</td><td class="num">20</td><td class="num">250</td><td>Sapphire</td></tr>
           <tr><td>Bones</td><td>Prayer</td><td class="num">1</td><td class="num">23</td><td>XP only, no item</td></tr>
+          <tr><td>Logs → Magic logs</td><td>Fletching</td><td class="num">1 → 75</td><td class="num">150 → 1,400</td><td>Shortbow → Magic shortbow (6 tiers, matches Woodcutting log tiers)</td></tr>
+          <tr><td>Copper ore → Runite ore</td><td>Smithing</td><td class="num">1 → 85</td><td class="num">100 → 800</td><td>Bronze bar → Rune bar (smelting)</td></tr>
+          <tr><td>Bronze bar → Rune bar</td><td>Smithing</td><td class="num">1 → 90</td><td class="num">150 → 1,200</td><td>Pick one: kiteshield / full helm / platebody / platelegs / gloves / boots, in that bar's tier</td></tr>
         </tbody>
       </table>
     </div>
-    <p><code>!use Bones all</code> queues however many you're holding — no need to check <code>!inventory</code> first to count. Works the same on <code>!gesell</code>.</p>
+    <p><code>!use Bones all</code> queues however many you're holding — no need to check <code>!inventory</code> first to count. Works the same on <code>!gesell</code> and <code>!burn</code>.</p>
+    <p class="section-note" style="margin-top:0.6rem">Smithing is simplified from real OSRS: each bar comes from a single ore/coal source rather than needing Coal alongside a base ore, and weapon tiers stay purchase-only via <code>!ge</code> — only the six non-weapon melee slots are smithable. Dragon has no bar and is purchase-only too.</p>
   </section>
 
   <section class="rpg-section">
@@ -309,7 +354,10 @@
       <table class="data-table cmd-table">
         <tbody>
           <tr><td>!slaytask</td><td>Get a slayer task, or check time remaining on your current one.</td></tr>
-          <tr><td>!use &lt;item&gt; [qty|all]</td><td>Queue Cooking/Crafting/Prayer on an owned item.</td></tr>
+          <tr><td>!gather &lt;resource&gt;</td><td>Start Woodcutting/Mining/Fishing — runs open-ended until stopped.</td></tr>
+          <tr><td>!stopgather</td><td>Stop your current gathering session and collect xp/items for the time elapsed.</td></tr>
+          <tr><td>!use &lt;item&gt; [qty|all]</td><td>Queue Cooking/Crafting/Prayer/Fletching/Smithing on an owned item.</td></tr>
+          <tr><td>!burn &lt;logs&gt; [qty|all]</td><td>Queue Firemaking — burn logs for xp, no item produced.</td></tr>
           <tr><td>!char</td><td>Character card — all skill levels, active style + gear + speed bonus, coins, slayer points, current task.</td></tr>
           <tr><td>!inventory</td><td>Items and gp you're currently holding.</td></tr>
           <tr><td>!style &lt;melee|mage|ranged&gt;</td><td>Set which skills/gear your tasks use.</td></tr>
@@ -341,7 +389,7 @@
       <li>Switch combat style anytime with <code>!style</code> — melee, mage, or ranged.</li>
     </ol>
 
-    <p class="setup-note">This is a first pass — gathering skills (Woodcutting/Mining/Fishing), Fletching, Smithing, and a slayer-points shop are planned but not built yet. See the <a href="index.html">overview page</a> for everything else the bot does.</p>
+    <p class="setup-note">This is a first pass — a slayer-points shop, more monster tiers, and further skills are still planned. Check the <a href="wiki.html">RPG Wiki</a> for the full, exact item/recipe/monster catalog, or the <a href="index.html">overview page</a> for everything else the bot does.</p>
   </section>
 
 </main>

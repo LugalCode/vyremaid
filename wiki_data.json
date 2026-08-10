@@ -1,0 +1,2559 @@
+{
+  "gear": [
+    {
+      "name": "Basic amulet",
+      "slot": "amulet",
+      "style": "any",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Fine amulet",
+      "slot": "amulet",
+      "style": "any",
+      "price": 160,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Superior amulet",
+      "slot": "amulet",
+      "style": "any",
+      "price": 360,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Exquisite amulet",
+      "slot": "amulet",
+      "style": "any",
+      "price": 640,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Legendary amulet",
+      "slot": "amulet",
+      "style": "any",
+      "price": 1000,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Basic cape",
+      "slot": "cape",
+      "style": "any",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Fine cape",
+      "slot": "cape",
+      "style": "any",
+      "price": 120,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Superior cape",
+      "slot": "cape",
+      "style": "any",
+      "price": 270,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Exquisite cape",
+      "slot": "cape",
+      "style": "any",
+      "price": 480,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Legendary cape",
+      "slot": "cape",
+      "style": "any",
+      "price": 750,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Basic ring",
+      "slot": "ring",
+      "style": "any",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": 1,
+      "defense_rating": null
+    },
+    {
+      "name": "Fine ring",
+      "slot": "ring",
+      "style": "any",
+      "price": 160,
+      "level_req": 1,
+      "speed_pct": 2,
+      "defense_rating": null
+    },
+    {
+      "name": "Superior ring",
+      "slot": "ring",
+      "style": "any",
+      "price": 360,
+      "level_req": 1,
+      "speed_pct": 2,
+      "defense_rating": null
+    },
+    {
+      "name": "Exquisite ring",
+      "slot": "ring",
+      "style": "any",
+      "price": 640,
+      "level_req": 1,
+      "speed_pct": 3,
+      "defense_rating": null
+    },
+    {
+      "name": "Legendary ring",
+      "slot": "ring",
+      "style": "any",
+      "price": 1000,
+      "level_req": 1,
+      "speed_pct": 4,
+      "defense_rating": null
+    },
+    {
+      "name": "Apprentice robe top",
+      "slot": "body",
+      "style": "mage",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Splitbark robe top",
+      "slot": "body",
+      "style": "mage",
+      "price": 192,
+      "level_req": 35,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Infinity robe top",
+      "slot": "body",
+      "style": "mage",
+      "price": 432,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Ancestral robe top",
+      "slot": "body",
+      "style": "mage",
+      "price": 768,
+      "level_req": 75,
+      "speed_pct": null,
+      "defense_rating": 6
+    },
+    {
+      "name": "Apprentice boots",
+      "slot": "feet",
+      "style": "mage",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Splitbark boots",
+      "slot": "feet",
+      "style": "mage",
+      "price": 96,
+      "level_req": 35,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Infinity boots",
+      "slot": "feet",
+      "style": "mage",
+      "price": 216,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Ancestral boots",
+      "slot": "feet",
+      "style": "mage",
+      "price": 384,
+      "level_req": 75,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Apprentice gloves",
+      "slot": "hands",
+      "style": "mage",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Splitbark gloves",
+      "slot": "hands",
+      "style": "mage",
+      "price": 96,
+      "level_req": 35,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Infinity gloves",
+      "slot": "hands",
+      "style": "mage",
+      "price": 216,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Ancestral gloves",
+      "slot": "hands",
+      "style": "mage",
+      "price": 384,
+      "level_req": 75,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Apprentice hat",
+      "slot": "head",
+      "style": "mage",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Splitbark hat",
+      "slot": "head",
+      "style": "mage",
+      "price": 128,
+      "level_req": 35,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Infinity hat",
+      "slot": "head",
+      "style": "mage",
+      "price": 288,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Ancestral hat",
+      "slot": "head",
+      "style": "mage",
+      "price": 512,
+      "level_req": 75,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Apprentice robe bottom",
+      "slot": "legs",
+      "style": "mage",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Splitbark robe bottom",
+      "slot": "legs",
+      "style": "mage",
+      "price": 160,
+      "level_req": 35,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Infinity robe bottom",
+      "slot": "legs",
+      "style": "mage",
+      "price": 360,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Ancestral robe bottom",
+      "slot": "legs",
+      "style": "mage",
+      "price": 640,
+      "level_req": 75,
+      "speed_pct": null,
+      "defense_rating": 5
+    },
+    {
+      "name": "Apprentice spellbook",
+      "slot": "shield",
+      "style": "mage",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Splitbark spellbook",
+      "slot": "shield",
+      "style": "mage",
+      "price": 256,
+      "level_req": 35,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Infinity spellbook",
+      "slot": "shield",
+      "style": "mage",
+      "price": 576,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 6
+    },
+    {
+      "name": "Ancestral spellbook",
+      "slot": "shield",
+      "style": "mage",
+      "price": 1024,
+      "level_req": 75,
+      "speed_pct": null,
+      "defense_rating": 8
+    },
+    {
+      "name": "Staff of fire",
+      "slot": "weapon",
+      "style": "mage",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": 0,
+      "defense_rating": null
+    },
+    {
+      "name": "Mystic fire staff",
+      "slot": "weapon",
+      "style": "mage",
+      "price": 1500,
+      "level_req": 40,
+      "speed_pct": 15,
+      "defense_rating": null
+    },
+    {
+      "name": "Trident of the seas",
+      "slot": "weapon",
+      "style": "mage",
+      "price": 12000,
+      "level_req": 75,
+      "speed_pct": 28,
+      "defense_rating": null
+    },
+    {
+      "name": "Bronze platebody",
+      "slot": "body",
+      "style": "melee",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Iron platebody",
+      "slot": "body",
+      "style": "melee",
+      "price": 138,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Steel platebody",
+      "slot": "body",
+      "style": "melee",
+      "price": 917,
+      "level_req": 5,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Mithril platebody",
+      "slot": "body",
+      "style": "melee",
+      "price": 2827,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Adamant platebody",
+      "slot": "body",
+      "style": "melee",
+      "price": 9474,
+      "level_req": 30,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Rune platebody",
+      "slot": "body",
+      "style": "melee",
+      "price": 38386,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 5
+    },
+    {
+      "name": "Dragon platebody",
+      "slot": "body",
+      "style": "melee",
+      "price": 2247693,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 6
+    },
+    {
+      "name": "Bronze boots",
+      "slot": "feet",
+      "style": "melee",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 0
+    },
+    {
+      "name": "Iron boots",
+      "slot": "feet",
+      "style": "melee",
+      "price": 96,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Steel boots",
+      "slot": "feet",
+      "style": "melee",
+      "price": 216,
+      "level_req": 5,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Mithril boots",
+      "slot": "feet",
+      "style": "melee",
+      "price": 384,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Adamant boots",
+      "slot": "feet",
+      "style": "melee",
+      "price": 600,
+      "level_req": 30,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Rune boots",
+      "slot": "feet",
+      "style": "melee",
+      "price": 864,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Dragon boots",
+      "slot": "feet",
+      "style": "melee",
+      "price": 1176,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Bronze gloves",
+      "slot": "hands",
+      "style": "melee",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 0
+    },
+    {
+      "name": "Iron gloves",
+      "slot": "hands",
+      "style": "melee",
+      "price": 96,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Steel gloves",
+      "slot": "hands",
+      "style": "melee",
+      "price": 216,
+      "level_req": 5,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Mithril gloves",
+      "slot": "hands",
+      "style": "melee",
+      "price": 384,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Adamant gloves",
+      "slot": "hands",
+      "style": "melee",
+      "price": 600,
+      "level_req": 30,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Rune gloves",
+      "slot": "hands",
+      "style": "melee",
+      "price": 864,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Dragon gloves",
+      "slot": "hands",
+      "style": "melee",
+      "price": 1176,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Bronze full helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Iron full helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 25,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Steel full helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 143,
+      "level_req": 5,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Mithril full helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 646,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Adamant full helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 1919,
+      "level_req": 30,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Rune full helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 20750,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Dragon full helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 46330279,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Bronze platelegs",
+      "slot": "legs",
+      "style": "melee",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Iron platelegs",
+      "slot": "legs",
+      "style": "melee",
+      "price": 56,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Steel platelegs",
+      "slot": "legs",
+      "style": "melee",
+      "price": 424,
+      "level_req": 5,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Mithril platelegs",
+      "slot": "legs",
+      "style": "melee",
+      "price": 1386,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Adamant platelegs",
+      "slot": "legs",
+      "style": "melee",
+      "price": 3617,
+      "level_req": 30,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Rune platelegs",
+      "slot": "legs",
+      "style": "melee",
+      "price": 37851,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Dragon platelegs",
+      "slot": "legs",
+      "style": "melee",
+      "price": 162988,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 5
+    },
+    {
+      "name": "Bronze kiteshield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Iron kiteshield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 41,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Steel kiteshield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 244,
+      "level_req": 5,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Mithril kiteshield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 1223,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 5
+    },
+    {
+      "name": "Adamant kiteshield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 3058,
+      "level_req": 30,
+      "speed_pct": null,
+      "defense_rating": 6
+    },
+    {
+      "name": "Rune kiteshield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 32730,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 7
+    },
+    {
+      "name": "Dragon kiteshield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 61749834,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 8
+    },
+    {
+      "name": "Bronze sword",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": 0,
+      "defense_rating": null
+    },
+    {
+      "name": "Iron scimitar",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 62,
+      "level_req": 1,
+      "speed_pct": 8,
+      "defense_rating": null
+    },
+    {
+      "name": "Steel scimitar",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 102,
+      "level_req": 5,
+      "speed_pct": 12,
+      "defense_rating": null
+    },
+    {
+      "name": "Mithril scimitar",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 476,
+      "level_req": 20,
+      "speed_pct": 15,
+      "defense_rating": null
+    },
+    {
+      "name": "Adamant scimitar",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 1482,
+      "level_req": 30,
+      "speed_pct": 18,
+      "defense_rating": null
+    },
+    {
+      "name": "Rune scimitar",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 15189,
+      "level_req": 40,
+      "speed_pct": 24,
+      "defense_rating": null
+    },
+    {
+      "name": "Dragon scimitar",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 59509,
+      "level_req": 60,
+      "speed_pct": 27,
+      "defense_rating": null
+    },
+    {
+      "name": "Abyssal whip",
+      "slot": "weapon",
+      "style": "melee",
+      "price": 814499,
+      "level_req": 70,
+      "speed_pct": 30,
+      "defense_rating": null
+    },
+    {
+      "name": "Leather body",
+      "slot": "body",
+      "style": "range",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Studded leather body",
+      "slot": "body",
+      "style": "range",
+      "price": 192,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Green d'hide body",
+      "slot": "body",
+      "style": "range",
+      "price": 432,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Blue d'hide body",
+      "slot": "body",
+      "style": "range",
+      "price": 768,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Red d'hide body",
+      "slot": "body",
+      "style": "range",
+      "price": 1200,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 5
+    },
+    {
+      "name": "Black d'hide body",
+      "slot": "body",
+      "style": "range",
+      "price": 1728,
+      "level_req": 70,
+      "speed_pct": null,
+      "defense_rating": 6
+    },
+    {
+      "name": "Leather boots",
+      "slot": "feet",
+      "style": "range",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 0
+    },
+    {
+      "name": "Studded leather boots",
+      "slot": "feet",
+      "style": "range",
+      "price": 96,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Green d'hide boots",
+      "slot": "feet",
+      "style": "range",
+      "price": 216,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Blue d'hide boots",
+      "slot": "feet",
+      "style": "range",
+      "price": 384,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Red d'hide boots",
+      "slot": "feet",
+      "style": "range",
+      "price": 600,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Black d'hide boots",
+      "slot": "feet",
+      "style": "range",
+      "price": 864,
+      "level_req": 70,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Leather vambraces",
+      "slot": "hands",
+      "style": "range",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 0
+    },
+    {
+      "name": "Studded leather vambraces",
+      "slot": "hands",
+      "style": "range",
+      "price": 96,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Green d'hide vambraces",
+      "slot": "hands",
+      "style": "range",
+      "price": 216,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Blue d'hide vambraces",
+      "slot": "hands",
+      "style": "range",
+      "price": 384,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Red d'hide vambraces",
+      "slot": "hands",
+      "style": "range",
+      "price": 600,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Black d'hide vambraces",
+      "slot": "hands",
+      "style": "range",
+      "price": 864,
+      "level_req": 70,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Leather coif",
+      "slot": "head",
+      "style": "range",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Studded leather coif",
+      "slot": "head",
+      "style": "range",
+      "price": 128,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Green d'hide coif",
+      "slot": "head",
+      "style": "range",
+      "price": 288,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Blue d'hide coif",
+      "slot": "head",
+      "style": "range",
+      "price": 512,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Red d'hide coif",
+      "slot": "head",
+      "style": "range",
+      "price": 800,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Black d'hide coif",
+      "slot": "head",
+      "style": "range",
+      "price": 1152,
+      "level_req": 70,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Leather chaps",
+      "slot": "legs",
+      "style": "range",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Studded leather chaps",
+      "slot": "legs",
+      "style": "range",
+      "price": 160,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Green d'hide chaps",
+      "slot": "legs",
+      "style": "range",
+      "price": 360,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 2
+    },
+    {
+      "name": "Blue d'hide chaps",
+      "slot": "legs",
+      "style": "range",
+      "price": 640,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Red d'hide chaps",
+      "slot": "legs",
+      "style": "range",
+      "price": 1000,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Black d'hide chaps",
+      "slot": "legs",
+      "style": "range",
+      "price": 1440,
+      "level_req": 70,
+      "speed_pct": null,
+      "defense_rating": 5
+    },
+    {
+      "name": "Leather quiver",
+      "slot": "shield",
+      "style": "range",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": null,
+      "defense_rating": 1
+    },
+    {
+      "name": "Studded leather quiver",
+      "slot": "shield",
+      "style": "range",
+      "price": 256,
+      "level_req": 20,
+      "speed_pct": null,
+      "defense_rating": 3
+    },
+    {
+      "name": "Green d'hide quiver",
+      "slot": "shield",
+      "style": "range",
+      "price": 576,
+      "level_req": 40,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
+      "name": "Blue d'hide quiver",
+      "slot": "shield",
+      "style": "range",
+      "price": 1024,
+      "level_req": 50,
+      "speed_pct": null,
+      "defense_rating": 5
+    },
+    {
+      "name": "Red d'hide quiver",
+      "slot": "shield",
+      "style": "range",
+      "price": 1600,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 7
+    },
+    {
+      "name": "Black d'hide quiver",
+      "slot": "shield",
+      "style": "range",
+      "price": 2304,
+      "level_req": 70,
+      "speed_pct": null,
+      "defense_rating": 8
+    },
+    {
+      "name": "Shortbow",
+      "slot": "weapon",
+      "style": "range",
+      "price": 0,
+      "level_req": 1,
+      "speed_pct": 0,
+      "defense_rating": null
+    },
+    {
+      "name": "Oak shortbow",
+      "slot": "weapon",
+      "style": "range",
+      "price": 100,
+      "level_req": 5,
+      "speed_pct": 6,
+      "defense_rating": null
+    },
+    {
+      "name": "Willow shortbow",
+      "slot": "weapon",
+      "style": "range",
+      "price": 300,
+      "level_req": 20,
+      "speed_pct": 12,
+      "defense_rating": null
+    },
+    {
+      "name": "Maple shortbow",
+      "slot": "weapon",
+      "style": "range",
+      "price": 1200,
+      "level_req": 30,
+      "speed_pct": 17,
+      "defense_rating": null
+    },
+    {
+      "name": "Yew shortbow",
+      "slot": "weapon",
+      "style": "range",
+      "price": 4000,
+      "level_req": 40,
+      "speed_pct": 21,
+      "defense_rating": null
+    },
+    {
+      "name": "Magic shortbow",
+      "slot": "weapon",
+      "style": "range",
+      "price": 10000,
+      "level_req": 50,
+      "speed_pct": 25,
+      "defense_rating": null
+    }
+  ],
+  "gathering": [
+    {
+      "resource": "Flax",
+      "skill": "Crafting",
+      "level_req": 1,
+      "xp_per_unit": 0,
+      "tick_seconds": 3,
+      "produces": "Flax",
+      "xp_per_hour": 0,
+      "sell_value": 3
+    },
+    {
+      "resource": "Shrimp",
+      "skill": "Fishing",
+      "level_req": 1,
+      "xp_per_unit": 50,
+      "tick_seconds": 4,
+      "produces": "Raw shrimp",
+      "xp_per_hour": 45000,
+      "sell_value": 1
+    },
+    {
+      "resource": "Trout",
+      "skill": "Fishing",
+      "level_req": 20,
+      "xp_per_unit": 250,
+      "tick_seconds": 6,
+      "produces": "Raw trout",
+      "xp_per_hour": 150000,
+      "sell_value": 4
+    },
+    {
+      "resource": "Salmon",
+      "skill": "Fishing",
+      "level_req": 30,
+      "xp_per_unit": 350,
+      "tick_seconds": 8,
+      "produces": "Raw salmon",
+      "xp_per_hour": 157500,
+      "sell_value": 6
+    },
+    {
+      "resource": "Lobster",
+      "skill": "Fishing",
+      "level_req": 40,
+      "xp_per_unit": 450,
+      "tick_seconds": 12,
+      "produces": "Raw lobster",
+      "xp_per_hour": 135000,
+      "sell_value": 10
+    },
+    {
+      "resource": "Swordfish",
+      "skill": "Fishing",
+      "level_req": 50,
+      "xp_per_unit": 500,
+      "tick_seconds": 17,
+      "produces": "Raw swordfish",
+      "xp_per_hour": 105882,
+      "sell_value": 15
+    },
+    {
+      "resource": "Shark",
+      "skill": "Fishing",
+      "level_req": 76,
+      "xp_per_unit": 550,
+      "tick_seconds": 25,
+      "produces": "Raw shark",
+      "xp_per_hour": 79200,
+      "sell_value": 30
+    },
+    {
+      "resource": "Copper",
+      "skill": "Mining",
+      "level_req": 1,
+      "xp_per_unit": 87,
+      "tick_seconds": 4,
+      "produces": "Copper ore",
+      "xp_per_hour": 78300,
+      "sell_value": 2
+    },
+    {
+      "resource": "Iron",
+      "skill": "Mining",
+      "level_req": 15,
+      "xp_per_unit": 175,
+      "tick_seconds": 6,
+      "produces": "Iron ore",
+      "xp_per_hour": 105000,
+      "sell_value": 5
+    },
+    {
+      "resource": "Coal",
+      "skill": "Mining",
+      "level_req": 30,
+      "xp_per_unit": 250,
+      "tick_seconds": 10,
+      "produces": "Coal",
+      "xp_per_hour": 90000,
+      "sell_value": 8
+    },
+    {
+      "resource": "Mithril",
+      "skill": "Mining",
+      "level_req": 55,
+      "xp_per_unit": 400,
+      "tick_seconds": 16,
+      "produces": "Mithril ore",
+      "xp_per_hour": 90000,
+      "sell_value": 15
+    },
+    {
+      "resource": "Adamantite",
+      "skill": "Mining",
+      "level_req": 70,
+      "xp_per_unit": 475,
+      "tick_seconds": 25,
+      "produces": "Adamantite ore",
+      "xp_per_hour": 68400,
+      "sell_value": 25
+    },
+    {
+      "resource": "Runite",
+      "skill": "Mining",
+      "level_req": 85,
+      "xp_per_unit": 625,
+      "tick_seconds": 40,
+      "produces": "Runite ore",
+      "xp_per_hour": 56250,
+      "sell_value": 60
+    },
+    {
+      "resource": "Logs",
+      "skill": "Woodcutting",
+      "level_req": 1,
+      "xp_per_unit": 125,
+      "tick_seconds": 4,
+      "produces": "Logs",
+      "xp_per_hour": 112500,
+      "sell_value": 2
+    },
+    {
+      "resource": "Oak logs",
+      "skill": "Woodcutting",
+      "level_req": 15,
+      "xp_per_unit": 187,
+      "tick_seconds": 6,
+      "produces": "Oak logs",
+      "xp_per_hour": 112200,
+      "sell_value": 4
+    },
+    {
+      "resource": "Willow logs",
+      "skill": "Woodcutting",
+      "level_req": 30,
+      "xp_per_unit": 337,
+      "tick_seconds": 10,
+      "produces": "Willow logs",
+      "xp_per_hour": 121320,
+      "sell_value": 7
+    },
+    {
+      "resource": "Maple logs",
+      "skill": "Woodcutting",
+      "level_req": 45,
+      "xp_per_unit": 500,
+      "tick_seconds": 15,
+      "produces": "Maple logs",
+      "xp_per_hour": 120000,
+      "sell_value": 12
+    },
+    {
+      "resource": "Yew logs",
+      "skill": "Woodcutting",
+      "level_req": 60,
+      "xp_per_unit": 875,
+      "tick_seconds": 23,
+      "produces": "Yew logs",
+      "xp_per_hour": 136957,
+      "sell_value": 25
+    },
+    {
+      "resource": "Magic logs",
+      "skill": "Woodcutting",
+      "level_req": 75,
+      "xp_per_unit": 1250,
+      "tick_seconds": 35,
+      "produces": "Magic logs",
+      "xp_per_hour": 128571,
+      "sell_value": 50
+    }
+  ],
+  "recipes": [
+    {
+      "input": "Raw chicken",
+      "skill": "Cooking",
+      "level_req": 1,
+      "xp_per_unit": 150,
+      "outputs": [
+        "Cooked chicken"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Raw shrimp",
+      "skill": "Cooking",
+      "level_req": 1,
+      "xp_per_unit": 60,
+      "outputs": [
+        "Cooked shrimp"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Raw trout",
+      "skill": "Cooking",
+      "level_req": 15,
+      "xp_per_unit": 175,
+      "outputs": [
+        "Cooked trout"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Raw salmon",
+      "skill": "Cooking",
+      "level_req": 25,
+      "xp_per_unit": 250,
+      "outputs": [
+        "Cooked salmon"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Raw lobster",
+      "skill": "Cooking",
+      "level_req": 40,
+      "xp_per_unit": 350,
+      "outputs": [
+        "Cooked lobster"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Raw swordfish",
+      "skill": "Cooking",
+      "level_req": 45,
+      "xp_per_unit": 425,
+      "outputs": [
+        "Cooked swordfish"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Raw shark",
+      "skill": "Cooking",
+      "level_req": 80,
+      "xp_per_unit": 500,
+      "outputs": [
+        "Cooked shark"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Cowhide",
+      "skill": "Crafting",
+      "level_req": 1,
+      "xp_per_unit": 100,
+      "outputs": [
+        "Leather"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Flax",
+      "skill": "Crafting",
+      "level_req": 1,
+      "xp_per_unit": 90,
+      "outputs": [
+        "Bow string"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Leather",
+      "skill": "Crafting",
+      "level_req": 5,
+      "xp_per_unit": 80,
+      "outputs": [
+        "Leather quiver",
+        "Leather coif",
+        "Leather body",
+        "Leather chaps",
+        "Leather vambraces",
+        "Leather boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Uncut sapphire",
+      "skill": "Crafting",
+      "level_req": 20,
+      "xp_per_unit": 250,
+      "outputs": [
+        "Sapphire"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Logs",
+      "skill": "Fletching",
+      "level_req": 1,
+      "xp_per_unit": 150,
+      "outputs": [
+        "Arrow shafts",
+        "Shortbow (u)"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Oak logs",
+      "skill": "Fletching",
+      "level_req": 15,
+      "xp_per_unit": 280,
+      "outputs": [
+        "Arrow shafts",
+        "Oak shortbow (u)"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Willow logs",
+      "skill": "Fletching",
+      "level_req": 30,
+      "xp_per_unit": 450,
+      "outputs": [
+        "Arrow shafts",
+        "Willow shortbow (u)"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Maple logs",
+      "skill": "Fletching",
+      "level_req": 45,
+      "xp_per_unit": 650,
+      "outputs": [
+        "Arrow shafts",
+        "Maple shortbow (u)"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Yew logs",
+      "skill": "Fletching",
+      "level_req": 60,
+      "xp_per_unit": 950,
+      "outputs": [
+        "Arrow shafts",
+        "Yew shortbow (u)"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Magic logs",
+      "skill": "Fletching",
+      "level_req": 75,
+      "xp_per_unit": 1400,
+      "outputs": [
+        "Arrow shafts",
+        "Magic shortbow (u)"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Bones",
+      "skill": "Prayer",
+      "level_req": 1,
+      "xp_per_unit": 23,
+      "outputs": [],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Big bones",
+      "skill": "Prayer",
+      "level_req": 20,
+      "xp_per_unit": 45,
+      "outputs": [],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Dragon bones",
+      "skill": "Prayer",
+      "level_req": 50,
+      "xp_per_unit": 140,
+      "outputs": [],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Copper ore",
+      "skill": "Smithing",
+      "level_req": 1,
+      "xp_per_unit": 100,
+      "outputs": [
+        "Bronze bar"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Bronze bar",
+      "skill": "Smithing",
+      "level_req": 1,
+      "xp_per_unit": 150,
+      "outputs": [
+        "Bronze kiteshield",
+        "Bronze full helm",
+        "Bronze platebody",
+        "Bronze platelegs",
+        "Bronze gloves",
+        "Bronze boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Iron ore",
+      "skill": "Smithing",
+      "level_req": 15,
+      "xp_per_unit": 200,
+      "outputs": [
+        "Iron bar"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Iron bar",
+      "skill": "Smithing",
+      "level_req": 20,
+      "xp_per_unit": 300,
+      "outputs": [
+        "Iron kiteshield",
+        "Iron full helm",
+        "Iron platebody",
+        "Iron platelegs",
+        "Iron gloves",
+        "Iron boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Coal",
+      "skill": "Smithing",
+      "level_req": 30,
+      "xp_per_unit": 300,
+      "outputs": [
+        "Steel bar"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Steel bar",
+      "skill": "Smithing",
+      "level_req": 35,
+      "xp_per_unit": 450,
+      "outputs": [
+        "Steel kiteshield",
+        "Steel full helm",
+        "Steel platebody",
+        "Steel platelegs",
+        "Steel gloves",
+        "Steel boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Mithril ore",
+      "skill": "Smithing",
+      "level_req": 55,
+      "xp_per_unit": 450,
+      "outputs": [
+        "Mithril bar"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Mithril bar",
+      "skill": "Smithing",
+      "level_req": 60,
+      "xp_per_unit": 700,
+      "outputs": [
+        "Mithril kiteshield",
+        "Mithril full helm",
+        "Mithril platebody",
+        "Mithril platelegs",
+        "Mithril gloves",
+        "Mithril boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Adamantite ore",
+      "skill": "Smithing",
+      "level_req": 70,
+      "xp_per_unit": 600,
+      "outputs": [
+        "Adamant bar"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Adamant bar",
+      "skill": "Smithing",
+      "level_req": 75,
+      "xp_per_unit": 900,
+      "outputs": [
+        "Adamant kiteshield",
+        "Adamant full helm",
+        "Adamant platebody",
+        "Adamant platelegs",
+        "Adamant gloves",
+        "Adamant boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Runite ore",
+      "skill": "Smithing",
+      "level_req": 85,
+      "xp_per_unit": 800,
+      "outputs": [
+        "Rune bar"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Rune bar",
+      "skill": "Smithing",
+      "level_req": 90,
+      "xp_per_unit": 1200,
+      "outputs": [
+        "Rune kiteshield",
+        "Rune full helm",
+        "Rune platebody",
+        "Rune platelegs",
+        "Rune gloves",
+        "Rune boots"
+      ],
+      "tick_seconds": 2.0
+    }
+  ],
+  "firemaking": [
+    {
+      "input": "Logs",
+      "level_req": 1,
+      "xp_per_unit": 200
+    },
+    {
+      "input": "Oak logs",
+      "level_req": 15,
+      "xp_per_unit": 350
+    },
+    {
+      "input": "Willow logs",
+      "level_req": 30,
+      "xp_per_unit": 550
+    },
+    {
+      "input": "Maple logs",
+      "level_req": 45,
+      "xp_per_unit": 850
+    },
+    {
+      "input": "Yew logs",
+      "level_req": 60,
+      "xp_per_unit": 1300
+    },
+    {
+      "input": "Magic logs",
+      "level_req": 75,
+      "xp_per_unit": 2000
+    }
+  ],
+  "stringing": [
+    {
+      "input": "Shortbow (u)",
+      "level_req": 1,
+      "xp_per_unit": 100,
+      "output": "Shortbow"
+    },
+    {
+      "input": "Oak shortbow (u)",
+      "level_req": 15,
+      "xp_per_unit": 180,
+      "output": "Oak shortbow"
+    },
+    {
+      "input": "Willow shortbow (u)",
+      "level_req": 30,
+      "xp_per_unit": 300,
+      "output": "Willow shortbow"
+    },
+    {
+      "input": "Maple shortbow (u)",
+      "level_req": 45,
+      "xp_per_unit": 450,
+      "output": "Maple shortbow"
+    },
+    {
+      "input": "Yew shortbow (u)",
+      "level_req": 60,
+      "xp_per_unit": 650,
+      "output": "Yew shortbow"
+    },
+    {
+      "input": "Magic shortbow (u)",
+      "level_req": 75,
+      "xp_per_unit": 950,
+      "output": "Magic shortbow"
+    }
+  ],
+  "monsters": [
+    {
+      "name": "Chicken",
+      "combat_level": 1,
+      "hp": 3,
+      "slayer_req": 0,
+      "tick_seconds": 18,
+      "gp_min": 1,
+      "gp_max": 3,
+      "difficulty": "easy",
+      "drops": [
+        {
+          "item": "Bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Raw chicken",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Feather",
+          "qty_min": 3,
+          "qty_max": 8,
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Rat",
+      "combat_level": 1,
+      "hp": 1,
+      "slayer_req": 0,
+      "tick_seconds": 15,
+      "gp_min": 1,
+      "gp_max": 2,
+      "difficulty": "easy",
+      "drops": [
+        {
+          "item": "Bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Cow",
+      "combat_level": 2,
+      "hp": 8,
+      "slayer_req": 0,
+      "tick_seconds": 20,
+      "gp_min": 2,
+      "gp_max": 4,
+      "difficulty": "easy",
+      "drops": [
+        {
+          "item": "Bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Cowhide",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Goblin",
+      "combat_level": 2,
+      "hp": 5,
+      "slayer_req": 0,
+      "tick_seconds": 18,
+      "gp_min": 3,
+      "gp_max": 6,
+      "difficulty": "easy",
+      "drops": [
+        {
+          "item": "Bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Goblin mail",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        }
+      ]
+    },
+    {
+      "name": "Crawling hand",
+      "combat_level": 8,
+      "hp": 15,
+      "slayer_req": 5,
+      "tick_seconds": 26,
+      "gp_min": 5,
+      "gp_max": 10,
+      "difficulty": "easy",
+      "drops": [
+        {
+          "item": "Bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Cave bug",
+      "combat_level": 4,
+      "hp": 5,
+      "slayer_req": 7,
+      "tick_seconds": 22,
+      "gp_min": 4,
+      "gp_max": 8,
+      "difficulty": "easy",
+      "drops": [
+        {
+          "item": "Bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Cave crawler",
+      "combat_level": 23,
+      "hp": 21,
+      "slayer_req": 20,
+      "tick_seconds": 32,
+      "gp_min": 16,
+      "gp_max": 30,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Banshee",
+      "combat_level": 23,
+      "hp": 19,
+      "slayer_req": 25,
+      "tick_seconds": 32,
+      "gp_min": 16,
+      "gp_max": 30,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Nature rune",
+          "qty_min": 1,
+          "qty_max": 3,
+          "chance": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Rockslug",
+      "combat_level": 28,
+      "hp": 33,
+      "slayer_req": 30,
+      "tick_seconds": 38,
+      "gp_min": 20,
+      "gp_max": 40,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        }
+      ]
+    },
+    {
+      "name": "Ankou",
+      "combat_level": 45,
+      "hp": 45,
+      "slayer_req": 35,
+      "tick_seconds": 42,
+      "gp_min": 30,
+      "gp_max": 55,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Nature rune",
+          "qty_min": 2,
+          "qty_max": 5,
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Basilisk",
+      "combat_level": 50,
+      "hp": 52,
+      "slayer_req": 38,
+      "tick_seconds": 45,
+      "gp_min": 35,
+      "gp_max": 65,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Mithril ore",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Turoth",
+      "combat_level": 55,
+      "hp": 58,
+      "slayer_req": 40,
+      "tick_seconds": 48,
+      "gp_min": 40,
+      "gp_max": 70,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Aberrant spectre",
+      "combat_level": 60,
+      "hp": 65,
+      "slayer_req": 50,
+      "tick_seconds": 50,
+      "gp_min": 25,
+      "gp_max": 45,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Dragon bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Nature rune",
+          "qty_min": 3,
+          "qty_max": 8,
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Dust devil",
+      "combat_level": 68,
+      "hp": 72,
+      "slayer_req": 55,
+      "tick_seconds": 52,
+      "gp_min": 30,
+      "gp_max": 50,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Dragon bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        }
+      ]
+    },
+    {
+      "name": "Kurask",
+      "combat_level": 75,
+      "hp": 80,
+      "slayer_req": 60,
+      "tick_seconds": 55,
+      "gp_min": 35,
+      "gp_max": 60,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Adamantite ore",
+          "qty_min": 1,
+          "qty_max": 3,
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Skeletal wyvern",
+      "combat_level": 85,
+      "hp": 90,
+      "slayer_req": 70,
+      "tick_seconds": 60,
+      "gp_min": 45,
+      "gp_max": 75,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Dragon bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.2
+        }
+      ]
+    },
+    {
+      "name": "Abyssal demon",
+      "combat_level": 95,
+      "hp": 100,
+      "slayer_req": 85,
+      "tick_seconds": 65,
+      "gp_min": 55,
+      "gp_max": 90,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Dragon bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 3,
+          "chance": 0.2
+        }
+      ]
+    }
+  ],
+  "loot_values": [
+    {
+      "item": "Adamant bar",
+      "sell_value": 55
+    },
+    {
+      "item": "Adamantite ore",
+      "sell_value": 25
+    },
+    {
+      "item": "Arrow shafts",
+      "sell_value": 2
+    },
+    {
+      "item": "Big bones",
+      "sell_value": 6
+    },
+    {
+      "item": "Bones",
+      "sell_value": 2
+    },
+    {
+      "item": "Bow string",
+      "sell_value": 21
+    },
+    {
+      "item": "Bronze bar",
+      "sell_value": 5
+    },
+    {
+      "item": "Coal",
+      "sell_value": 8
+    },
+    {
+      "item": "Cooked chicken",
+      "sell_value": 7
+    },
+    {
+      "item": "Cooked lobster",
+      "sell_value": 70
+    },
+    {
+      "item": "Cooked salmon",
+      "sell_value": 42
+    },
+    {
+      "item": "Cooked shark",
+      "sell_value": 210
+    },
+    {
+      "item": "Cooked shrimp",
+      "sell_value": 7
+    },
+    {
+      "item": "Cooked swordfish",
+      "sell_value": 105
+    },
+    {
+      "item": "Cooked trout",
+      "sell_value": 28
+    },
+    {
+      "item": "Copper ore",
+      "sell_value": 2
+    },
+    {
+      "item": "Cowhide",
+      "sell_value": 5
+    },
+    {
+      "item": "Dragon bones",
+      "sell_value": 18
+    },
+    {
+      "item": "Feather",
+      "sell_value": 1
+    },
+    {
+      "item": "Flax",
+      "sell_value": 3
+    },
+    {
+      "item": "Goblin mail",
+      "sell_value": 15
+    },
+    {
+      "item": "Iron bar",
+      "sell_value": 12
+    },
+    {
+      "item": "Iron ore",
+      "sell_value": 5
+    },
+    {
+      "item": "Leather",
+      "sell_value": 35
+    },
+    {
+      "item": "Logs",
+      "sell_value": 2
+    },
+    {
+      "item": "Magic logs",
+      "sell_value": 50
+    },
+    {
+      "item": "Magic shortbow (u)",
+      "sell_value": 2500
+    },
+    {
+      "item": "Maple logs",
+      "sell_value": 12
+    },
+    {
+      "item": "Maple shortbow (u)",
+      "sell_value": 300
+    },
+    {
+      "item": "Mithril bar",
+      "sell_value": 35
+    },
+    {
+      "item": "Mithril ore",
+      "sell_value": 15
+    },
+    {
+      "item": "Nature rune",
+      "sell_value": 8
+    },
+    {
+      "item": "Oak logs",
+      "sell_value": 4
+    },
+    {
+      "item": "Oak shortbow (u)",
+      "sell_value": 25
+    },
+    {
+      "item": "Raw chicken",
+      "sell_value": 1
+    },
+    {
+      "item": "Raw lobster",
+      "sell_value": 10
+    },
+    {
+      "item": "Raw salmon",
+      "sell_value": 6
+    },
+    {
+      "item": "Raw shark",
+      "sell_value": 30
+    },
+    {
+      "item": "Raw shrimp",
+      "sell_value": 1
+    },
+    {
+      "item": "Raw swordfish",
+      "sell_value": 15
+    },
+    {
+      "item": "Raw trout",
+      "sell_value": 4
+    },
+    {
+      "item": "Rune bar",
+      "sell_value": 90
+    },
+    {
+      "item": "Runite ore",
+      "sell_value": 60
+    },
+    {
+      "item": "Sapphire",
+      "sell_value": 350
+    },
+    {
+      "item": "Shortbow (u)",
+      "sell_value": 1
+    },
+    {
+      "item": "Steel bar",
+      "sell_value": 20
+    },
+    {
+      "item": "Uncut sapphire",
+      "sell_value": 50
+    },
+    {
+      "item": "Willow logs",
+      "sell_value": 7
+    },
+    {
+      "item": "Willow shortbow (u)",
+      "sell_value": 75
+    },
+    {
+      "item": "Yew logs",
+      "sell_value": 25
+    },
+    {
+      "item": "Yew shortbow (u)",
+      "sell_value": 1000
+    }
+  ],
+  "food": [
+    {
+      "item": "Cooked shrimp",
+      "heal_value": 0.3,
+      "shop_price": 14,
+      "sell_value": 7
+    },
+    {
+      "item": "Cooked trout",
+      "heal_value": 0.5,
+      "shop_price": 56,
+      "sell_value": 28
+    },
+    {
+      "item": "Cooked salmon",
+      "heal_value": 0.7,
+      "shop_price": 84,
+      "sell_value": 42
+    },
+    {
+      "item": "Cooked lobster",
+      "heal_value": 1.0,
+      "shop_price": 140,
+      "sell_value": 70
+    },
+    {
+      "item": "Cooked swordfish",
+      "heal_value": 1.4,
+      "shop_price": 210,
+      "sell_value": 105
+    },
+    {
+      "item": "Cooked shark",
+      "heal_value": 2.0,
+      "shop_price": 420,
+      "sell_value": 210
+    }
+  ],
+  "constants": {
+    "difficulty_tiers": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "tier_min_slayer_level": {
+      "easy": 0,
+      "medium": 20,
+      "hard": 50
+    },
+    "tier_slayer_points": {
+      "easy": 1,
+      "medium": 2,
+      "hard": 3
+    },
+    "tier_tick_multiplier": {
+      "easy": 1.0,
+      "medium": 1.5,
+      "hard": 2.2
+    },
+    "tier_food_demand_per_kill": {
+      "easy": 0.0,
+      "medium": 0.5,
+      "hard": 2.5
+    },
+    "defense_food_reduction_per_point": 0.02,
+    "defense_food_floor": 0.4,
+    "task_kills_base_min": 8,
+    "task_kills_base_max": 15,
+    "process_tick_seconds": 2.0,
+    "min_tick_fraction": 0.3,
+    "level_speed_pct_per_level": 0.3,
+    "processed_sell_multiplier": 7,
+    "food_shop_markup": 2,
+    "tier_ladders": {
+      "melee": [
+        "Bronze",
+        "Iron",
+        "Steel",
+        "Mithril",
+        "Adamant",
+        "Rune",
+        "Dragon"
+      ],
+      "range": [
+        "Leather",
+        "Studded leather",
+        "Green d'hide",
+        "Blue d'hide",
+        "Red d'hide",
+        "Black d'hide"
+      ],
+      "mage": [
+        "Apprentice",
+        "Splitbark",
+        "Infinity",
+        "Ancestral"
+      ]
+    },
+    "slot_nouns": {
+      "melee": {
+        "shield": "kiteshield",
+        "head": "full helm",
+        "body": "platebody",
+        "legs": "platelegs",
+        "hands": "gloves",
+        "feet": "boots"
+      },
+      "range": {
+        "shield": "quiver",
+        "head": "coif",
+        "body": "body",
+        "legs": "chaps",
+        "hands": "vambraces",
+        "feet": "boots"
+      },
+      "mage": {
+        "shield": "spellbook",
+        "head": "hat",
+        "body": "robe top",
+        "legs": "robe bottom",
+        "hands": "gloves",
+        "feet": "boots"
+      }
+    },
+    "accessory_tiers": [
+      "Basic",
+      "Fine",
+      "Superior",
+      "Exquisite",
+      "Legendary"
+    ]
+  }
+}
