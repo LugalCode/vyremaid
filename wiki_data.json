@@ -1165,7 +1165,7 @@
       "name": "Oak shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 26,
+      "price": 100,
       "level_req": 5,
       "speed_pct": 6,
       "defense_rating": null
@@ -1174,7 +1174,7 @@
       "name": "Willow shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 60,
+      "price": 300,
       "level_req": 20,
       "speed_pct": 12,
       "defense_rating": null
@@ -1183,7 +1183,7 @@
       "name": "Maple shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 150,
+      "price": 1200,
       "level_req": 30,
       "speed_pct": 17,
       "defense_rating": null
@@ -1192,7 +1192,7 @@
       "name": "Yew shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 400,
+      "price": 4000,
       "level_req": 40,
       "speed_pct": 21,
       "defense_rating": null
@@ -1201,7 +1201,7 @@
       "name": "Magic shortbow",
       "slot": "weapon",
       "style": "range",
-      "price": 800,
+      "price": 10000,
       "level_req": 50,
       "speed_pct": 25,
       "defense_rating": null
@@ -2034,6 +2034,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Ancient coin hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2082,6 +2088,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Ancient coin hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2121,6 +2133,12 @@
         },
         {
           "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
@@ -2172,6 +2190,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Ancient coin hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2220,6 +2244,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Ancient coin hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2259,6 +2289,12 @@
         },
         {
           "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
@@ -2310,6 +2346,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2355,6 +2397,12 @@
         },
         {
           "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
@@ -2406,6 +2454,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2451,6 +2505,12 @@
         },
         {
           "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
@@ -2502,6 +2562,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     }
@@ -2509,11 +2575,15 @@
   "loot_values": [
     {
       "item": "Adamant bar",
-      "sell_value": 55
+      "sell_value": 1100
     },
     {
       "item": "Adamantite ore",
       "sell_value": 25
+    },
+    {
+      "item": "Ancient coin hoard",
+      "sell_value": 240000
     },
     {
       "item": "Arrow shafts",
@@ -2533,7 +2603,7 @@
     },
     {
       "item": "Bronze bar",
-      "sell_value": 5
+      "sell_value": 100
     },
     {
       "item": "Coal",
@@ -2601,7 +2671,7 @@
     },
     {
       "item": "Iron bar",
-      "sell_value": 12
+      "sell_value": 240
     },
     {
       "item": "Iron ore",
@@ -2610,6 +2680,10 @@
     {
       "item": "Leather",
       "sell_value": 50
+    },
+    {
+      "item": "Legendary dragon hoard",
+      "sell_value": 800000
     },
     {
       "item": "Logs",
@@ -2621,7 +2695,7 @@
     },
     {
       "item": "Magic shortbow (u)",
-      "sell_value": 200
+      "sell_value": 2500
     },
     {
       "item": "Maple logs",
@@ -2629,11 +2703,11 @@
     },
     {
       "item": "Maple shortbow (u)",
-      "sell_value": 38
+      "sell_value": 300
     },
     {
       "item": "Mithril bar",
-      "sell_value": 35
+      "sell_value": 700
     },
     {
       "item": "Mithril ore",
@@ -2649,7 +2723,7 @@
     },
     {
       "item": "Oak shortbow (u)",
-      "sell_value": 6
+      "sell_value": 25
     },
     {
       "item": "Raw chicken",
@@ -2685,7 +2759,7 @@
     },
     {
       "item": "Rune bar",
-      "sell_value": 90
+      "sell_value": 1800
     },
     {
       "item": "Runite ore",
@@ -2701,7 +2775,7 @@
     },
     {
       "item": "Steel bar",
-      "sell_value": 20
+      "sell_value": 400
     },
     {
       "item": "Uncut diamond",
@@ -2725,7 +2799,7 @@
     },
     {
       "item": "Willow shortbow (u)",
-      "sell_value": 15
+      "sell_value": 75
     },
     {
       "item": "Yew logs",
@@ -2733,7 +2807,7 @@
     },
     {
       "item": "Yew shortbow (u)",
-      "sell_value": 100
+      "sell_value": 1000
     }
   ],
   "food": [
