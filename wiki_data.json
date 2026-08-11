@@ -3036,8 +3036,7 @@
   "group_content": [
     {
       "name": "Barbarian Assault",
-      "party_size": 5,
-      "join_window_minutes": 15,
+      "party_size": 1,
       "duration_minutes": 60,
       "xp_reward": {
         "Attack": 15000,
