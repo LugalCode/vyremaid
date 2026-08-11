@@ -1263,7 +1263,7 @@
       "name": "Iron defender",
       "slot": "shield",
       "style": "melee",
-      "speed_pct": 2,
+      "speed_pct": 1,
       "defense": 0,
       "requirements": {},
       "untradeable": true
@@ -1272,7 +1272,7 @@
       "name": "Steel defender",
       "slot": "shield",
       "style": "melee",
-      "speed_pct": 3,
+      "speed_pct": 1,
       "defense": 0,
       "requirements": {},
       "untradeable": true
@@ -1281,7 +1281,7 @@
       "name": "Mithril defender",
       "slot": "shield",
       "style": "melee",
-      "speed_pct": 5,
+      "speed_pct": 2,
       "defense": 0,
       "requirements": {},
       "untradeable": true
@@ -1290,7 +1290,7 @@
       "name": "Adamant defender",
       "slot": "shield",
       "style": "melee",
-      "speed_pct": 8,
+      "speed_pct": 2,
       "defense": 0,
       "requirements": {},
       "untradeable": true
@@ -1299,7 +1299,7 @@
       "name": "Rune defender",
       "slot": "shield",
       "style": "melee",
-      "speed_pct": 14,
+      "speed_pct": 3,
       "defense": 0,
       "requirements": {},
       "untradeable": true
@@ -1308,7 +1308,7 @@
       "name": "Dragon defender",
       "slot": "shield",
       "style": "melee",
-      "speed_pct": 20,
+      "speed_pct": 5,
       "defense": 0,
       "requirements": {},
       "untradeable": true
@@ -3081,7 +3081,7 @@
     "task_kills_base_min": 8,
     "task_kills_base_max": 15,
     "process_tick_seconds": 2.0,
-    "min_tick_fraction": 0.3,
+    "min_tick_fraction": 0.2,
     "level_speed_pct_per_level": 0.3,
     "processed_sell_multiplier": 10,
     "food_shop_markup": 2,
