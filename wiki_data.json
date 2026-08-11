@@ -1226,7 +1226,7 @@
       "slot": "head",
       "style": "melee",
       "speed_pct": 10,
-      "defense": 0,
+      "defense": 3,
       "requirements": {
         "Slayer": 50
       },
@@ -2656,6 +2656,14 @@
       "sell_value": 6
     },
     {
+      "item": "Bonecrusher",
+      "sell_value": 600
+    },
+    {
+      "item": "Bonecrusher charges",
+      "sell_value": 4
+    },
+    {
       "item": "Bones",
       "sell_value": 2
     },
@@ -2922,6 +2930,18 @@
     {
       "item": "Super combat potion",
       "points": 5
+    },
+    {
+      "item": "Slayer helm",
+      "points": 50
+    },
+    {
+      "item": "Bonecrusher",
+      "points": 30
+    },
+    {
+      "item": "Bonecrusher charges",
+      "points": 1
     }
   ],
   "group_content": [
