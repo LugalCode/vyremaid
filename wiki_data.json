@@ -391,7 +391,7 @@
       "name": "Iron platebody",
       "slot": "body",
       "style": "melee",
-      "price": 138,
+      "price": 119,
       "level_req": 1,
       "speed_pct": null,
       "defense_rating": 2
@@ -400,7 +400,7 @@
       "name": "Steel platebody",
       "slot": "body",
       "style": "melee",
-      "price": 917,
+      "price": 924,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 3
@@ -409,7 +409,7 @@
       "name": "Mithril platebody",
       "slot": "body",
       "style": "melee",
-      "price": 2827,
+      "price": 2708,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 3
@@ -418,7 +418,7 @@
       "name": "Adamant platebody",
       "slot": "body",
       "style": "melee",
-      "price": 9474,
+      "price": 9450,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 4
@@ -427,16 +427,25 @@
       "name": "Rune platebody",
       "slot": "body",
       "style": "melee",
-      "price": 38386,
+      "price": 38426,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 5
     },
     {
+      "name": "Dragon chainbody",
+      "slot": "body",
+      "style": "melee",
+      "price": 166584,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 6
+    },
+    {
       "name": "Dragon platebody",
       "slot": "body",
       "style": "melee",
-      "price": 2247693,
+      "price": 2170254,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 6
@@ -580,7 +589,7 @@
       "name": "Iron full helm",
       "slot": "head",
       "style": "melee",
-      "price": 25,
+      "price": 41,
       "level_req": 1,
       "speed_pct": null,
       "defense_rating": 1
@@ -589,7 +598,7 @@
       "name": "Steel full helm",
       "slot": "head",
       "style": "melee",
-      "price": 143,
+      "price": 228,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 2
@@ -598,7 +607,7 @@
       "name": "Mithril full helm",
       "slot": "head",
       "style": "melee",
-      "price": 646,
+      "price": 630,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 2
@@ -607,7 +616,7 @@
       "name": "Adamant full helm",
       "slot": "head",
       "style": "melee",
-      "price": 1919,
+      "price": 1882,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 3
@@ -616,16 +625,25 @@
       "name": "Rune full helm",
       "slot": "head",
       "style": "melee",
-      "price": 20750,
+      "price": 20595,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 3
     },
     {
+      "name": "Dragon med helm",
+      "slot": "head",
+      "style": "melee",
+      "price": 58492,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 4
+    },
+    {
       "name": "Dragon full helm",
       "slot": "head",
       "style": "melee",
-      "price": 46330279,
+      "price": 46932379,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 4
@@ -652,7 +670,7 @@
       "name": "Steel platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 424,
+      "price": 369,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 2
@@ -661,7 +679,7 @@
       "name": "Mithril platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 1386,
+      "price": 1345,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 3
@@ -670,7 +688,7 @@
       "name": "Adamant platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 3617,
+      "price": 3604,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 4
@@ -679,7 +697,7 @@
       "name": "Rune platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 37851,
+      "price": 37994,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 4
@@ -688,7 +706,7 @@
       "name": "Dragon platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 162988,
+      "price": 161903,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 5
@@ -706,7 +724,7 @@
       "name": "Iron kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 41,
+      "price": 39,
       "level_req": 1,
       "speed_pct": null,
       "defense_rating": 2
@@ -715,7 +733,7 @@
       "name": "Steel kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 244,
+      "price": 480,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 3
@@ -724,7 +742,7 @@
       "name": "Mithril kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 1223,
+      "price": 1119,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 5
@@ -733,7 +751,7 @@
       "name": "Adamant kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 3058,
+      "price": 3012,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 6
@@ -742,7 +760,7 @@
       "name": "Rune kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 32730,
+      "price": 32062,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 7
@@ -751,7 +769,7 @@
       "name": "Dragon kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 61749834,
+      "price": 62422000,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 8
@@ -769,7 +787,7 @@
       "name": "Iron scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 62,
+      "price": 50,
       "level_req": 1,
       "speed_pct": 8,
       "defense_rating": null
@@ -778,7 +796,7 @@
       "name": "Steel scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 102,
+      "price": 99,
       "level_req": 5,
       "speed_pct": 12,
       "defense_rating": null
@@ -787,7 +805,7 @@
       "name": "Mithril scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 476,
+      "price": 467,
       "level_req": 20,
       "speed_pct": 15,
       "defense_rating": null
@@ -796,7 +814,7 @@
       "name": "Adamant scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 1482,
+      "price": 1507,
       "level_req": 30,
       "speed_pct": 18,
       "defense_rating": null
@@ -805,7 +823,7 @@
       "name": "Rune scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 15189,
+      "price": 14954,
       "level_req": 40,
       "speed_pct": 24,
       "defense_rating": null
@@ -814,7 +832,7 @@
       "name": "Dragon scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 59509,
+      "price": 59317,
       "level_req": 60,
       "speed_pct": 27,
       "defense_rating": null
@@ -823,7 +841,7 @@
       "name": "Abyssal whip",
       "slot": "weapon",
       "style": "melee",
-      "price": 814499,
+      "price": 828095,
       "level_req": 70,
       "speed_pct": 30,
       "defense_rating": null
@@ -1230,6 +1248,69 @@
       "requirements": {
         "Slayer": 50
       },
+      "untradeable": true
+    },
+    {
+      "name": "Bronze defender",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 1,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Iron defender",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 2,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Steel defender",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 3,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Mithril defender",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 5,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Adamant defender",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 8,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Rune defender",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 14,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Dragon defender",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 20,
+      "defense": 0,
+      "requirements": {},
       "untradeable": true
     }
   ],
@@ -1915,7 +1996,7 @@
           "item": "Lucky coin pouch",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.005
         }
       ]
     },
@@ -1939,7 +2020,7 @@
           "item": "Lucky coin pouch",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.005
         }
       ]
     },
@@ -1969,7 +2050,7 @@
           "item": "Lucky coin pouch",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.005
         }
       ]
     },
@@ -1999,7 +2080,7 @@
           "item": "Lucky coin pouch",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.005
         }
       ]
     },
@@ -2029,7 +2110,7 @@
           "item": "Lucky coin pouch",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.005
         }
       ]
     },
@@ -2053,7 +2134,7 @@
           "item": "Lucky coin pouch",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.005
         }
       ]
     },
@@ -2101,7 +2182,7 @@
           "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2155,7 +2236,7 @@
           "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2203,7 +2284,7 @@
           "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2257,7 +2338,7 @@
           "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2311,7 +2392,7 @@
           "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2359,7 +2440,7 @@
           "item": "Ancient coin hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2413,7 +2494,7 @@
           "item": "Legendary dragon hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2467,7 +2548,7 @@
           "item": "Legendary dragon hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2521,7 +2602,7 @@
           "item": "Legendary dragon hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2575,7 +2656,7 @@
           "item": "Legendary dragon hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     },
@@ -2629,7 +2710,7 @@
           "item": "Legendary dragon hoard",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.002
         }
       ]
     }
