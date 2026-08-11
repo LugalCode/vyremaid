@@ -2856,6 +2856,10 @@
       "sell_value": 300
     },
     {
+      "item": "Task Extension",
+      "sell_value": 600
+    },
+    {
       "item": "Uncut diamond",
       "sell_value": 300
     },
@@ -2942,6 +2946,10 @@
     {
       "item": "Bonecrusher charges",
       "points": 1
+    },
+    {
+      "item": "Task Extension",
+      "points": 30
     }
   ],
   "group_content": [
