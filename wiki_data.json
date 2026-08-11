@@ -1207,6 +1207,32 @@
       "defense_rating": null
     }
   ],
+  "special_items": [
+    {
+      "name": "Fighter torso",
+      "slot": "body",
+      "style": "melee",
+      "speed_pct": 5,
+      "defense": 5,
+      "requirements": {
+        "Attack": 50,
+        "Strength": 50,
+        "Defence": 50
+      },
+      "untradeable": true
+    },
+    {
+      "name": "Slayer helm",
+      "slot": "head",
+      "style": "melee",
+      "speed_pct": 10,
+      "defense": 0,
+      "requirements": {
+        "Slayer": 50
+      },
+      "untradeable": true
+    }
+  ],
   "gathering": [
     {
       "resource": "Flax",
@@ -2890,6 +2916,29 @@
       "heal_value": 2.0,
       "shop_price": 600,
       "sell_value": 300
+    }
+  ],
+  "slayer_shop": [
+    {
+      "item": "Super combat potion",
+      "points": 5
+    }
+  ],
+  "group_content": [
+    {
+      "name": "Barbarian Assault",
+      "party_size": 5,
+      "join_window_minutes": 15,
+      "duration_minutes": 60,
+      "xp_reward": {
+        "Attack": 15000,
+        "Strength": 15000,
+        "Defence": 15000,
+        "Hitpoints": 10000,
+        "Slayer": 5000
+      },
+      "gp_reward": 5000,
+      "item_reward": "Fighter torso"
     }
   ],
   "constants": {
