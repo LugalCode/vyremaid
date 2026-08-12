@@ -2499,6 +2499,60 @@
       ]
     },
     {
+      "name": "Cyclops",
+      "combat_level": 80,
+      "hp": 90,
+      "slayer_req": 50,
+      "tick_seconds": 55,
+      "gp_min": 300,
+      "gp_max": 500,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Greater bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        }
+      ]
+    },
+    {
       "name": "Dust devil",
       "combat_level": 68,
       "hp": 72,
