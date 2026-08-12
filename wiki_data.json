@@ -391,7 +391,7 @@
       "name": "Iron platebody",
       "slot": "body",
       "style": "melee",
-      "price": 119,
+      "price": 103,
       "level_req": 1,
       "speed_pct": null,
       "defense_rating": 2
@@ -400,7 +400,7 @@
       "name": "Steel platebody",
       "slot": "body",
       "style": "melee",
-      "price": 924,
+      "price": 989,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 3
@@ -409,7 +409,7 @@
       "name": "Mithril platebody",
       "slot": "body",
       "style": "melee",
-      "price": 2708,
+      "price": 2850,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 3
@@ -418,7 +418,7 @@
       "name": "Adamant platebody",
       "slot": "body",
       "style": "melee",
-      "price": 9450,
+      "price": 9452,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 4
@@ -427,7 +427,7 @@
       "name": "Rune platebody",
       "slot": "body",
       "style": "melee",
-      "price": 38426,
+      "price": 38433,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 5
@@ -436,7 +436,7 @@
       "name": "Dragon chainbody",
       "slot": "body",
       "style": "melee",
-      "price": 166584,
+      "price": 168710,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 6
@@ -445,7 +445,7 @@
       "name": "Dragon platebody",
       "slot": "body",
       "style": "melee",
-      "price": 2170254,
+      "price": 2153325,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 6
@@ -589,7 +589,7 @@
       "name": "Iron full helm",
       "slot": "head",
       "style": "melee",
-      "price": 41,
+      "price": 40,
       "level_req": 1,
       "speed_pct": null,
       "defense_rating": 1
@@ -598,7 +598,7 @@
       "name": "Steel full helm",
       "slot": "head",
       "style": "melee",
-      "price": 228,
+      "price": 150,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 2
@@ -607,7 +607,7 @@
       "name": "Mithril full helm",
       "slot": "head",
       "style": "melee",
-      "price": 630,
+      "price": 724,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 2
@@ -616,7 +616,7 @@
       "name": "Adamant full helm",
       "slot": "head",
       "style": "melee",
-      "price": 1882,
+      "price": 1953,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 3
@@ -625,7 +625,7 @@
       "name": "Rune full helm",
       "slot": "head",
       "style": "melee",
-      "price": 20595,
+      "price": 20510,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 3
@@ -634,7 +634,7 @@
       "name": "Dragon med helm",
       "slot": "head",
       "style": "melee",
-      "price": 58492,
+      "price": 58515,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 4
@@ -643,7 +643,7 @@
       "name": "Dragon full helm",
       "slot": "head",
       "style": "melee",
-      "price": 46932379,
+      "price": 48120163,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 4
@@ -661,7 +661,7 @@
       "name": "Iron platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 56,
+      "price": 58,
       "level_req": 1,
       "speed_pct": null,
       "defense_rating": 1
@@ -670,7 +670,7 @@
       "name": "Steel platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 369,
+      "price": 432,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 2
@@ -679,7 +679,7 @@
       "name": "Mithril platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 1345,
+      "price": 1346,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 3
@@ -688,7 +688,7 @@
       "name": "Adamant platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 3604,
+      "price": 3485,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 4
@@ -697,7 +697,7 @@
       "name": "Rune platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 37994,
+      "price": 37760,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 4
@@ -706,7 +706,7 @@
       "name": "Dragon platelegs",
       "slot": "legs",
       "style": "melee",
-      "price": 161903,
+      "price": 161047,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 5
@@ -724,7 +724,7 @@
       "name": "Iron kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 39,
+      "price": 41,
       "level_req": 1,
       "speed_pct": null,
       "defense_rating": 2
@@ -733,7 +733,7 @@
       "name": "Steel kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 480,
+      "price": 398,
       "level_req": 5,
       "speed_pct": null,
       "defense_rating": 3
@@ -742,7 +742,7 @@
       "name": "Mithril kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 1119,
+      "price": 1135,
       "level_req": 20,
       "speed_pct": null,
       "defense_rating": 5
@@ -751,7 +751,7 @@
       "name": "Adamant kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 3012,
+      "price": 3081,
       "level_req": 30,
       "speed_pct": null,
       "defense_rating": 6
@@ -760,16 +760,25 @@
       "name": "Rune kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 32062,
+      "price": 32039,
       "level_req": 40,
       "speed_pct": null,
       "defense_rating": 7
     },
     {
+      "name": "Dragon sq shield",
+      "slot": "shield",
+      "style": "melee",
+      "price": 303547,
+      "level_req": 60,
+      "speed_pct": null,
+      "defense_rating": 8
+    },
+    {
       "name": "Dragon kiteshield",
       "slot": "shield",
       "style": "melee",
-      "price": 62422000,
+      "price": 63542905,
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 8
@@ -787,7 +796,7 @@
       "name": "Iron scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 50,
+      "price": 40,
       "level_req": 1,
       "speed_pct": 8,
       "defense_rating": null
@@ -796,7 +805,7 @@
       "name": "Steel scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 99,
+      "price": 182,
       "level_req": 5,
       "speed_pct": 12,
       "defense_rating": null
@@ -805,7 +814,7 @@
       "name": "Mithril scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 467,
+      "price": 450,
       "level_req": 20,
       "speed_pct": 15,
       "defense_rating": null
@@ -814,7 +823,7 @@
       "name": "Adamant scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 1507,
+      "price": 1487,
       "level_req": 30,
       "speed_pct": 18,
       "defense_rating": null
@@ -823,7 +832,7 @@
       "name": "Rune scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 14954,
+      "price": 15182,
       "level_req": 40,
       "speed_pct": 24,
       "defense_rating": null
@@ -832,7 +841,7 @@
       "name": "Dragon scimitar",
       "slot": "weapon",
       "style": "melee",
-      "price": 59317,
+      "price": 59291,
       "level_req": 60,
       "speed_pct": 27,
       "defense_rating": null
@@ -841,7 +850,7 @@
       "name": "Abyssal whip",
       "slot": "weapon",
       "style": "melee",
-      "price": 828095,
+      "price": 840934,
       "level_req": 70,
       "speed_pct": 30,
       "defense_rating": null
