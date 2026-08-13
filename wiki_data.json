@@ -1323,15 +1323,6 @@
       "untradeable": true
     },
     {
-      "name": "Prospector ring",
-      "slot": "ring",
-      "style": "any",
-      "speed_pct": 3,
-      "defense": 0,
-      "requirements": {},
-      "untradeable": true
-    },
-    {
       "name": "Anti-dragon shield",
       "slot": "shield",
       "style": "melee",
@@ -1366,6 +1357,169 @@
       "defense": 2,
       "requirements": {},
       "untradeable": true
+    }
+  ],
+  "toolbelt": [
+    {
+      "name": "Bronze hatchet",
+      "slot": "hatchet",
+      "skill": "Woodcutting",
+      "speed_pct": 3,
+      "level_req": 1,
+      "points_price": 2
+    },
+    {
+      "name": "Iron hatchet",
+      "slot": "hatchet",
+      "skill": "Woodcutting",
+      "speed_pct": 6,
+      "level_req": 15,
+      "points_price": 5
+    },
+    {
+      "name": "Steel hatchet",
+      "slot": "hatchet",
+      "skill": "Woodcutting",
+      "speed_pct": 9,
+      "level_req": 30,
+      "points_price": 12
+    },
+    {
+      "name": "Mithril hatchet",
+      "slot": "hatchet",
+      "skill": "Woodcutting",
+      "speed_pct": 13,
+      "level_req": 45,
+      "points_price": 30
+    },
+    {
+      "name": "Adamant hatchet",
+      "slot": "hatchet",
+      "skill": "Woodcutting",
+      "speed_pct": 16,
+      "level_req": 60,
+      "points_price": 65
+    },
+    {
+      "name": "Rune hatchet",
+      "slot": "hatchet",
+      "skill": "Woodcutting",
+      "speed_pct": 20,
+      "level_req": 75,
+      "points_price": 150
+    },
+    {
+      "name": "Bronze pickaxe",
+      "slot": "pickaxe",
+      "skill": "Mining",
+      "speed_pct": 3,
+      "level_req": 1,
+      "points_price": 2
+    },
+    {
+      "name": "Iron pickaxe",
+      "slot": "pickaxe",
+      "skill": "Mining",
+      "speed_pct": 6,
+      "level_req": 15,
+      "points_price": 5
+    },
+    {
+      "name": "Steel pickaxe",
+      "slot": "pickaxe",
+      "skill": "Mining",
+      "speed_pct": 9,
+      "level_req": 30,
+      "points_price": 12
+    },
+    {
+      "name": "Mithril pickaxe",
+      "slot": "pickaxe",
+      "skill": "Mining",
+      "speed_pct": 13,
+      "level_req": 55,
+      "points_price": 30
+    },
+    {
+      "name": "Adamant pickaxe",
+      "slot": "pickaxe",
+      "skill": "Mining",
+      "speed_pct": 16,
+      "level_req": 70,
+      "points_price": 65
+    },
+    {
+      "name": "Rune pickaxe",
+      "slot": "pickaxe",
+      "skill": "Mining",
+      "speed_pct": 20,
+      "level_req": 85,
+      "points_price": 150
+    }
+  ],
+  "gathering_shop": {
+    "points_per_hour": 6,
+    "items": [
+      {
+        "item": "Bronze pickaxe",
+        "points": 2
+      },
+      {
+        "item": "Iron pickaxe",
+        "points": 5
+      },
+      {
+        "item": "Steel pickaxe",
+        "points": 12
+      },
+      {
+        "item": "Mithril pickaxe",
+        "points": 30
+      },
+      {
+        "item": "Adamant pickaxe",
+        "points": 65
+      },
+      {
+        "item": "Rune pickaxe",
+        "points": 150
+      },
+      {
+        "item": "Bronze hatchet",
+        "points": 2
+      },
+      {
+        "item": "Iron hatchet",
+        "points": 5
+      },
+      {
+        "item": "Steel hatchet",
+        "points": 12
+      },
+      {
+        "item": "Mithril hatchet",
+        "points": 30
+      },
+      {
+        "item": "Adamant hatchet",
+        "points": 65
+      },
+      {
+        "item": "Rune hatchet",
+        "points": 150
+      }
+    ]
+  },
+  "passive_skilling_items": [
+    {
+      "name": "Prospector ring",
+      "skill": "Mining",
+      "speed_pct": 3
+    },
+    {
+      "name": "Lumbridge range access",
+      "skill": "Cooking",
+      "speed_pct": 5
     }
   ],
   "gathering": [
@@ -3151,7 +3305,7 @@
       "xp_rewards": {
         "Cooking": 500
       },
-      "item_reward": null,
+      "item_reward": "Lumbridge range access",
       "unlocks_monster": null
     },
     {

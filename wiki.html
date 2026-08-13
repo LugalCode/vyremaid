@@ -43,6 +43,9 @@
     <a href="#gear">Gear/Buy</a>
     <a href="#special">Special items</a>
     <a href="#gathering">Gathering</a>
+    <a href="#toolbelt">Toolbelt</a>
+    <a href="#gatherstore">Gathering shop</a>
+    <a href="#passiveskilling">Passive skilling items</a>
     <a href="#recipes">Processing</a>
     <a href="#firemaking">Firemaking</a>
     <a href="#stringing">Fletching (string)</a>
@@ -104,6 +107,57 @@
           <th>Skill</th><th>Resource</th><th class="num">Level req</th><th class="num">XP/unit</th>
           <th class="num">Sec/unit</th><th class="num">XP/hr</th><th>Produces</th><th class="num">Sell value</th>
         </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="toolbelt">
+    <h2>Toolbelt (!buy / !gatherstore)</h2>
+    <p class="section-note">
+      Pickaxe/hatchet tiers — a separate equip slot from combat gear, always active regardless of
+      your combat style, and <strong>not buyable with gp</strong>: earned via <a href="#gatherstore">Gathering
+      points</a> instead. Speed reduces gathering time for their matching skill only.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="toolbelt-table">
+        <thead><tr>
+          <th>Slot</th><th>Item</th><th>Skill</th><th class="num">Level req</th>
+          <th class="num">Speed</th><th class="num">Points price</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="gatherstore">
+    <h2>Gathering points shop (!gatherstore)</h2>
+    <p class="section-note">
+      Gathering points are a separate currency from gp and slayer points, earned passively while
+      gathering (any skill, any resource — chance is normalized so the rate is a flat
+      <span id="gatherstore-rate"></span> regardless of what you're gathering). Spend them here on
+      toolbelt upgrades via <code>!buy &lt;item&gt; [qty]</code>.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="gatherstore-table">
+        <thead><tr><th>Item</th><th class="num">Points</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="passiveskilling">
+    <h2>Passive skilling items</h2>
+    <p class="section-note">
+      No <code>!equip</code> step — just owning one of these in your inventory grants its bonus.
+      Quest rewards, untradeable.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="passiveskilling-table">
+        <thead><tr><th>Item</th><th>Skill</th><th class="num">Speed</th></tr></thead>
         <tbody></tbody>
       </table>
       <p class="no-results">No matches.</p>
@@ -324,6 +378,18 @@ function render(data) {
     <td class="num">${r.xp_per_unit}</td><td class="num">${r.tick_seconds}</td>
     <td class="num">${r.xp_per_hour.toLocaleString()}</td><td>${esc(r.produces)}</td>
     <td class="num">${r.sell_value != null ? fmtGp(r.sell_value) : "—"}</td></tr>`);
+
+  renderRows("toolbelt-table", data.toolbelt, r => `
+    <tr><td>${esc(r.slot)}</td><td>${esc(r.name)}</td><td>${esc(r.skill)}</td>
+    <td class="num">${r.level_req}</td><td class="num">-${r.speed_pct}%</td>
+    <td class="num">${r.points_price.toLocaleString()}</td></tr>`);
+
+  document.getElementById("gatherstore-rate").textContent = `${data.gathering_shop.points_per_hour}/hour`;
+  renderRows("gatherstore-table", data.gathering_shop.items, r => `
+    <tr><td>${esc(r.item)}</td><td class="num">${r.points.toLocaleString()}</td></tr>`);
+
+  renderRows("passiveskilling-table", data.passive_skilling_items, r => `
+    <tr><td>${esc(r.name)}</td><td>${esc(r.skill)}</td><td class="num">-${r.speed_pct}%</td></tr>`);
 
   renderRows("recipes-table", data.recipes, r => `
     <tr><td>${esc(r.skill)}</td><td>${esc(r.input)}</td><td class="num">${r.level_req}</td>
