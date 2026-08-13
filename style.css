@@ -604,6 +604,10 @@ h2 {
 .badge-range { background: rgba(90, 150, 90, 0.15); color: #8fd18f; }
 .badge-mage { background: rgba(90, 110, 200, 0.18); color: #a6b4f0; }
 .badge-any { background: rgba(150, 150, 150, 0.15); color: #c5c5c5; }
+.badge-novice { background: rgba(90, 170, 100, 0.18); color: #7fd88f; }
+.badge-intermediate { background: rgba(201, 169, 110, 0.18); color: var(--gold-bright); }
+.badge-experienced { background: rgba(190, 70, 70, 0.2); color: #e08787; }
+.badge-master { background: rgba(140, 90, 200, 0.2); color: #c3a6f0; }
 
 .wiki-section-nav-spacer { height: 0.25rem; }
 

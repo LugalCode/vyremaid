@@ -26,11 +26,12 @@
     </nav>
     <p class="summary">
       The full data reference — every gear item and its price, every gathering resource, every
-      processing recipe, every monster and its drop table, every food item. Generated straight
-      from the bot's own data files, not hand-typed, so it can't drift out of sync with what
-      <code>!ge</code>/<code>!gather</code>/<code>!use</code>/<code>!slaytask</code> actually show
-      you in Discord. For the narrative walkthrough of how the systems fit together, see the
-      <a href="rpg.html">RPG System page</a> instead — this page is pure lookup tables.
+      processing recipe, every monster and its drop table, every food item, every quest. Generated
+      straight from the bot's own data files, not hand-typed, so it can't drift out of sync with
+      what <code>!buy</code>/<code>!gather</code>/<code>!use</code>/<code>!slaytask</code>/
+      <code>!quest</code> actually show you in Discord. For the narrative walkthrough of how the
+      systems fit together, see the <a href="rpg.html">RPG System page</a> instead — this page is
+      pure lookup tables.
     </p>
   </div>
 </header>
@@ -39,13 +40,17 @@
   <input id="wiki-search" class="wiki-search" type="text" placeholder="Search items, resources, monsters…" autocomplete="off">
   <span id="wiki-count" class="wiki-count"></span>
   <nav class="wiki-jump">
-    <a href="#gear">Gear/GE</a>
+    <a href="#gear">Gear/Buy</a>
+    <a href="#special">Special items</a>
     <a href="#gathering">Gathering</a>
     <a href="#recipes">Processing</a>
     <a href="#firemaking">Firemaking</a>
     <a href="#stringing">Fletching (string)</a>
     <a href="#monsters">Monsters</a>
     <a href="#food">Food</a>
+    <a href="#slayershop">Slayer shop</a>
+    <a href="#quests">Quests</a>
+    <a href="#group">Group content</a>
     <a href="#sellvalues">Sell values</a>
     <a href="#constants">Formulas</a>
   </nav>
@@ -54,23 +59,44 @@
 <main>
 
   <section class="rpg-section" id="gear">
-    <h2>Gear catalog (!ge / !gear / !equip)</h2>
+    <h2>Gear catalog (!buy / !gear / !equip)</h2>
     <p class="section-note">
       Every buyable item, split by combat style. <strong>Weapon</strong> and <strong>ring</strong>
       are the only slots that reduce task time (Speed); every other slot carries a Defense rating
       instead, which reduces how much food a Medium/Hard slayer task burns through (see
-      <a href="#constants">Formulas</a>). Buying via <code>!ge</code> is never level-gated —
+      <a href="#constants">Formulas</a>). Buying via <code>!buy</code> is never level-gated —
       only <code>!equip</code> checks the level requirement.
     </p>
     <div id="gear-tables"></div>
+  </section>
+
+  <section class="rpg-section" id="special">
+    <h2>Special/reward items (!equip)</h2>
+    <p class="section-note">
+      Named items that break the normal "one stat per slot" rule — some grant both a Speed and a
+      Defense bonus at once. All untradeable (no <code>!sell</code> value) and reward-only: drops
+      (Cyclops defenders), slayer points shop purchases (Slayer helm), or quest rewards — not
+      buyable via <code>!buy</code>.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="special-table">
+        <thead><tr>
+          <th>Item</th><th>Slot</th><th>Style</th><th>Requirements</th>
+          <th class="num">Speed</th><th class="num">Defense</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
   </section>
 
   <section class="rpg-section" id="gathering">
     <h2>Gathering resources (!gather)</h2>
     <p class="section-note">
       Woodcutting, Mining, Fishing, and Flax (Crafting) — open-ended, runs until you
-      <code>!stopgather</code>. <code>!gather</code> fuzzy-matches past filler words ("ore",
-      "rock", "spot"), so <code>!gather copper</code> and <code>!gather copper ore</code> both work.
+      <code>!stop</code>. <code>!gather</code> matching is forgiving — extra filler words
+      ("copper ore"), missing qualifier words, missing apostrophes, and roman-vs-arabic numerals
+      all resolve to the right resource.
     </p>
     <div class="table-scroll">
       <table class="data-table" id="gathering-table">
@@ -104,10 +130,10 @@
   </section>
 
   <section class="rpg-section" id="firemaking">
-    <h2>Firemaking (!burn)</h2>
+    <h2>Firemaking (via !use)</h2>
     <p class="section-note">
-      Its own command since Firemaking and Fletching both want to consume the same log items —
-      burning always grants Firemaking xp only, no item produced.
+      <code>!use &lt;logs&gt;</code> — logs that can also be Fletched (see Processing above) will
+      ask which you want first. Burning always grants Firemaking xp only, no item produced.
     </p>
     <div class="table-scroll">
       <table class="data-table" id="firemaking-table">
@@ -119,9 +145,9 @@
   </section>
 
   <section class="rpg-section" id="stringing">
-    <h2>Bow stringing (!string)</h2>
+    <h2>Bow stringing (via !use)</h2>
     <p class="section-note">
-      Finishes an unstrung bow (from Fletching's log recipes) using 1 Bow string per bow (Bow
+      <code>!use &lt;unstrung bow&gt;</code> — finishes it using 1 Bow string per bow (Bow
       string comes from <code>!use Flax</code>). Roughly doubles the bow's sell value over
       leaving it unstrung.
     </p>
@@ -154,9 +180,9 @@
   </section>
 
   <section class="rpg-section" id="food">
-    <h2>Food (!ge / cooking)</h2>
+    <h2>Food (!buy / cooking)</h2>
     <p class="section-note">
-      Cook your own via <code>!use &lt;raw fish&gt;</code>, or buy straight from <code>!ge</code>
+      Cook your own via <code>!use &lt;raw fish&gt;</code>, or buy straight from <code>!buy</code>
       at 2x sell value — gp from any skill can fund slayer food, not just Fishing+Cooking.
     </p>
     <div class="table-scroll">
@@ -170,11 +196,75 @@
     </div>
   </section>
 
+  <section class="rpg-section" id="slayershop">
+    <h2>Slayer points shop (!buy / !slayershop)</h2>
+    <p class="section-note">
+      Bought with slayer points (a separate currency from gp, earned only on full task
+      completions) — <code>!buy</code> auto-detects a points-priced item same as it does gp
+      gear/food. <code>!slayershop</code> just browses the list.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="slayershop-table">
+        <thead><tr><th>Item</th><th class="num">Points</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="quests">
+    <h2>Quests (!quest / !quests)</h2>
+    <p class="section-note">
+      One-time completions, fixed duration by tier, no partial credit for stopping early (same
+      shape as group content below). Every quest awards Quest Points based on its tier on top of
+      its own reward — QP has its own separate milestone reward track, shown below the quest
+      table. Names/requirements/reward flavor are pulled from real OSRS.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="quests-table">
+        <thead><tr>
+          <th>Tier</th><th>Quest</th><th class="num">QP</th><th>Requirements</th>
+          <th>XP rewards</th><th>Item reward</th><th>Monster unlock</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Quest point rewards</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="qprewards-table">
+        <thead><tr><th class="num">QP threshold</th><th>Item</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
+  <section class="rpg-section" id="group">
+    <h2>Group content (!barbassault)</h2>
+    <p class="section-note">
+      Not a shared/synchronized instance — "grouping" is purely the start gate. A recruitment
+      post stays open indefinitely (no deadline) until enough players react, then everyone starts
+      their own independent leg of the encounter at the same moment. Guaranteed fixed reward on
+      completion, no partial credit for stopping early.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="group-table">
+        <thead><tr>
+          <th>Encounter</th><th class="num">Party size</th><th class="num">Duration</th>
+          <th>XP reward</th><th class="num">GP reward</th><th>Item reward</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </section>
+
   <section class="rpg-section" id="sellvalues">
-    <h2>Full sell-value index (!gesell)</h2>
+    <h2>Full sell-value index (!sell)</h2>
     <p class="section-note">
       Every raw/dropped/gathered/processed item's flat sell value. Gear (weapons/armor) isn't
-      listed here — those sell for half their <code>!ge</code> buy price instead; see the
+      listed here — those sell for half their <code>!buy</code> price instead; see the
       <a href="#gear">Gear catalog</a> above.
     </p>
     <div class="table-scroll">
@@ -215,8 +305,20 @@ fetch("wiki_data.json")
       `<p style="color:#e08787">Couldn't load wiki_data.json — ${esc(err.message)}</p>`;
   });
 
+const fmtReqs = reqs => Object.keys(reqs || {}).length
+  ? Object.entries(reqs).map(([skill, lvl]) => `${esc(skill)} ${lvl}`).join(", ")
+  : "—";
+const fmtXpRewards = xp => Object.entries(xp || {}).map(([skill, amt]) => `${esc(skill)} +${amt.toLocaleString()}`).join(", ");
+
 function render(data) {
   renderGear(data.gear);
+
+  renderRows("special-table", data.special_items, r => `
+    <tr><td>${esc(r.name)}</td><td>${esc(r.slot)}</td><td>${badge(r.style === "any" ? "any" : r.style, r.style)}</td>
+    <td>${fmtReqs(r.requirements)}</td>
+    <td class="num">${r.speed_pct ? "-" + r.speed_pct + "%" : "—"}</td>
+    <td class="num">${r.defense ? "+" + r.defense : "—"}</td></tr>`);
+
   renderRows("gathering-table", data.gathering, r => `
     <tr><td>${esc(r.skill)}</td><td>${esc(r.resource)}</td><td class="num">${r.level_req}</td>
     <td class="num">${r.xp_per_unit}</td><td class="num">${r.tick_seconds}</td>
@@ -246,6 +348,26 @@ function render(data) {
     <tr><td>${esc(r.item)}</td><td class="num">${r.heal_value}</td>
     <td class="num">${fmtGp(r.shop_price)}</td>
     <td class="num">${r.sell_value != null ? fmtGp(r.sell_value) : "—"}</td></tr>`);
+
+  renderRows("slayershop-table", data.slayer_shop, r => `
+    <tr><td>${esc(r.item)}</td><td class="num">${r.points.toLocaleString()}</td></tr>`);
+
+  renderRows("quests-table", data.quests, r => `
+    <tr><td>${badge(r.tier, r.tier)}</td><td>${esc(r.name)}</td><td class="num">${r.points}</td>
+    <td>${[fmtReqs(r.requirements), r.quest_requirements.length ? "After: " + esc(r.quest_requirements.join(", ")) : ""].filter(Boolean).join("<br>")}</td>
+    <td>${fmtXpRewards(r.xp_rewards)}</td>
+    <td>${r.item_reward ? esc(r.item_reward) : "—"}</td>
+    <td>${r.unlocks_monster ? esc(r.unlocks_monster) : "—"}</td></tr>`);
+
+  renderRows("qprewards-table", data.qp_rewards, r => `
+    <tr><td class="num">${r.threshold}</td><td>${esc(r.item)}</td></tr>`);
+
+  renderRows("group-table", data.group_content, r => `
+    <tr><td>${esc(r.name)}</td><td class="num">${r.party_size}</td>
+    <td class="num">${r.duration_minutes} min</td>
+    <td>${fmtXpRewards(r.xp_reward)}</td>
+    <td class="num">${fmtGp(r.gp_reward)}</td>
+    <td>${esc(r.item_reward)}</td></tr>`);
 
   renderRows("sellvalues-table", data.loot_values, r => `
     <tr><td>${esc(r.item)}</td><td class="num">${fmtGp(r.sell_value)}</td></tr>`);
