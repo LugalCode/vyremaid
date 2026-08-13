@@ -1348,6 +1348,24 @@
       "defense": 2,
       "requirements": {},
       "untradeable": true
+    },
+    {
+      "name": "Adventurer's hood",
+      "slot": "head",
+      "style": "any",
+      "speed_pct": 1,
+      "defense": 1,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Quest point cape",
+      "slot": "cape",
+      "style": "any",
+      "speed_pct": 3,
+      "defense": 2,
+      "requirements": {},
+      "untradeable": true
     }
   ],
   "gathering": [
@@ -3127,6 +3145,7 @@
     {
       "name": "Cook's Assistant",
       "tier": "novice",
+      "points": 1,
       "requirements": {},
       "quest_requirements": [],
       "xp_rewards": {
@@ -3138,6 +3157,7 @@
     {
       "name": "Imp Catcher",
       "tier": "novice",
+      "points": 1,
       "requirements": {},
       "quest_requirements": [],
       "xp_rewards": {
@@ -3149,6 +3169,7 @@
     {
       "name": "Fishing Contest",
       "tier": "novice",
+      "points": 1,
       "requirements": {
         "Fishing": 10
       },
@@ -3162,6 +3183,7 @@
     {
       "name": "The Giant Dwarf",
       "tier": "intermediate",
+      "points": 2,
       "requirements": {
         "Firemaking": 12,
         "Crafting": 14
@@ -3177,6 +3199,7 @@
     {
       "name": "Priest in Peril",
       "tier": "intermediate",
+      "points": 2,
       "requirements": {},
       "quest_requirements": [],
       "xp_rewards": {
@@ -3188,6 +3211,7 @@
     {
       "name": "Between a Rock and a Hard Place",
       "tier": "experienced",
+      "points": 3,
       "requirements": {
         "Mining": 40,
         "Smithing": 50
@@ -3203,6 +3227,7 @@
     {
       "name": "Dragon Slayer I",
       "tier": "experienced",
+      "points": 3,
       "requirements": {
         "Defence": 30
       },
@@ -3218,6 +3243,7 @@
     {
       "name": "Legends' Quest",
       "tier": "master",
+      "points": 5,
       "requirements": {
         "Mining": 50,
         "Crafting": 50,
@@ -3235,6 +3261,20 @@
       },
       "item_reward": "Legends' cape",
       "unlocks_monster": null
+    }
+  ],
+  "qp_rewards": [
+    {
+      "threshold": 5,
+      "item": "Quest map"
+    },
+    {
+      "threshold": 10,
+      "item": "Adventurer's hood"
+    },
+    {
+      "threshold": 18,
+      "item": "Quest point cape"
     }
   ],
   "group_content": [
