@@ -1321,6 +1321,33 @@
       "defense": 0,
       "requirements": {},
       "untradeable": true
+    },
+    {
+      "name": "Prospector ring",
+      "slot": "ring",
+      "style": "any",
+      "speed_pct": 3,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Anti-dragon shield",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 0,
+      "defense": 4,
+      "requirements": {},
+      "untradeable": true
+    },
+    {
+      "name": "Legends' cape",
+      "slot": "cape",
+      "style": "any",
+      "speed_pct": 2,
+      "defense": 2,
+      "requirements": {},
+      "untradeable": true
     }
   ],
   "gathering": [
@@ -3094,6 +3121,120 @@
     {
       "item": "Task Extension",
       "points": 30
+    }
+  ],
+  "quests": [
+    {
+      "name": "Cook's Assistant",
+      "tier": "novice",
+      "requirements": {},
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Cooking": 500
+      },
+      "item_reward": null,
+      "unlocks_monster": null
+    },
+    {
+      "name": "Imp Catcher",
+      "tier": "novice",
+      "requirements": {},
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Magic": 400
+      },
+      "item_reward": "Imp-in-a-box",
+      "unlocks_monster": null
+    },
+    {
+      "name": "Fishing Contest",
+      "tier": "novice",
+      "requirements": {
+        "Fishing": 10
+      },
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Fishing": 1500
+      },
+      "item_reward": null,
+      "unlocks_monster": null
+    },
+    {
+      "name": "The Giant Dwarf",
+      "tier": "intermediate",
+      "requirements": {
+        "Firemaking": 12,
+        "Crafting": 14
+      },
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Firemaking": 5000,
+        "Crafting": 3000
+      },
+      "item_reward": null,
+      "unlocks_monster": "Basilisk"
+    },
+    {
+      "name": "Priest in Peril",
+      "tier": "intermediate",
+      "requirements": {},
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Prayer": 6000
+      },
+      "item_reward": null,
+      "unlocks_monster": "Abyssal demon"
+    },
+    {
+      "name": "Between a Rock and a Hard Place",
+      "tier": "experienced",
+      "requirements": {
+        "Mining": 40,
+        "Smithing": 50
+      },
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Mining": 12000,
+        "Smithing": 12000
+      },
+      "item_reward": "Prospector ring",
+      "unlocks_monster": null
+    },
+    {
+      "name": "Dragon Slayer I",
+      "tier": "experienced",
+      "requirements": {
+        "Defence": 30
+      },
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Defence": 15000,
+        "Attack": 10000,
+        "Strength": 10000
+      },
+      "item_reward": "Anti-dragon shield",
+      "unlocks_monster": null
+    },
+    {
+      "name": "Legends' Quest",
+      "tier": "master",
+      "requirements": {
+        "Mining": 50,
+        "Crafting": 50,
+        "Prayer": 42,
+        "Strength": 45
+      },
+      "quest_requirements": [
+        "Dragon Slayer I"
+      ],
+      "xp_rewards": {
+        "Mining": 40000,
+        "Crafting": 40000,
+        "Prayer": 30000,
+        "Strength": 20000
+      },
+      "item_reward": "Legends' cape",
+      "unlocks_monster": null
     }
   ],
   "group_content": [
