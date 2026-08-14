@@ -1246,7 +1246,8 @@
         "Strength": 50,
         "Defence": 50
       },
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Slayer helm",
@@ -1257,7 +1258,28 @@
       "requirements": {
         "Slayer": 50
       },
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Salve amulet",
+      "slot": "amulet",
+      "style": "any",
+      "speed_pct": 20,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": "undead"
+    },
+    {
+      "name": "Granite gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 3,
+      "defense": 3,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Bronze defender",
@@ -1266,7 +1288,8 @@
       "speed_pct": 1,
       "defense": 0,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Iron defender",
@@ -1275,7 +1298,8 @@
       "speed_pct": 1,
       "defense": 0,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Steel defender",
@@ -1284,7 +1308,8 @@
       "speed_pct": 1,
       "defense": 0,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Mithril defender",
@@ -1293,7 +1318,8 @@
       "speed_pct": 2,
       "defense": 0,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Adamant defender",
@@ -1302,7 +1328,8 @@
       "speed_pct": 2,
       "defense": 0,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Rune defender",
@@ -1311,7 +1338,8 @@
       "speed_pct": 3,
       "defense": 0,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Dragon defender",
@@ -1320,7 +1348,8 @@
       "speed_pct": 5,
       "defense": 0,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Anti-dragon shield",
@@ -1329,7 +1358,8 @@
       "speed_pct": 0,
       "defense": 4,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Legends' cape",
@@ -1338,7 +1368,8 @@
       "speed_pct": 2,
       "defense": 2,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Adventurer's hood",
@@ -1347,7 +1378,8 @@
       "speed_pct": 1,
       "defense": 1,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     },
     {
       "name": "Quest point cape",
@@ -1356,7 +1388,8 @@
       "speed_pct": 3,
       "defense": 2,
       "requirements": {},
-      "untradeable": true
+      "untradeable": true,
+      "archetype": null
     }
   ],
   "toolbelt": [
@@ -2391,6 +2424,24 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Iron ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Oak logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw trout",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2445,6 +2496,30 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Iron ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Oak logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw trout",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Salve amulet",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -2493,6 +2568,24 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Coal",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Willow logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw salmon",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2547,6 +2640,24 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Coal",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Willow logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw salmon",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2601,6 +2712,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Maple logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw lobster",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2649,6 +2772,156 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Mithril ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Maple logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw lobster",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Infernal mage",
+      "combat_level": 45,
+      "hp": 40,
+      "slayer_req": 45,
+      "tick_seconds": 40,
+      "gp_min": 150,
+      "gp_max": 250,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Big bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Mithril ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Maple logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw lobster",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Ancient coin hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.005
+        },
+        {
+          "item": "Nature rune",
+          "qty_min": 2,
+          "qty_max": 4,
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Jelly",
+      "combat_level": 50,
+      "hp": 55,
+      "slayer_req": 52,
+      "tick_seconds": 44,
+      "gp_min": 175,
+      "gp_max": 300,
+      "difficulty": "medium",
+      "drops": [
+        {
+          "item": "Adamantite ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Yew logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw swordfish",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.5
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Ancient coin hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.005
         }
       ]
     },
@@ -2703,6 +2976,24 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Adamantite ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Yew logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw swordfish",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2811,6 +3102,24 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Adamantite ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Yew logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw swordfish",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2865,6 +3174,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Yew logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw swordfish",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2919,6 +3240,150 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Magic logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw shark",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Gargoyle",
+      "combat_level": 85,
+      "hp": 95,
+      "slayer_req": 75,
+      "tick_seconds": 58,
+      "gp_min": 350,
+      "gp_max": 550,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Runite ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Magic logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw shark",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.005
+        },
+        {
+          "item": "Granite gloves",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        }
+      ]
+    },
+    {
+      "name": "Dagannoth",
+      "combat_level": 90,
+      "hp": 95,
+      "slayer_req": 75,
+      "tick_seconds": 58,
+      "gp_min": 380,
+      "gp_max": 600,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Greater bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Magic logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw shark",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.005
         }
       ]
     },
@@ -2973,6 +3438,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Magic logs",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Raw shark",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     }
@@ -3293,6 +3770,14 @@
     {
       "item": "Task Extension",
       "points": 30
+    },
+    {
+      "item": "Ear muffs",
+      "points": 15
+    },
+    {
+      "item": "Rock hammer",
+      "points": 25
     }
   ],
   "quests": [

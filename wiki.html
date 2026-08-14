@@ -370,7 +370,7 @@ function render(data) {
   renderRows("special-table", data.special_items, r => `
     <tr><td>${esc(r.name)}</td><td>${esc(r.slot)}</td><td>${badge(r.style === "any" ? "any" : r.style, r.style)}</td>
     <td>${fmtReqs(r.requirements)}</td>
-    <td class="num">${r.speed_pct ? "-" + r.speed_pct + "%" : "—"}</td>
+    <td class="num">${r.speed_pct ? "-" + r.speed_pct + "%" + (r.archetype ? ` (vs ${esc(r.archetype)} only)` : "") : "—"}</td>
     <td class="num">${r.defense ? "+" + r.defense : "—"}</td></tr>`);
 
   renderRows("gathering-table", data.gathering, r => `
