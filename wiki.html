@@ -423,7 +423,7 @@ function render(data) {
     <td>${[fmtReqs(r.requirements), r.quest_requirements.length ? "After: " + esc(r.quest_requirements.join(", ")) : ""].filter(Boolean).join("<br>")}</td>
     <td>${fmtXpRewards(r.xp_rewards)}</td>
     <td>${r.item_reward ? esc(r.item_reward) : "—"}</td>
-    <td>${r.unlocks_monster ? esc(r.unlocks_monster) : "—"}</td></tr>`);
+    <td>${[r.unlocks_monster, r.unlocks_resource].filter(Boolean).map(esc).join(", ") || "—"}</td></tr>`);
 
   renderRows("qprewards-table", data.qp_rewards, r => `
     <tr><td class="num">${r.threshold}</td><td>${esc(r.item)}</td></tr>`);

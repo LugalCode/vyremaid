@@ -172,78 +172,6 @@
       "defense_rating": 6
     },
     {
-      "name": "Apprentice boots",
-      "slot": "feet",
-      "style": "mage",
-      "price": 0,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Splitbark boots",
-      "slot": "feet",
-      "style": "mage",
-      "price": 96,
-      "level_req": 35,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Infinity boots",
-      "slot": "feet",
-      "style": "mage",
-      "price": 216,
-      "level_req": 50,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Ancestral boots",
-      "slot": "feet",
-      "style": "mage",
-      "price": 384,
-      "level_req": 75,
-      "speed_pct": null,
-      "defense_rating": 3
-    },
-    {
-      "name": "Apprentice gloves",
-      "slot": "hands",
-      "style": "mage",
-      "price": 0,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Splitbark gloves",
-      "slot": "hands",
-      "style": "mage",
-      "price": 96,
-      "level_req": 35,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Infinity gloves",
-      "slot": "hands",
-      "style": "mage",
-      "price": 216,
-      "level_req": 50,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Ancestral gloves",
-      "slot": "hands",
-      "style": "mage",
-      "price": 384,
-      "level_req": 75,
-      "speed_pct": null,
-      "defense_rating": 3
-    },
-    {
       "name": "Apprentice hat",
       "slot": "head",
       "style": "mage",
@@ -449,132 +377,6 @@
       "level_req": 60,
       "speed_pct": null,
       "defense_rating": 6
-    },
-    {
-      "name": "Bronze boots",
-      "slot": "feet",
-      "style": "melee",
-      "price": 0,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 0
-    },
-    {
-      "name": "Iron boots",
-      "slot": "feet",
-      "style": "melee",
-      "price": 96,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Steel boots",
-      "slot": "feet",
-      "style": "melee",
-      "price": 216,
-      "level_req": 5,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Mithril boots",
-      "slot": "feet",
-      "style": "melee",
-      "price": 384,
-      "level_req": 20,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Adamant boots",
-      "slot": "feet",
-      "style": "melee",
-      "price": 600,
-      "level_req": 30,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Rune boots",
-      "slot": "feet",
-      "style": "melee",
-      "price": 864,
-      "level_req": 40,
-      "speed_pct": null,
-      "defense_rating": 3
-    },
-    {
-      "name": "Dragon boots",
-      "slot": "feet",
-      "style": "melee",
-      "price": 1176,
-      "level_req": 60,
-      "speed_pct": null,
-      "defense_rating": 3
-    },
-    {
-      "name": "Bronze gloves",
-      "slot": "hands",
-      "style": "melee",
-      "price": 0,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 0
-    },
-    {
-      "name": "Iron gloves",
-      "slot": "hands",
-      "style": "melee",
-      "price": 96,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Steel gloves",
-      "slot": "hands",
-      "style": "melee",
-      "price": 216,
-      "level_req": 5,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Mithril gloves",
-      "slot": "hands",
-      "style": "melee",
-      "price": 384,
-      "level_req": 20,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Adamant gloves",
-      "slot": "hands",
-      "style": "melee",
-      "price": 600,
-      "level_req": 30,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Rune gloves",
-      "slot": "hands",
-      "style": "melee",
-      "price": 864,
-      "level_req": 40,
-      "speed_pct": null,
-      "defense_rating": 3
-    },
-    {
-      "name": "Dragon gloves",
-      "slot": "hands",
-      "style": "melee",
-      "price": 1176,
-      "level_req": 60,
-      "speed_pct": null,
-      "defense_rating": 3
     },
     {
       "name": "Bronze full helm",
@@ -910,114 +712,6 @@
       "defense_rating": 6
     },
     {
-      "name": "Leather boots",
-      "slot": "feet",
-      "style": "range",
-      "price": 0,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 0
-    },
-    {
-      "name": "Studded leather boots",
-      "slot": "feet",
-      "style": "range",
-      "price": 96,
-      "level_req": 20,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Green d'hide boots",
-      "slot": "feet",
-      "style": "range",
-      "price": 216,
-      "level_req": 40,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Blue d'hide boots",
-      "slot": "feet",
-      "style": "range",
-      "price": 384,
-      "level_req": 50,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Red d'hide boots",
-      "slot": "feet",
-      "style": "range",
-      "price": 600,
-      "level_req": 60,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Black d'hide boots",
-      "slot": "feet",
-      "style": "range",
-      "price": 864,
-      "level_req": 70,
-      "speed_pct": null,
-      "defense_rating": 3
-    },
-    {
-      "name": "Leather vambraces",
-      "slot": "hands",
-      "style": "range",
-      "price": 0,
-      "level_req": 1,
-      "speed_pct": null,
-      "defense_rating": 0
-    },
-    {
-      "name": "Studded leather vambraces",
-      "slot": "hands",
-      "style": "range",
-      "price": 96,
-      "level_req": 20,
-      "speed_pct": null,
-      "defense_rating": 1
-    },
-    {
-      "name": "Green d'hide vambraces",
-      "slot": "hands",
-      "style": "range",
-      "price": 216,
-      "level_req": 40,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Blue d'hide vambraces",
-      "slot": "hands",
-      "style": "range",
-      "price": 384,
-      "level_req": 50,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Red d'hide vambraces",
-      "slot": "hands",
-      "style": "range",
-      "price": 600,
-      "level_req": 60,
-      "speed_pct": null,
-      "defense_rating": 2
-    },
-    {
-      "name": "Black d'hide vambraces",
-      "slot": "hands",
-      "style": "range",
-      "price": 864,
-      "level_req": 70,
-      "speed_pct": null,
-      "defense_rating": 3
-    },
-    {
       "name": "Leather coif",
       "slot": "head",
       "style": "range",
@@ -1277,6 +971,16 @@
       "style": "melee",
       "speed_pct": 3,
       "defense": 3,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Vampire stake",
+      "slot": "shield",
+      "style": "melee",
+      "speed_pct": 2,
+      "defense": 0,
       "requirements": {},
       "untradeable": true,
       "archetype": null
@@ -1635,6 +1339,16 @@
       "produces": "Copper ore",
       "xp_per_hour": 62640,
       "sell_value": 2
+    },
+    {
+      "resource": "Pure essence",
+      "skill": "Mining",
+      "level_req": 1,
+      "xp_per_unit": 2,
+      "tick_seconds": 3,
+      "produces": "Pure essence",
+      "xp_per_hour": 2400,
+      "sell_value": 1
     },
     {
       "resource": "Iron",
@@ -2442,6 +2156,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Iron boots",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2586,6 +2306,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Steel boots",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2723,6 +2449,12 @@
           "item": "Raw lobster",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Mithril boots",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -2994,6 +2726,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Adamant boots",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -3186,6 +2924,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Rune boots",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
         }
       ]
     },
@@ -3314,10 +3058,10 @@
           "chance": 0.005
         },
         {
-          "item": "Granite gloves",
+          "item": "Rune boots",
           "qty_min": 1,
           "qty_max": 1,
-          "chance": 0.01
+          "chance": 0.08
         }
       ]
     },
@@ -3450,6 +3194,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Dragon boots",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
         }
       ]
     }
@@ -3618,6 +3368,10 @@
     {
       "item": "Oak shortbow (u)",
       "sell_value": 25
+    },
+    {
+      "item": "Pure essence",
+      "sell_value": 1
     },
     {
       "item": "Raw chicken",
@@ -3791,7 +3545,8 @@
         "Cooking": 500
       },
       "item_reward": "Lumbridge range access",
-      "unlocks_monster": null
+      "unlocks_monster": null,
+      "unlocks_resource": null
     },
     {
       "name": "Imp Catcher",
@@ -3803,7 +3558,8 @@
         "Magic": 400
       },
       "item_reward": "Imp-in-a-box",
-      "unlocks_monster": null
+      "unlocks_monster": null,
+      "unlocks_resource": null
     },
     {
       "name": "Fishing Contest",
@@ -3817,7 +3573,8 @@
         "Fishing": 1500
       },
       "item_reward": null,
-      "unlocks_monster": null
+      "unlocks_monster": null,
+      "unlocks_resource": null
     },
     {
       "name": "The Giant Dwarf",
@@ -3833,7 +3590,8 @@
         "Crafting": 3000
       },
       "item_reward": null,
-      "unlocks_monster": "Basilisk"
+      "unlocks_monster": "Basilisk",
+      "unlocks_resource": null
     },
     {
       "name": "Priest in Peril",
@@ -3845,7 +3603,8 @@
         "Prayer": 6000
       },
       "item_reward": null,
-      "unlocks_monster": "Abyssal demon"
+      "unlocks_monster": "Abyssal demon",
+      "unlocks_resource": null
     },
     {
       "name": "Between a Rock and a Hard Place",
@@ -3861,7 +3620,8 @@
         "Smithing": 12000
       },
       "item_reward": "Prospector ring",
-      "unlocks_monster": null
+      "unlocks_monster": null,
+      "unlocks_resource": null
     },
     {
       "name": "Dragon Slayer I",
@@ -3877,7 +3637,8 @@
         "Strength": 10000
       },
       "item_reward": "Anti-dragon shield",
-      "unlocks_monster": null
+      "unlocks_monster": null,
+      "unlocks_resource": null
     },
     {
       "name": "Legends' Quest",
@@ -3899,7 +3660,40 @@
         "Strength": 20000
       },
       "item_reward": "Legends' cape",
-      "unlocks_monster": null
+      "unlocks_monster": null,
+      "unlocks_resource": null
+    },
+    {
+      "name": "Rune Mysteries",
+      "tier": "novice",
+      "points": 1,
+      "requirements": {},
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Magic": 400
+      },
+      "item_reward": null,
+      "unlocks_monster": null,
+      "unlocks_resource": "Pure essence"
+    },
+    {
+      "name": "Vampire Slayer",
+      "tier": "novice",
+      "points": 1,
+      "requirements": {
+        "Attack": 20,
+        "Strength": 20,
+        "Defence": 20
+      },
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Attack": 1000,
+        "Strength": 1000,
+        "Defence": 1000
+      },
+      "item_reward": "Vampire stake",
+      "unlocks_monster": null,
+      "unlocks_resource": null
     }
   ],
   "qp_rewards": [
@@ -3912,7 +3706,11 @@
       "item": "Adventurer's hood"
     },
     {
-      "threshold": 18,
+      "threshold": 14,
+      "item": "Granite gloves"
+    },
+    {
+      "threshold": 20,
       "item": "Quest point cape"
     }
   ],
