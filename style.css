@@ -440,7 +440,63 @@ h2 {
 /* --- RPG page: data tables, tier cards, callouts --- */
 
 .rpg-section {
-  margin-bottom: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.rpg-section summary {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--panel-bg);
+  border: 1px solid var(--panel-border);
+  border-radius: 10px;
+  user-select: none;
+}
+
+.rpg-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.rpg-section summary h2 {
+  margin: 0;
+  font-size: 1.15rem;
+}
+
+.rpg-section summary::after {
+  content: "▸";
+  color: var(--text-dim);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+
+.rpg-section[open] summary::after {
+  transform: rotate(90deg);
+}
+
+.rpg-section summary:hover {
+  border-color: var(--gold);
+}
+
+.rpg-section summary:hover h2 {
+  color: var(--gold-bright);
+}
+
+.rpg-section[open] summary {
+  border-radius: 10px 10px 0 0;
+  border-bottom: none;
+}
+
+.rpg-section > *:not(summary) {
+  padding: 0 0.1rem;
+}
+
+.rpg-section .section-note {
+  margin-top: 1rem;
 }
 
 .rpg-section h3 {

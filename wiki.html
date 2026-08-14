@@ -61,8 +61,8 @@
 
 <main>
 
-  <section class="rpg-section" id="gear">
-    <h2>Gear catalog (!buy / !gear / !equip)</h2>
+  <details class="rpg-section" id="gear">
+    <summary><h2>Gear catalog (!buy / !gear / !equip)</h2></summary>
     <p class="section-note">
       Every buyable item, split by combat style. <strong>Weapon</strong> and <strong>ring</strong>
       are the only slots that reduce task time (Speed); every other slot carries a Defense rating
@@ -71,10 +71,10 @@
       only <code>!equip</code> checks the level requirement.
     </p>
     <div id="gear-tables"></div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="special">
-    <h2>Special/reward items (!equip)</h2>
+  <details class="rpg-section" id="special">
+    <summary><h2>Special/reward items (!equip)</h2></summary>
     <p class="section-note">
       Named items that break the normal "one stat per slot" rule — some grant both a Speed and a
       Defense bonus at once. All untradeable (no <code>!sell</code> value) and reward-only: drops
@@ -91,10 +91,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="gathering">
-    <h2>Gathering resources (!gather)</h2>
+  <details class="rpg-section" id="gathering">
+    <summary><h2>Gathering resources (!gather)</h2></summary>
     <p class="section-note">
       Woodcutting, Mining, Fishing, and Flax (Crafting) — open-ended, runs until you
       <code>!stop</code>. <code>!gather</code> matching is forgiving — extra filler words
@@ -111,10 +111,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="toolbelt">
-    <h2>Toolbelt (!buy / !gathershop)</h2>
+  <details class="rpg-section" id="toolbelt">
+    <summary><h2>Toolbelt (!buy / !gathershop)</h2></summary>
     <p class="section-note">
       Pickaxe/hatchet tiers — a separate equip slot from combat gear, always active regardless of
       your combat style, and <strong>not buyable with gp</strong>: earned via <a href="#gathershop">Gathering
@@ -130,10 +130,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="gathershop">
-    <h2>Gathering points shop (!gathershop)</h2>
+  <details class="rpg-section" id="gathershop">
+    <summary><h2>Gathering points shop (!gathershop)</h2></summary>
     <p class="section-note">
       Gathering points are a separate currency from gp and slayer points, earned passively while
       gathering (any skill, any resource — chance is normalized so the rate is a flat
@@ -147,10 +147,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="passiveskilling">
-    <h2>Passive skilling items</h2>
+  <details class="rpg-section" id="passiveskilling">
+    <summary><h2>Passive skilling items</h2></summary>
     <p class="section-note">
       No <code>!equip</code> step — just owning one of these in your inventory grants its bonus.
       Quest rewards, untradeable.
@@ -162,10 +162,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="recipes">
-    <h2>Processing recipes (!use)</h2>
+  <details class="rpg-section" id="recipes">
+    <summary><h2>Processing recipes (!use)</h2></summary>
     <p class="section-note">
       Cooking, Crafting, Prayer, Fletching, and Smithing — all queued through <code>!use</code>,
       flat 2s/unit regardless of tier (unlike gathering, which gets slower at higher tiers).
@@ -181,10 +181,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="firemaking">
-    <h2>Firemaking (via !use)</h2>
+  <details class="rpg-section" id="firemaking">
+    <summary><h2>Firemaking (via !use)</h2></summary>
     <p class="section-note">
       <code>!use &lt;logs&gt;</code> — logs that can also be Fletched (see Processing above) will
       ask which you want first. Burning always grants Firemaking xp only, no item produced.
@@ -196,10 +196,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="stringing">
-    <h2>Bow stringing (via !use)</h2>
+  <details class="rpg-section" id="stringing">
+    <summary><h2>Bow stringing (via !use)</h2></summary>
     <p class="section-note">
       <code>!use &lt;unstrung bow&gt;</code> — finishes it using 1 Bow string per bow (Bow
       string comes from <code>!use Flax</code>). Roughly doubles the bow's sell value over
@@ -212,10 +212,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="monsters">
-    <h2>Monsters &amp; drop tables (!slaytask)</h2>
+  <details class="rpg-section" id="monsters">
+    <summary><h2>Monsters &amp; drop tables (!slaytask)</h2></summary>
     <p class="section-note">
       Easy tasks never need food. Medium/Hard burn cooked food per kill (reduced by your Defense
       rating, never eliminated) — see <a href="#constants">Formulas</a> for the exact rates.
@@ -231,10 +231,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="food">
-    <h2>Food (!buy / cooking)</h2>
+  <details class="rpg-section" id="food">
+    <summary><h2>Food (!buy / cooking)</h2></summary>
     <p class="section-note">
       Cook your own via <code>!use &lt;raw fish&gt;</code>, or buy straight from <code>!buy</code>
       at 2x sell value — gp from any skill can fund slayer food, not just Fishing+Cooking.
@@ -248,10 +248,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="slayershop">
-    <h2>Slayer points shop (!buy / !slayershop)</h2>
+  <details class="rpg-section" id="slayershop">
+    <summary><h2>Slayer points shop (!buy / !slayershop)</h2></summary>
     <p class="section-note">
       Bought with slayer points (a separate currency from gp, earned only on full task
       completions) — <code>!buy</code> auto-detects a points-priced item same as it does gp
@@ -264,10 +264,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="quests">
-    <h2>Quests (!quest / !quests)</h2>
+  <details class="rpg-section" id="quests">
+    <summary><h2>Quests (!quest / !quests)</h2></summary>
     <p class="section-note">
       One-time completions, fixed duration by tier, no partial credit for stopping early (same
       shape as group content below). Every quest awards Quest Points based on its tier on top of
@@ -292,10 +292,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="group">
-    <h2>Group content (!barbassault)</h2>
+  <details class="rpg-section" id="group">
+    <summary><h2>Group content (!barbassault)</h2></summary>
     <p class="section-note">
       Not a shared/synchronized instance — "grouping" is purely the start gate. A recruitment
       post stays open indefinitely (no deadline) until enough players react, then everyone starts
@@ -312,10 +312,10 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="sellvalues">
-    <h2>Full sell-value index (!sell)</h2>
+  <details class="rpg-section" id="sellvalues">
+    <summary><h2>Full sell-value index (!sell)</h2></summary>
     <p class="section-note">
       Every raw/dropped/gathered/processed item's flat sell value. Gear (weapons/armor) isn't
       listed here — those sell for half their <code>!buy</code> price instead; see the
@@ -328,13 +328,13 @@
       </table>
       <p class="no-results">No matches.</p>
     </div>
-  </section>
+  </details>
 
-  <section class="rpg-section" id="constants">
-    <h2>Formulas &amp; tunables</h2>
+  <details class="rpg-section" id="constants">
+    <summary><h2>Formulas &amp; tunables</h2></summary>
     <p class="section-note">The actual numbers behind task speed, difficulty gating, and food demand — for anyone who wants to do the math themselves rather than take it on faith.</p>
     <div id="constants-body"></div>
-  </section>
+  </details>
 
 </main>
 
@@ -507,6 +507,7 @@ function setupSearch() {
   function apply() {
     const q = input.value.trim().toLowerCase();
     let shown = 0, total = 0;
+    const matchesBySection = new Map();
     allTables().forEach(table => {
       const rows = table.querySelectorAll("tbody tr");
       let visibleInTable = 0;
@@ -520,13 +521,33 @@ function setupSearch() {
       const noResults = wrap && wrap.querySelector(".no-results");
       if (noResults) noResults.style.display = (q && visibleInTable === 0) ? "block" : "none";
       if (wrap) wrap.style.display = (q && visibleInTable === 0 && rows.length > 0) ? "none" : "";
-      const h3 = table.closest("div") && table.closest("div").previousElementSibling;
+      const section = table.closest("details.rpg-section");
+      if (section) matchesBySection.set(section, (matchesBySection.get(section) || 0) + visibleInTable);
     });
+    // While actively searching, expand sections with a hit and collapse ones without — cleared
+    // query leaves sections exactly as the user last set them, no surprise auto-collapse.
+    if (q) {
+      document.querySelectorAll("details.rpg-section").forEach(section => {
+        section.open = (matchesBySection.get(section) || 0) > 0;
+      });
+    }
     countEl.textContent = q ? `${shown} / ${total} rows match` : "";
   }
 
   input.addEventListener("input", apply);
 }
+
+function openHashTarget() {
+  const id = decodeURIComponent(location.hash.slice(1));
+  if (!id) return;
+  const el = document.getElementById(id);
+  if (el && el.tagName === "DETAILS") {
+    el.open = true;
+    requestAnimationFrame(() => el.scrollIntoView({ behavior: "smooth", block: "start" }));
+  }
+}
+window.addEventListener("hashchange", openHashTarget);
+window.addEventListener("DOMContentLoaded", openHashTarget);
 </script>
 
 </body>
