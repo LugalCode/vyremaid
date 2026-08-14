@@ -1364,7 +1364,7 @@
       "name": "Bronze hatchet",
       "slot": "hatchet",
       "skill": "Woodcutting",
-      "speed_pct": 3,
+      "speed_pct": 5,
       "level_req": 1,
       "points_price": 2
     },
@@ -1372,7 +1372,7 @@
       "name": "Iron hatchet",
       "slot": "hatchet",
       "skill": "Woodcutting",
-      "speed_pct": 6,
+      "speed_pct": 10,
       "level_req": 15,
       "points_price": 5
     },
@@ -1380,7 +1380,7 @@
       "name": "Steel hatchet",
       "slot": "hatchet",
       "skill": "Woodcutting",
-      "speed_pct": 9,
+      "speed_pct": 15,
       "level_req": 30,
       "points_price": 12
     },
@@ -1388,7 +1388,7 @@
       "name": "Mithril hatchet",
       "slot": "hatchet",
       "skill": "Woodcutting",
-      "speed_pct": 13,
+      "speed_pct": 22,
       "level_req": 45,
       "points_price": 30
     },
@@ -1396,7 +1396,7 @@
       "name": "Adamant hatchet",
       "slot": "hatchet",
       "skill": "Woodcutting",
-      "speed_pct": 16,
+      "speed_pct": 30,
       "level_req": 60,
       "points_price": 65
     },
@@ -1404,7 +1404,7 @@
       "name": "Rune hatchet",
       "slot": "hatchet",
       "skill": "Woodcutting",
-      "speed_pct": 20,
+      "speed_pct": 40,
       "level_req": 75,
       "points_price": 150
     },
@@ -1412,7 +1412,7 @@
       "name": "Bronze pickaxe",
       "slot": "pickaxe",
       "skill": "Mining",
-      "speed_pct": 3,
+      "speed_pct": 5,
       "level_req": 1,
       "points_price": 2
     },
@@ -1420,7 +1420,7 @@
       "name": "Iron pickaxe",
       "slot": "pickaxe",
       "skill": "Mining",
-      "speed_pct": 6,
+      "speed_pct": 10,
       "level_req": 15,
       "points_price": 5
     },
@@ -1428,7 +1428,7 @@
       "name": "Steel pickaxe",
       "slot": "pickaxe",
       "skill": "Mining",
-      "speed_pct": 9,
+      "speed_pct": 15,
       "level_req": 30,
       "points_price": 12
     },
@@ -1436,7 +1436,7 @@
       "name": "Mithril pickaxe",
       "slot": "pickaxe",
       "skill": "Mining",
-      "speed_pct": 13,
+      "speed_pct": 22,
       "level_req": 55,
       "points_price": 30
     },
@@ -1444,7 +1444,7 @@
       "name": "Adamant pickaxe",
       "slot": "pickaxe",
       "skill": "Mining",
-      "speed_pct": 16,
+      "speed_pct": 30,
       "level_req": 70,
       "points_price": 65
     },
@@ -1452,7 +1452,7 @@
       "name": "Rune pickaxe",
       "slot": "pickaxe",
       "skill": "Mining",
-      "speed_pct": 20,
+      "speed_pct": 40,
       "level_req": 85,
       "points_price": 150
     }
@@ -1538,9 +1538,9 @@
       "skill": "Fishing",
       "level_req": 1,
       "xp_per_unit": 50,
-      "tick_seconds": 4,
+      "tick_seconds": 5,
       "produces": "Raw shrimp",
-      "xp_per_hour": 45000,
+      "xp_per_hour": 36000,
       "sell_value": 1
     },
     {
@@ -1548,9 +1548,9 @@
       "skill": "Fishing",
       "level_req": 20,
       "xp_per_unit": 250,
-      "tick_seconds": 6,
+      "tick_seconds": 7,
       "produces": "Raw trout",
-      "xp_per_hour": 150000,
+      "xp_per_hour": 128571,
       "sell_value": 4
     },
     {
@@ -1558,9 +1558,9 @@
       "skill": "Fishing",
       "level_req": 30,
       "xp_per_unit": 350,
-      "tick_seconds": 8,
+      "tick_seconds": 9,
       "produces": "Raw salmon",
-      "xp_per_hour": 157500,
+      "xp_per_hour": 140000,
       "sell_value": 6
     },
     {
@@ -1568,9 +1568,9 @@
       "skill": "Fishing",
       "level_req": 40,
       "xp_per_unit": 450,
-      "tick_seconds": 12,
+      "tick_seconds": 14,
       "produces": "Raw lobster",
-      "xp_per_hour": 135000,
+      "xp_per_hour": 115714,
       "sell_value": 10
     },
     {
@@ -1578,9 +1578,9 @@
       "skill": "Fishing",
       "level_req": 50,
       "xp_per_unit": 500,
-      "tick_seconds": 17,
+      "tick_seconds": 20,
       "produces": "Raw swordfish",
-      "xp_per_hour": 105882,
+      "xp_per_hour": 90000,
       "sell_value": 15
     },
     {
@@ -1588,9 +1588,9 @@
       "skill": "Fishing",
       "level_req": 76,
       "xp_per_unit": 550,
-      "tick_seconds": 25,
+      "tick_seconds": 29,
       "produces": "Raw shark",
-      "xp_per_hour": 79200,
+      "xp_per_hour": 68276,
       "sell_value": 30
     },
     {
@@ -1598,9 +1598,9 @@
       "skill": "Mining",
       "level_req": 1,
       "xp_per_unit": 87,
-      "tick_seconds": 4,
+      "tick_seconds": 5,
       "produces": "Copper ore",
-      "xp_per_hour": 78300,
+      "xp_per_hour": 62640,
       "sell_value": 2
     },
     {
@@ -1608,9 +1608,9 @@
       "skill": "Mining",
       "level_req": 15,
       "xp_per_unit": 175,
-      "tick_seconds": 6,
+      "tick_seconds": 7,
       "produces": "Iron ore",
-      "xp_per_hour": 105000,
+      "xp_per_hour": 90000,
       "sell_value": 5
     },
     {
@@ -1618,9 +1618,9 @@
       "skill": "Mining",
       "level_req": 30,
       "xp_per_unit": 250,
-      "tick_seconds": 10,
+      "tick_seconds": 11,
       "produces": "Coal",
-      "xp_per_hour": 90000,
+      "xp_per_hour": 81818,
       "sell_value": 8
     },
     {
@@ -1628,9 +1628,9 @@
       "skill": "Mining",
       "level_req": 55,
       "xp_per_unit": 400,
-      "tick_seconds": 16,
+      "tick_seconds": 18,
       "produces": "Mithril ore",
-      "xp_per_hour": 90000,
+      "xp_per_hour": 80000,
       "sell_value": 15
     },
     {
@@ -1638,9 +1638,9 @@
       "skill": "Mining",
       "level_req": 70,
       "xp_per_unit": 475,
-      "tick_seconds": 25,
+      "tick_seconds": 29,
       "produces": "Adamantite ore",
-      "xp_per_hour": 68400,
+      "xp_per_hour": 58966,
       "sell_value": 25
     },
     {
@@ -1648,9 +1648,9 @@
       "skill": "Mining",
       "level_req": 85,
       "xp_per_unit": 625,
-      "tick_seconds": 40,
+      "tick_seconds": 46,
       "produces": "Runite ore",
-      "xp_per_hour": 56250,
+      "xp_per_hour": 48913,
       "sell_value": 60
     },
     {
@@ -1658,9 +1658,9 @@
       "skill": "Woodcutting",
       "level_req": 1,
       "xp_per_unit": 125,
-      "tick_seconds": 4,
+      "tick_seconds": 5,
       "produces": "Logs",
-      "xp_per_hour": 112500,
+      "xp_per_hour": 90000,
       "sell_value": 2
     },
     {
@@ -1668,9 +1668,9 @@
       "skill": "Woodcutting",
       "level_req": 15,
       "xp_per_unit": 187,
-      "tick_seconds": 6,
+      "tick_seconds": 7,
       "produces": "Oak logs",
-      "xp_per_hour": 112200,
+      "xp_per_hour": 96171,
       "sell_value": 4
     },
     {
@@ -1678,9 +1678,9 @@
       "skill": "Woodcutting",
       "level_req": 30,
       "xp_per_unit": 337,
-      "tick_seconds": 10,
+      "tick_seconds": 11,
       "produces": "Willow logs",
-      "xp_per_hour": 121320,
+      "xp_per_hour": 110291,
       "sell_value": 7
     },
     {
@@ -1688,9 +1688,9 @@
       "skill": "Woodcutting",
       "level_req": 45,
       "xp_per_unit": 500,
-      "tick_seconds": 15,
+      "tick_seconds": 17,
       "produces": "Maple logs",
-      "xp_per_hour": 120000,
+      "xp_per_hour": 105882,
       "sell_value": 12
     },
     {
@@ -1698,9 +1698,9 @@
       "skill": "Woodcutting",
       "level_req": 60,
       "xp_per_unit": 875,
-      "tick_seconds": 23,
+      "tick_seconds": 26,
       "produces": "Yew logs",
-      "xp_per_hour": 136957,
+      "xp_per_hour": 121154,
       "sell_value": 25
     },
     {
@@ -1708,9 +1708,9 @@
       "skill": "Woodcutting",
       "level_req": 75,
       "xp_per_unit": 1250,
-      "tick_seconds": 35,
+      "tick_seconds": 40,
       "produces": "Magic logs",
-      "xp_per_hour": 128571,
+      "xp_per_hour": 112500,
       "sell_value": 50
     }
   ],
