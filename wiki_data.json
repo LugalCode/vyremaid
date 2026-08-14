@@ -986,6 +986,30 @@
       "archetype": null
     },
     {
+      "name": "Rune boots",
+      "slot": "feet",
+      "style": "melee",
+      "speed_pct": 1,
+      "defense": 2,
+      "requirements": {
+        "Defence": 40
+      },
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Dragon boots",
+      "slot": "feet",
+      "style": "melee",
+      "speed_pct": 2,
+      "defense": 2,
+      "requirements": {
+        "Defence": 60
+      },
+      "untradeable": true,
+      "archetype": null
+    },
+    {
       "name": "Bronze defender",
       "slot": "shield",
       "style": "melee",
@@ -1091,6 +1115,76 @@
       "style": "any",
       "speed_pct": 3,
       "defense": 2,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Bronze gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 1,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Iron gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 1,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Steel gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 1,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Black gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 1,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Mithril gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 2,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Adamant gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 2,
+      "defense": 0,
+      "requirements": {},
+      "untradeable": true,
+      "archetype": null
+    },
+    {
+      "name": "Rune gloves",
+      "slot": "hands",
+      "style": "melee",
+      "speed_pct": 3,
+      "defense": 0,
       "requirements": {},
       "untradeable": true,
       "archetype": null
@@ -3062,6 +3156,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.08
+        },
+        {
+          "item": "Granite gloves",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
         }
       ]
     },
@@ -3712,6 +3812,10 @@
     {
       "threshold": 20,
       "item": "Quest point cape"
+    },
+    {
+      "threshold": 20,
+      "item": "Rune gloves"
     }
   ],
   "group_content": [
