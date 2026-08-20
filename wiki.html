@@ -54,6 +54,10 @@
     <a href="#slayershop">Slayer shop</a>
     <a href="#quests">Quests</a>
     <a href="#group">Group content</a>
+    <a href="#prayer">Prayer</a>
+    <a href="#thieving">Thieving</a>
+    <a href="#butler">Butler</a>
+    <a href="#hunter">Hunter</a>
     <a href="#sellvalues">Sell values</a>
     <a href="#constants">Formulas</a>
   </nav>
@@ -314,6 +318,119 @@
     </div>
   </details>
 
+  <details class="rpg-section" id="prayer">
+    <summary><h2>Prayer</h2></summary>
+    <p class="section-note">
+      No <code>!prayer</code> command — your highest-unlocked tier auto-applies on every
+      Medium/Hard slayer task and cuts how much food it burns through. Each tier has its own
+      points pool (<span id="prayer-rate"></span> per Prayer level, refilled at the start of each
+      task) that drains per kill while it's active — the stronger tiers drain faster than their
+      pool grows, so the best tier can genuinely run dry before a long task finishes if your
+      Prayer level hasn't kept pace.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="prayer-table">
+        <thead><tr>
+          <th class="num">Level req</th><th>Prayer</th>
+          <th class="num">Food demand cut</th><th class="num">Drain/kill</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
+  <details class="rpg-section" id="thieving">
+    <summary><h2>Thieving</h2></summary>
+    <p class="section-note">
+      Trained purely through opportunistic events — no dedicated command. Events spawn roughly
+      every <span id="thieving-cadence"></span> in your RPG channel; react with 🧤 within
+      <span id="thieving-window"></span> to claim a share (everyone in time gets paid, not just
+      first). XP is granted once per claim, scaling with your Thieving level.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="thieving-table">
+        <thead><tr><th>Event</th><th>Reward</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Gem stall tiers</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="thieving-gems-table">
+        <thead><tr><th class="num">Thieving level</th><th>Gem</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Ore cart tiers</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="thieving-ore-table">
+        <thead><tr><th class="num">Thieving level</th><th>Ore</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Lockpick &amp; Rogue outfit</h3>
+    <p class="section-note" id="thieving-lockpick"></p>
+    <div class="table-scroll">
+      <table class="data-table" id="thieving-outfit-table">
+        <thead><tr><th>Rogue outfit piece</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
+  <details class="rpg-section" id="butler">
+    <summary><h2>Butler (!butler / !butlercoffer / !butlerupgrade)</h2></summary>
+    <p class="section-note" id="butler-note"></p>
+    <div class="table-scroll">
+      <table class="data-table" id="butler-table">
+        <thead><tr><th class="num">Step</th><th class="num">Speed</th><th class="num">Cost</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
+  <details class="rpg-section" id="hunter">
+    <summary><h2>Hunter (!huntrumour / !huntershop)</h2></summary>
+    <p class="section-note">
+      Task-assigned like Slayer, rewarded like gathering — every catch yields a guaranteed
+      material and xp, no combat, no loot rolls, no food to manage. Catch count scales with your
+      Hunter level (<span id="hunter-catches"></span> at level 0, +1 to both ends per level).
+      Finishing the whole task also pays a completion bonus on top, escalating by tier.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="hunter-table">
+        <thead><tr>
+          <th>Tier</th><th>Creature</th><th class="num">Level req</th><th class="num">Sec/catch</th>
+          <th class="num">XP/catch</th><th class="num">XP/hr</th><th>Yields</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Per-tier rewards</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="hunter-tiers-table">
+        <thead><tr><th>Tier</th><th class="num">Hunter points</th><th class="num">Completion xp bonus</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Hunter points shop (!buy / !huntershop)</h3>
+    <p class="section-note" id="hunter-shop-note"></p>
+    <div class="table-scroll">
+      <table class="data-table" id="hunter-shop-table">
+        <thead><tr><th>Item</th><th class="num">Points</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
   <details class="rpg-section" id="sellvalues">
     <summary><h2>Full sell-value index (!sell)</h2></summary>
     <p class="section-note">
@@ -351,7 +468,7 @@ function badge(text, cls) {
   return `<span class="badge badge-${cls}">${esc(text)}</span>`;
 }
 
-fetch("wiki_data.json")
+fetch("wiki_data.json?v=" + Date.now())
   .then(r => r.json())
   .then(render)
   .catch(err => {
@@ -438,6 +555,11 @@ function render(data) {
   renderRows("sellvalues-table", data.loot_values, r => `
     <tr><td>${esc(r.item)}</td><td class="num">${fmtGp(r.sell_value)}</td></tr>`);
 
+  renderPrayer(data.prayer);
+  renderThieving(data.thieving);
+  renderButler(data.butler);
+  renderHunter(data.hunter);
+
   renderConstants(data.constants);
   setupSearch();
 }
@@ -497,6 +619,63 @@ function renderConstants(c) {
         ${rows.map(([k, v]) => `<tr><td>${esc(k)}</td><td>${esc(v)}</td></tr>`).join("")}
       </tbody></table>
     </div>`;
+}
+
+function renderPrayer(p) {
+  document.getElementById("prayer-rate").textContent = `${p.points_per_level} points`;
+  renderRows("prayer-table", p.tiers, r => `
+    <tr><td class="num">${r.level_req}</td><td>${esc(r.name)}</td>
+    <td class="num">-${r.food_reduction_pct}%</td><td class="num">${r.drain_per_kill}</td></tr>`);
+}
+
+function renderThieving(t) {
+  document.getElementById("thieving-cadence").textContent = `${t.cadence.min_interval_minutes}-${t.cadence.max_interval_minutes} min`;
+  document.getElementById("thieving-window").textContent = `${t.cadence.claim_window_minutes} min`;
+  renderRows("thieving-table", t.kinds, r => `
+    <tr><td>${esc(r.label)}</td><td>${esc(r.reward)}</td></tr>`);
+  renderRows("thieving-gems-table", t.gem_tiers, r => `
+    <tr><td class="num">${r.level_req}</td><td>${esc(r.item)}</td></tr>`);
+  renderRows("thieving-ore-table", t.ore_tiers, r => `
+    <tr><td class="num">${r.level_req}</td><td>${esc(r.item)}</td></tr>`);
+  document.getElementById("thieving-lockpick").innerHTML =
+    `<code>!lockpick</code> instantly opens a ${esc(t.lockpick.item)} (a rare drop from any monster) — ` +
+    `~${100 - t.lockpick.outfit_chance_pct}% of the time it's ${t.lockpick.gem_qty_min}-${t.lockpick.gem_qty_max}x ` +
+    `${esc(t.lockpick.gem_item)}, ~${t.lockpick.outfit_chance_pct}% of the time a Rogue outfit piece instead ` +
+    `(only rolled from pieces you don't already own). Each piece owned gives +${t.rogue_outfit.per_piece_bonus_pct}% ` +
+    `Thieving xp/loot, plus a further +${t.rogue_outfit.full_set_bonus_pct}% once all 5 are owned.`;
+  renderRows("thieving-outfit-table", t.rogue_outfit.pieces.map(name => ({ name })), r => `<tr><td>${esc(r.name)}</td></tr>`);
+}
+
+function renderButler(b) {
+  document.getElementById("butler-note").textContent =
+    `Gathers a resource in the background alongside your own task — same names as !gather, ` +
+    `zero xp, items only. Starts at a free ${b.base_speed_pct}% of your own gather rate, ` +
+    `upgradable to a 50% cap. Draws from its own pre-funded coffer at ${b.gp_per_minute.toLocaleString()} gp per ` +
+    `minute of actual work — running dry just ends the job there, nothing already banked is lost.`;
+  renderRows("butler-table", b.upgrade_steps, (r, i) => `
+    <tr><td class="num">${i + 1}</td><td class="num">${r.speed_pct}%</td><td class="num">${fmtGp(r.cost)}</td></tr>`);
+}
+
+function renderHunter(h) {
+  document.getElementById("hunter-catches").textContent = `${h.task_catches_base_min}-${h.task_catches_base_max} catches`;
+  renderRows("hunter-table", h.creatures, r => `
+    <tr><td>${badge(r.difficulty, r.difficulty)}</td><td>${esc(r.name)}</td>
+    <td class="num">${r.level_req}</td><td class="num">${r.tick_seconds}</td>
+    <td class="num">${r.xp_per_catch}</td><td class="num">${r.xp_per_hour.toLocaleString()}</td>
+    <td>${esc(r.output)}</td></tr>`);
+  const tiers = ["easy", "medium", "hard"];
+  renderRows("hunter-tiers-table", tiers.map(t => ({
+    tier: t, points: h.tier_points[t], bonus: h.completion_xp_bonus[t],
+  })), r => `
+    <tr><td>${badge(r.tier, r.tier)}</td><td class="num">+${r.points}</td>
+    <td class="num">+${r.bonus.toLocaleString()}</td></tr>`);
+  document.getElementById("hunter-shop-note").innerHTML =
+    `The Guild hunter outfit is 5 pieces buyable individually (unlike the Rogue outfit's random drops) — ` +
+    `each owned piece gives +${h.outfit_per_piece_speed_pct}% catch speed, plus a further ` +
+    `+${h.outfit_full_set_speed_pct}% once all 5 are owned. The task extension multiplies your catch count ` +
+    `${h.extend_multiplier}x, same shape as Slayer's Task Extension.`;
+  renderRows("hunter-shop-table", h.shop, r => `
+    <tr><td>${esc(r.item)}</td><td class="num">${r.points.toLocaleString()}</td></tr>`);
 }
 
 function setupSearch() {

@@ -2046,6 +2046,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2070,6 +2082,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2100,6 +2124,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2130,6 +2166,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2160,6 +2208,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2184,6 +2244,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2255,6 +2327,18 @@
           "item": "Iron boots",
           "qty_min": 1,
           "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
           "chance": 0.1
         }
       ]
@@ -2334,6 +2418,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2406,6 +2502,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2475,6 +2583,18 @@
         },
         {
           "item": "Raw salmon",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
@@ -2550,6 +2670,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2613,6 +2745,18 @@
         },
         {
           "item": "Raw lobster",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
@@ -2688,6 +2832,18 @@
           "qty_min": 2,
           "qty_max": 4,
           "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2748,6 +2904,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2826,6 +2994,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2880,6 +3060,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.002
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -2949,6 +3141,18 @@
         },
         {
           "item": "Raw swordfish",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
@@ -3024,6 +3228,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.08
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -3087,6 +3303,18 @@
         },
         {
           "item": "Raw shark",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
@@ -3162,6 +3390,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.01
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -3228,6 +3468,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.005
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     },
@@ -3300,6 +3552,18 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.08
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
         }
       ]
     }
@@ -3923,5 +4187,471 @@
       "Exquisite",
       "Legendary"
     ]
+  },
+  "prayer": {
+    "points_per_level": 2,
+    "tiers": [
+      {
+        "level_req": 1,
+        "name": "Thick Skin",
+        "food_reduction_pct": 10,
+        "drain_per_kill": 0.15
+      },
+      {
+        "level_req": 20,
+        "name": "Rock Skin",
+        "food_reduction_pct": 18,
+        "drain_per_kill": 0.7
+      },
+      {
+        "level_req": 40,
+        "name": "Steel Skin",
+        "food_reduction_pct": 25,
+        "drain_per_kill": 1.6
+      },
+      {
+        "level_req": 70,
+        "name": "Piety",
+        "food_reduction_pct": 35,
+        "drain_per_kill": 2.8
+      }
+    ]
+  },
+  "thieving": {
+    "cadence": {
+      "min_interval_minutes": 20,
+      "max_interval_minutes": 40,
+      "claim_window_minutes": 15
+    },
+    "xp": {
+      "base": 25000,
+      "per_level": 500
+    },
+    "kinds": [
+      {
+        "kind": "citizen",
+        "label": "Distracted citizen",
+        "reward": "50-150 gp + 5gp/level"
+      },
+      {
+        "kind": "guard",
+        "label": "Careless guard",
+        "reward": "100-250 gp + 8gp/level, 30% chance of food too"
+      },
+      {
+        "kind": "gems",
+        "label": "Gem stall",
+        "reward": "1-3 gems, tier slides up with level (see Gem tiers below)"
+      },
+      {
+        "kind": "ore",
+        "label": "Ore cart",
+        "reward": "3-8 ore, tier slides up with level (see Ore tiers below)"
+      },
+      {
+        "kind": "strongbox",
+        "label": "Open strongbox",
+        "reward": "300-600 gp + 15gp/level, plus a resource bundle"
+      }
+    ],
+    "gem_tiers": [
+      {
+        "level_req": 0,
+        "item": "Uncut sapphire"
+      },
+      {
+        "level_req": 20,
+        "item": "Uncut emerald"
+      },
+      {
+        "level_req": 40,
+        "item": "Uncut ruby"
+      },
+      {
+        "level_req": 60,
+        "item": "Uncut diamond"
+      }
+    ],
+    "ore_tiers": [
+      {
+        "level_req": 1,
+        "item": "Copper ore"
+      },
+      {
+        "level_req": 15,
+        "item": "Iron ore"
+      },
+      {
+        "level_req": 30,
+        "item": "Coal"
+      },
+      {
+        "level_req": 55,
+        "item": "Mithril ore"
+      },
+      {
+        "level_req": 70,
+        "item": "Adamantite ore"
+      },
+      {
+        "level_req": 85,
+        "item": "Runite ore"
+      }
+    ],
+    "lockpick": {
+      "item": "Lockpick",
+      "gem_item": "Uncut diamond",
+      "gem_qty_min": 50,
+      "gem_qty_max": 100,
+      "outfit_chance_pct": 20
+    },
+    "rogue_outfit": {
+      "pieces": [
+        "Rogue mask",
+        "Rogue top",
+        "Rogue trousers",
+        "Rogue gloves",
+        "Rogue boots"
+      ],
+      "per_piece_bonus_pct": 3,
+      "full_set_bonus_pct": 10
+    }
+  },
+  "butler": {
+    "base_speed_pct": 25,
+    "gp_per_minute": 2000,
+    "upgrade_steps": [
+      {
+        "speed_pct": 30,
+        "cost": 8000
+      },
+      {
+        "speed_pct": 35,
+        "cost": 70000
+      },
+      {
+        "speed_pct": 40,
+        "cost": 650000
+      },
+      {
+        "speed_pct": 45,
+        "cost": 6000000
+      },
+      {
+        "speed_pct": 50,
+        "cost": 55000000
+      }
+    ]
+  },
+  "hunter": {
+    "tier_min_level": {
+      "easy": 0,
+      "medium": 20,
+      "hard": 50
+    },
+    "tier_points": {
+      "easy": 1,
+      "medium": 2,
+      "hard": 3
+    },
+    "completion_xp_bonus": {
+      "easy": 500,
+      "medium": 3500,
+      "hard": 14000
+    },
+    "task_catches_base_min": 8,
+    "task_catches_base_max": 15,
+    "creatures": [
+      {
+        "name": "Tropical wagtail",
+        "level_req": 1,
+        "tick_seconds": 6,
+        "xp_per_catch": 100,
+        "xp_per_hour": 60000,
+        "output": "Wagtail feather",
+        "difficulty": "easy"
+      },
+      {
+        "name": "Wild kebbit",
+        "level_req": 6,
+        "tick_seconds": 8,
+        "xp_per_catch": 140,
+        "xp_per_hour": 63000,
+        "output": "Common kebbit fur",
+        "difficulty": "easy"
+      },
+      {
+        "name": "Sapphire glacialis",
+        "level_req": 9,
+        "tick_seconds": 9,
+        "xp_per_catch": 162,
+        "xp_per_hour": 64800,
+        "output": "Glacialis wing",
+        "difficulty": "easy"
+      },
+      {
+        "name": "Swamp lizard",
+        "level_req": 15,
+        "tick_seconds": 11,
+        "xp_per_catch": 210,
+        "xp_per_hour": 68727,
+        "output": "Swamp lizard hide",
+        "difficulty": "easy"
+      },
+      {
+        "name": "Spined larupia",
+        "level_req": 17,
+        "tick_seconds": 12,
+        "xp_per_catch": 233,
+        "xp_per_hour": 69900,
+        "output": "Larupia fur",
+        "difficulty": "easy"
+      },
+      {
+        "name": "Barb-tailed kebbit",
+        "level_req": 20,
+        "tick_seconds": 13,
+        "xp_per_catch": 259,
+        "xp_per_hour": 71723,
+        "output": "Barb-tailed kebbit fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Snowy knight",
+        "level_req": 23,
+        "tick_seconds": 14,
+        "xp_per_catch": 286,
+        "xp_per_hour": 73543,
+        "output": "Snowy knight fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Prickly kebbit",
+        "level_req": 25,
+        "tick_seconds": 15,
+        "xp_per_catch": 312,
+        "xp_per_hour": 74880,
+        "output": "Prickly kebbit fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Embertailed jerboa",
+        "level_req": 28,
+        "tick_seconds": 16,
+        "xp_per_catch": 341,
+        "xp_per_hour": 76725,
+        "output": "Jerboa tail",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Horned graahk",
+        "level_req": 31,
+        "tick_seconds": 17,
+        "xp_per_catch": 371,
+        "xp_per_hour": 78565,
+        "output": "Graahk fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Spotted kebbit",
+        "level_req": 34,
+        "tick_seconds": 18,
+        "xp_per_catch": 402,
+        "xp_per_hour": 80400,
+        "output": "Spotted kebbit fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Black warlock",
+        "level_req": 36,
+        "tick_seconds": 19,
+        "xp_per_catch": 431,
+        "xp_per_hour": 81663,
+        "output": "Warlock fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Orange salamander",
+        "level_req": 39,
+        "tick_seconds": 20,
+        "xp_per_catch": 464,
+        "xp_per_hour": 83520,
+        "output": "Orange salamander hide",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Razor-backed kebbit",
+        "level_req": 42,
+        "tick_seconds": 21,
+        "xp_per_catch": 498,
+        "xp_per_hour": 85371,
+        "output": "Razor-backed kebbit fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sabre-toothed kebbit",
+        "level_req": 45,
+        "tick_seconds": 22,
+        "xp_per_catch": 533,
+        "xp_per_hour": 87218,
+        "output": "Sabre-toothed kebbit fur",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Grey chinchompa",
+        "level_req": 47,
+        "tick_seconds": 22,
+        "xp_per_catch": 541,
+        "xp_per_hour": 88527,
+        "output": "Grey chinchompa",
+        "difficulty": "medium"
+      },
+      {
+        "name": "Sabre-toothed kyatt",
+        "level_req": 50,
+        "tick_seconds": 24,
+        "xp_per_catch": 602,
+        "xp_per_hour": 90300,
+        "output": "Kyatt fur",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Dark kebbit",
+        "level_req": 53,
+        "tick_seconds": 25,
+        "xp_per_catch": 640,
+        "xp_per_hour": 92160,
+        "output": "Dark kebbit fur",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Pyre fox",
+        "level_req": 54,
+        "tick_seconds": 25,
+        "xp_per_catch": 644,
+        "xp_per_hour": 92736,
+        "output": "Pyre fox fur",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Red salamander",
+        "level_req": 55,
+        "tick_seconds": 25,
+        "xp_per_catch": 649,
+        "xp_per_hour": 93456,
+        "output": "Red salamander hide",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Wyrmscraig goat",
+        "level_req": 57,
+        "tick_seconds": 26,
+        "xp_per_catch": 684,
+        "xp_per_hour": 94708,
+        "output": "Wyrmscraig horn",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Red chinchompa",
+        "level_req": 61,
+        "tick_seconds": 27,
+        "xp_per_catch": 728,
+        "xp_per_hour": 97067,
+        "output": "Red chinchompa",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Dashing kebbit",
+        "level_req": 69,
+        "tick_seconds": 30,
+        "xp_per_catch": 851,
+        "xp_per_hour": 102120,
+        "output": "Dashing kebbit fur",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sunlight antelope",
+        "level_req": 73,
+        "tick_seconds": 32,
+        "xp_per_catch": 929,
+        "xp_per_hour": 104512,
+        "output": "Antelope fur",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Sunlight moth",
+        "level_req": 77,
+        "tick_seconds": 33,
+        "xp_per_catch": 981,
+        "xp_per_hour": 107018,
+        "output": "Sunlight moth dust",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Tecu salamander",
+        "level_req": 83,
+        "tick_seconds": 35,
+        "xp_per_catch": 1076,
+        "xp_per_hour": 110674,
+        "output": "Tecu salamander hide",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Herbiboar",
+        "level_req": 84,
+        "tick_seconds": 35,
+        "xp_per_catch": 1082,
+        "xp_per_hour": 111291,
+        "output": "Herbiboar meat",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Moonlight moth",
+        "level_req": 91,
+        "tick_seconds": 38,
+        "xp_per_catch": 1221,
+        "xp_per_hour": 115674,
+        "output": "Moonlight moth dust",
+        "difficulty": "hard"
+      },
+      {
+        "name": "Moonlight antelope",
+        "level_req": 98,
+        "tick_seconds": 40,
+        "xp_per_catch": 1333,
+        "xp_per_hour": 119970,
+        "output": "Moonlight antelope fur",
+        "difficulty": "hard"
+      }
+    ],
+    "shop": [
+      {
+        "item": "Guild hunter headwear",
+        "points": 40
+      },
+      {
+        "item": "Guild hunter top",
+        "points": 60
+      },
+      {
+        "item": "Guild hunter legs",
+        "points": 90
+      },
+      {
+        "item": "Guild hunter gloves",
+        "points": 130
+      },
+      {
+        "item": "Guild hunter boots",
+        "points": 180
+      },
+      {
+        "item": "Hunter task extension",
+        "points": 20
+      }
+    ],
+    "outfit_per_piece_speed_pct": 3,
+    "outfit_full_set_speed_pct": 10,
+    "extend_multiplier": 1.5
   }
 }
