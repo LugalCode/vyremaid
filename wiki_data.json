@@ -2064,6 +2064,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2103,6 +2109,12 @@
         },
         {
           "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2154,6 +2166,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2199,6 +2217,12 @@
         },
         {
           "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2250,6 +2274,12 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2289,6 +2319,12 @@
         },
         {
           "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2378,7 +2414,25 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2474,7 +2528,25 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2564,7 +2636,25 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2654,7 +2744,25 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2744,7 +2852,25 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2828,7 +2954,25 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -2918,6 +3062,24 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
           "item": "Ranarr",
           "qty_min": 1,
           "qty_max": 1,
@@ -2993,6 +3155,24 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         },
         {
@@ -3092,7 +3272,37 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -3164,7 +3374,37 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -3254,7 +3494,37 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -3344,7 +3614,37 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -3428,7 +3728,37 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
           "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.1
@@ -3518,6 +3848,36 @@
           "chance": 0.1
         },
         {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
           "item": "Torstol",
           "qty_min": 1,
           "qty_max": 1,
@@ -3599,6 +3959,36 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         },
         {
@@ -3689,6 +4079,36 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         },
         {
