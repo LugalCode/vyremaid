@@ -59,6 +59,9 @@
     <a href="#butler">Butler</a>
     <a href="#hunter">Hunter</a>
     <a href="#herblore">Herblore</a>
+    <a href="#ammo">Arrows &amp; runes</a>
+    <a href="#runecrafting">Runecrafting</a>
+    <a href="#dragonhide">Dragonhide</a>
     <a href="#superior">Superior &amp; scrolls</a>
     <a href="#pets">Pets</a>
     <a href="#sellvalues">Sell values</a>
@@ -467,6 +470,73 @@
     </div>
   </details>
 
+  <details class="rpg-section" id="ammo">
+    <summary><h2>Arrows &amp; runes (!buy)</h2></summary>
+    <p class="section-note">
+      Range and Magic's second dps lever alongside the weapon itself — consumed per kill on a
+      slayer task, buyable via <code>!buy &lt;name&gt; &lt;qty&gt;</code>. A bow can fire its own
+      arrow tier and everything below it (not an exact match); a staff needs its <em>exact</em>
+      combat rune plus, on higher tiers, a full bundle of elemental reagents too — see the staff
+      table below. "Ammo retention %" armor (<a href="#gear">Gear catalog</a>) gives a chance
+      each kill's ammo isn't consumed at all.
+    </p>
+    <h3>Arrows</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="ammo-arrows-table">
+        <thead><tr><th>Tier</th><th class="num">DPS</th><th class="num">Price (gp)</th><th>Bows that can fire it</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Runes</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="ammo-runes-table">
+        <thead><tr><th>Rune</th><th class="num">DPS</th><th class="num">Price (gp)</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Staff ammo bundles</h3>
+    <p class="section-note">Every rune listed must be owned in full for the staff to get any ammo dps at all — no partial bundles.</p>
+    <div class="table-scroll">
+      <table class="data-table" id="ammo-staffs-table">
+        <thead><tr><th>Staff</th><th>Runes needed per kill</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
+  <details class="rpg-section" id="runecrafting">
+    <summary><h2>Runecrafting (!use)</h2></summary>
+    <p class="section-note" id="runecrafting-note"></p>
+    <div class="table-scroll">
+      <table class="data-table" id="runecrafting-table">
+        <thead><tr><th class="num">Level req</th><th>Rune</th><th class="num">XP per essence</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
+  <details class="rpg-section" id="dragonhide">
+    <summary><h2>Dragons &amp; dragonhide (!use)</h2></summary>
+    <p class="section-note">
+      Green/Blue/Red/Black dragon spawn on Hard slayer tasks (see <a href="#monsters">Monsters</a>),
+      each dropping their own raw dragonhide. <code>!use &lt;color&gt; dragonhide [qty|all]</code>
+      tans it for a flat gp fee (no xp, instant); <code>!use Tanned &lt;color&gt; dragonhide</code>
+      crafts it into that tier's Range armor via Crafting — see the matching tier in the
+      <a href="#gear">Gear catalog</a> for the exact armor stats/level req.
+    </p>
+    <div class="table-scroll">
+      <table class="data-table" id="dragonhide-table">
+        <thead><tr><th>Color</th><th class="num">Tan fee (gp)</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
   <details class="rpg-section" id="superior">
     <summary><h2>Superior slayer monsters &amp; Champion scrolls</h2></summary>
     <p class="section-note" id="superior-note"></p>
@@ -613,6 +683,9 @@ function render(data) {
   renderButler(data.butler);
   renderHunter(data.hunter);
   renderHerblore(data.herblore);
+  renderAmmo(data.ammo);
+  renderRunecrafting(data.runecrafting);
+  renderDragonhide(data.dragonhide);
   renderSuperior(data.superior);
   renderPets(data.pets);
 
@@ -639,7 +712,8 @@ function renderGear(gear) {
         <tr><td>${esc(slot)}</td><td>${esc(r.name)}</td><td class="num">${r.level_req}</td>
         <td class="num">${r.price === 0 ? "Free" : fmtGp(r.price)}</td>
         <td class="num">${r.speed_pct != null ? "-" + r.speed_pct + "%" : "—"}</td>
-        <td class="num">${r.defense_rating != null ? "+" + r.defense_rating : "—"}</td></tr>`
+        <td class="num">${r.defense_rating != null ? "+" + r.defense_rating : "—"}</td>
+        <td class="num">${r.ammo_retention_pct ? "+" + r.ammo_retention_pct + "%" : "—"}</td></tr>`
       ).join("")
     ).join("");
     return `
@@ -647,7 +721,8 @@ function renderGear(gear) {
       <div class="table-scroll">
         <table class="data-table gear-table" data-style="${style}">
           <thead><tr><th>Slot</th><th>Item</th><th class="num">Level req</th>
-          <th class="num">Price</th><th class="num">Speed</th><th class="num">Defense</th></tr></thead>
+          <th class="num">Price</th><th class="num">Speed</th><th class="num">Defense</th>
+          <th class="num">Ammo retention</th></tr></thead>
           <tbody>${body}</tbody>
         </table>
         <p class="no-results">No matches.</p>
@@ -748,6 +823,34 @@ function renderHerblore(hb) {
       <tr><td class="num">${r.level_req}</td><td>${esc(r.output)}</td><td>${inputsStr}</td>
       <td>${effectStr}</td><td class="num">${budgetStr}</td><td class="num">${r.xp.toLocaleString()}</td></tr>`;
   });
+}
+
+function renderAmmo(a) {
+  const bowsFor = tier => Object.entries(a.bow_max_arrow_tier)
+    .filter(([, maxTier]) => a.arrows.findIndex(x => x.tier === maxTier) >= a.arrows.findIndex(x => x.tier === tier))
+    .map(([bow]) => bow).join(", ");
+  renderRows("ammo-arrows-table", a.arrows, r => `
+    <tr><td>${esc(r.tier)}</td><td class="num">${r.dps}</td><td class="num">${fmtGp(r.price)}</td>
+    <td>${esc(bowsFor(r.tier))}</td></tr>`);
+  renderRows("ammo-runes-table", a.runes, r => `
+    <tr><td>${esc(r.name)}</td><td class="num">${r.dps}</td><td class="num">${fmtGp(r.price)}</td></tr>`);
+  renderRows("ammo-staffs-table", Object.entries(a.staff_ammo_cost), ([staff, cost]) => `
+    <tr><td>${esc(staff)}</td><td>${Object.entries(cost).map(([rune, qty]) => `${qty}x ${esc(rune)}`).join(", ")}</td></tr>`);
+}
+
+function renderRunecrafting(rc) {
+  document.getElementById("runecrafting-note").innerHTML =
+    `<code>${esc(rc.essence_item)}</code> (Mining, unlocked by the <code>Rune Mysteries</code> quest) is the ` +
+    `raw material — <code>!use ${esc(rc.essence_item)} &lt;rune&gt; [qty|all]</code> converts it. Yield per ` +
+    `essence starts at 1 and climbs the higher your Runecrafting level is above a rune's own unlock level ` +
+    `(+1 rune per 10 levels above it), capped at ${rc.multiplier_cap}x.`;
+  renderRows("runecrafting-table", rc.recipes, r => `
+    <tr><td class="num">${r.level_req}</td><td>${esc(r.rune)}</td><td class="num">${r.xp}</td></tr>`);
+}
+
+function renderDragonhide(dh) {
+  renderRows("dragonhide-table", dh, r => `
+    <tr><td>${esc(r.color)}</td><td class="num">${fmtGp(r.tan_price)}</td></tr>`);
 }
 
 function renderSuperior(s) {

@@ -7,7 +7,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Fine amulet",
@@ -16,7 +17,8 @@
       "price": 160,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Superior amulet",
@@ -25,7 +27,8 @@
       "price": 360,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Exquisite amulet",
@@ -34,7 +37,8 @@
       "price": 640,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Legendary amulet",
@@ -43,7 +47,8 @@
       "price": 1000,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 4,
+      "ammo_retention_pct": null
     },
     {
       "name": "Basic cape",
@@ -52,7 +57,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Fine cape",
@@ -61,7 +67,8 @@
       "price": 120,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Superior cape",
@@ -70,7 +77,8 @@
       "price": 270,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Exquisite cape",
@@ -79,7 +87,8 @@
       "price": 480,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Legendary cape",
@@ -88,7 +97,8 @@
       "price": 750,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Basic ring",
@@ -97,7 +107,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": 1,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Fine ring",
@@ -106,7 +117,8 @@
       "price": 160,
       "level_req": 1,
       "speed_pct": 2,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Superior ring",
@@ -115,7 +127,8 @@
       "price": 360,
       "level_req": 1,
       "speed_pct": 2,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Exquisite ring",
@@ -124,7 +137,8 @@
       "price": 640,
       "level_req": 1,
       "speed_pct": 3,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Legendary ring",
@@ -133,7 +147,8 @@
       "price": 1000,
       "level_req": 1,
       "speed_pct": 4,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Apprentice robe top",
@@ -142,34 +157,38 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 0,
+      "ammo_retention_pct": 2
     },
     {
       "name": "Splitbark robe top",
       "slot": "body",
       "style": "mage",
-      "price": 192,
+      "price": 64,
       "level_req": 35,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 1,
+      "ammo_retention_pct": 5
     },
     {
       "name": "Infinity robe top",
       "slot": "body",
       "style": "mage",
-      "price": 432,
+      "price": 144,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 2,
+      "ammo_retention_pct": 8
     },
     {
       "name": "Ancestral robe top",
       "slot": "body",
       "style": "mage",
-      "price": 768,
+      "price": 256,
       "level_req": 75,
       "speed_pct": null,
-      "defense_rating": 6
+      "defense_rating": 2,
+      "ammo_retention_pct": 10
     },
     {
       "name": "Apprentice hat",
@@ -178,34 +197,38 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 0,
+      "ammo_retention_pct": 2
     },
     {
       "name": "Splitbark hat",
       "slot": "head",
       "style": "mage",
-      "price": 128,
+      "price": 32,
       "level_req": 35,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 0,
+      "ammo_retention_pct": 3
     },
     {
       "name": "Infinity hat",
       "slot": "head",
       "style": "mage",
-      "price": 288,
+      "price": 72,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 1,
+      "ammo_retention_pct": 4
     },
     {
       "name": "Ancestral hat",
       "slot": "head",
       "style": "mage",
-      "price": 512,
+      "price": 128,
       "level_req": 75,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 1,
+      "ammo_retention_pct": 6
     },
     {
       "name": "Apprentice robe bottom",
@@ -214,34 +237,38 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 0,
+      "ammo_retention_pct": 2
     },
     {
       "name": "Splitbark robe bottom",
       "slot": "legs",
       "style": "mage",
-      "price": 160,
+      "price": 64,
       "level_req": 35,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 1,
+      "ammo_retention_pct": 4
     },
     {
       "name": "Infinity robe bottom",
       "slot": "legs",
       "style": "mage",
-      "price": 360,
+      "price": 144,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 2,
+      "ammo_retention_pct": 6
     },
     {
       "name": "Ancestral robe bottom",
       "slot": "legs",
       "style": "mage",
-      "price": 640,
+      "price": 256,
       "level_req": 75,
       "speed_pct": null,
-      "defense_rating": 5
+      "defense_rating": 2,
+      "ammo_retention_pct": 8
     },
     {
       "name": "Apprentice spellbook",
@@ -250,61 +277,88 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 1,
+      "ammo_retention_pct": 2
     },
     {
       "name": "Splitbark spellbook",
       "slot": "shield",
       "style": "mage",
-      "price": 256,
+      "price": 96,
       "level_req": 35,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 2,
+      "ammo_retention_pct": 5
     },
     {
       "name": "Infinity spellbook",
       "slot": "shield",
       "style": "mage",
-      "price": 576,
+      "price": 216,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 6
+      "defense_rating": 2,
+      "ammo_retention_pct": 8
     },
     {
       "name": "Ancestral spellbook",
       "slot": "shield",
       "style": "mage",
-      "price": 1024,
+      "price": 384,
       "level_req": 75,
       "speed_pct": null,
-      "defense_rating": 8
+      "defense_rating": 3,
+      "ammo_retention_pct": 10
     },
     {
-      "name": "Staff of fire",
+      "name": "Staff of air",
       "slot": "weapon",
       "style": "mage",
       "price": 0,
       "level_req": 1,
       "speed_pct": 0,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
-      "name": "Mystic fire staff",
+      "name": "Battlestaff",
       "slot": "weapon",
       "style": "mage",
-      "price": 1500,
-      "level_req": 40,
-      "speed_pct": 15,
-      "defense_rating": null
+      "price": 5000,
+      "level_req": 35,
+      "speed_pct": 8,
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Trident of the seas",
       "slot": "weapon",
       "style": "mage",
       "price": 12000,
+      "level_req": 50,
+      "speed_pct": 14,
+      "defense_rating": null,
+      "ammo_retention_pct": null
+    },
+    {
+      "name": "Sanguinesti staff",
+      "slot": "weapon",
+      "style": "mage",
+      "price": 60000,
       "level_req": 75,
-      "speed_pct": 28,
-      "defense_rating": null
+      "speed_pct": 20,
+      "defense_rating": null,
+      "ammo_retention_pct": null
+    },
+    {
+      "name": "Tumeken's shadow",
+      "slot": "weapon",
+      "style": "mage",
+      "price": 200000,
+      "level_req": 90,
+      "speed_pct": 26,
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Bronze platebody",
@@ -313,7 +367,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Iron platebody",
@@ -322,7 +377,8 @@
       "price": 103,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Steel platebody",
@@ -331,7 +387,8 @@
       "price": 989,
       "level_req": 5,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Mithril platebody",
@@ -340,7 +397,8 @@
       "price": 2850,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Adamant platebody",
@@ -349,7 +407,8 @@
       "price": 9452,
       "level_req": 30,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 4,
+      "ammo_retention_pct": null
     },
     {
       "name": "Rune platebody",
@@ -358,7 +417,8 @@
       "price": 38433,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 5
+      "defense_rating": 5,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon chainbody",
@@ -367,7 +427,8 @@
       "price": 168710,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 6
+      "defense_rating": 6,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon platebody",
@@ -376,7 +437,8 @@
       "price": 2153325,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 6
+      "defense_rating": 6,
+      "ammo_retention_pct": null
     },
     {
       "name": "Bronze full helm",
@@ -385,7 +447,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Iron full helm",
@@ -394,7 +457,8 @@
       "price": 40,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Steel full helm",
@@ -403,7 +467,8 @@
       "price": 150,
       "level_req": 5,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Mithril full helm",
@@ -412,7 +477,8 @@
       "price": 724,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Adamant full helm",
@@ -421,7 +487,8 @@
       "price": 1953,
       "level_req": 30,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Rune full helm",
@@ -430,7 +497,8 @@
       "price": 20510,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon med helm",
@@ -439,7 +507,8 @@
       "price": 58515,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 4,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon full helm",
@@ -448,7 +517,8 @@
       "price": 48120163,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 4,
+      "ammo_retention_pct": null
     },
     {
       "name": "Bronze platelegs",
@@ -457,7 +527,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Iron platelegs",
@@ -466,7 +537,8 @@
       "price": 58,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Steel platelegs",
@@ -475,7 +547,8 @@
       "price": 432,
       "level_req": 5,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Mithril platelegs",
@@ -484,7 +557,8 @@
       "price": 1346,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Adamant platelegs",
@@ -493,7 +567,8 @@
       "price": 3485,
       "level_req": 30,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 4,
+      "ammo_retention_pct": null
     },
     {
       "name": "Rune platelegs",
@@ -502,7 +577,8 @@
       "price": 37760,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 4,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon platelegs",
@@ -511,7 +587,8 @@
       "price": 161047,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 5
+      "defense_rating": 5,
+      "ammo_retention_pct": null
     },
     {
       "name": "Bronze kiteshield",
@@ -520,7 +597,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": null
     },
     {
       "name": "Iron kiteshield",
@@ -529,7 +607,8 @@
       "price": 41,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": null
     },
     {
       "name": "Steel kiteshield",
@@ -538,7 +617,8 @@
       "price": 398,
       "level_req": 5,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 3,
+      "ammo_retention_pct": null
     },
     {
       "name": "Mithril kiteshield",
@@ -547,7 +627,8 @@
       "price": 1135,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 5
+      "defense_rating": 5,
+      "ammo_retention_pct": null
     },
     {
       "name": "Adamant kiteshield",
@@ -556,7 +637,8 @@
       "price": 3081,
       "level_req": 30,
       "speed_pct": null,
-      "defense_rating": 6
+      "defense_rating": 6,
+      "ammo_retention_pct": null
     },
     {
       "name": "Rune kiteshield",
@@ -565,7 +647,8 @@
       "price": 32039,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 7
+      "defense_rating": 7,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon sq shield",
@@ -574,7 +657,8 @@
       "price": 303547,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 8
+      "defense_rating": 8,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon kiteshield",
@@ -583,7 +667,8 @@
       "price": 63542905,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 8
+      "defense_rating": 8,
+      "ammo_retention_pct": null
     },
     {
       "name": "Bronze sword",
@@ -592,7 +677,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": 0,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Iron scimitar",
@@ -601,7 +687,8 @@
       "price": 40,
       "level_req": 1,
       "speed_pct": 8,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Steel scimitar",
@@ -610,7 +697,8 @@
       "price": 182,
       "level_req": 5,
       "speed_pct": 12,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Mithril scimitar",
@@ -619,7 +707,8 @@
       "price": 450,
       "level_req": 20,
       "speed_pct": 15,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Adamant scimitar",
@@ -628,7 +717,8 @@
       "price": 1487,
       "level_req": 30,
       "speed_pct": 18,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Rune scimitar",
@@ -637,7 +727,8 @@
       "price": 15182,
       "level_req": 40,
       "speed_pct": 24,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Dragon scimitar",
@@ -646,7 +737,8 @@
       "price": 59291,
       "level_req": 60,
       "speed_pct": 27,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Abyssal whip",
@@ -655,7 +747,8 @@
       "price": 840934,
       "level_req": 70,
       "speed_pct": 30,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Leather body",
@@ -664,52 +757,58 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": 2
     },
     {
       "name": "Studded leather body",
       "slot": "body",
       "style": "range",
-      "price": 192,
+      "price": 128,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 1,
+      "ammo_retention_pct": 3
     },
     {
       "name": "Green d'hide body",
       "slot": "body",
       "style": "range",
-      "price": 432,
+      "price": 288,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 2,
+      "ammo_retention_pct": 5
     },
     {
       "name": "Blue d'hide body",
       "slot": "body",
       "style": "range",
-      "price": 768,
+      "price": 512,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 3,
+      "ammo_retention_pct": 7
     },
     {
       "name": "Red d'hide body",
       "slot": "body",
       "style": "range",
-      "price": 1200,
+      "price": 800,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 5
+      "defense_rating": 3,
+      "ammo_retention_pct": 8
     },
     {
       "name": "Black d'hide body",
       "slot": "body",
       "style": "range",
-      "price": 1728,
+      "price": 1152,
       "level_req": 70,
       "speed_pct": null,
-      "defense_rating": 6
+      "defense_rating": 4,
+      "ammo_retention_pct": 10
     },
     {
       "name": "Leather coif",
@@ -718,52 +817,58 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 0,
+      "ammo_retention_pct": 1
     },
     {
       "name": "Studded leather coif",
       "slot": "head",
       "style": "range",
-      "price": 128,
+      "price": 64,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": 2
     },
     {
       "name": "Green d'hide coif",
       "slot": "head",
       "style": "range",
-      "price": 288,
+      "price": 144,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 1,
+      "ammo_retention_pct": 3
     },
     {
       "name": "Blue d'hide coif",
       "slot": "head",
       "style": "range",
-      "price": 512,
+      "price": 256,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 1,
+      "ammo_retention_pct": 4
     },
     {
       "name": "Red d'hide coif",
       "slot": "head",
       "style": "range",
-      "price": 800,
+      "price": 400,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 2,
+      "ammo_retention_pct": 5
     },
     {
       "name": "Black d'hide coif",
       "slot": "head",
       "style": "range",
-      "price": 1152,
+      "price": 576,
       "level_req": 70,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 2,
+      "ammo_retention_pct": 6
     },
     {
       "name": "Leather chaps",
@@ -772,52 +877,58 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 0,
+      "ammo_retention_pct": 1
     },
     {
       "name": "Studded leather chaps",
       "slot": "legs",
       "style": "range",
-      "price": 160,
+      "price": 96,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 1,
+      "ammo_retention_pct": 3
     },
     {
       "name": "Green d'hide chaps",
       "slot": "legs",
       "style": "range",
-      "price": 360,
+      "price": 216,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 2
+      "defense_rating": 2,
+      "ammo_retention_pct": 4
     },
     {
       "name": "Blue d'hide chaps",
       "slot": "legs",
       "style": "range",
-      "price": 640,
+      "price": 384,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 2,
+      "ammo_retention_pct": 5
     },
     {
       "name": "Red d'hide chaps",
       "slot": "legs",
       "style": "range",
-      "price": 1000,
+      "price": 600,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 2,
+      "ammo_retention_pct": 7
     },
     {
       "name": "Black d'hide chaps",
       "slot": "legs",
       "style": "range",
-      "price": 1440,
+      "price": 864,
       "level_req": 70,
       "speed_pct": null,
-      "defense_rating": 5
+      "defense_rating": 3,
+      "ammo_retention_pct": 8
     },
     {
       "name": "Leather quiver",
@@ -826,52 +937,58 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": null,
-      "defense_rating": 1
+      "defense_rating": 1,
+      "ammo_retention_pct": 2
     },
     {
       "name": "Studded leather quiver",
       "slot": "shield",
       "style": "range",
-      "price": 256,
+      "price": 160,
       "level_req": 20,
       "speed_pct": null,
-      "defense_rating": 3
+      "defense_rating": 2,
+      "ammo_retention_pct": 3
     },
     {
       "name": "Green d'hide quiver",
       "slot": "shield",
       "style": "range",
-      "price": 576,
+      "price": 360,
       "level_req": 40,
       "speed_pct": null,
-      "defense_rating": 4
+      "defense_rating": 2,
+      "ammo_retention_pct": 5
     },
     {
       "name": "Blue d'hide quiver",
       "slot": "shield",
       "style": "range",
-      "price": 1024,
+      "price": 640,
       "level_req": 50,
       "speed_pct": null,
-      "defense_rating": 5
+      "defense_rating": 3,
+      "ammo_retention_pct": 7
     },
     {
       "name": "Red d'hide quiver",
       "slot": "shield",
       "style": "range",
-      "price": 1600,
+      "price": 1000,
       "level_req": 60,
       "speed_pct": null,
-      "defense_rating": 7
+      "defense_rating": 4,
+      "ammo_retention_pct": 8
     },
     {
       "name": "Black d'hide quiver",
       "slot": "shield",
       "style": "range",
-      "price": 2304,
+      "price": 1440,
       "level_req": 70,
       "speed_pct": null,
-      "defense_rating": 8
+      "defense_rating": 5,
+      "ammo_retention_pct": 10
     },
     {
       "name": "Shortbow",
@@ -880,7 +997,8 @@
       "price": 0,
       "level_req": 1,
       "speed_pct": 0,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Oak shortbow",
@@ -889,7 +1007,8 @@
       "price": 100,
       "level_req": 5,
       "speed_pct": 6,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Willow shortbow",
@@ -898,7 +1017,8 @@
       "price": 300,
       "level_req": 20,
       "speed_pct": 12,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Maple shortbow",
@@ -907,7 +1027,8 @@
       "price": 1200,
       "level_req": 30,
       "speed_pct": 17,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Yew shortbow",
@@ -916,7 +1037,8 @@
       "price": 4000,
       "level_req": 40,
       "speed_pct": 21,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     },
     {
       "name": "Magic shortbow",
@@ -925,7 +1047,8 @@
       "price": 10000,
       "level_req": 50,
       "speed_pct": 25,
-      "defense_rating": null
+      "defense_rating": null,
+      "ammo_retention_pct": null
     }
   ],
   "special_items": [
@@ -1692,12 +1815,72 @@
       "tick_seconds": 2.0
     },
     {
+      "input": "Tanned Green dragonhide",
+      "skill": "Crafting",
+      "level_req": 40,
+      "xp_per_unit": 300,
+      "outputs": [
+        "Green d'hide quiver",
+        "Green d'hide coif",
+        "Green d'hide body",
+        "Green d'hide chaps",
+        "Green d'hide vambraces",
+        "Green d'hide boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
       "input": "Uncut diamond",
       "skill": "Crafting",
       "level_req": 43,
       "xp_per_unit": 538,
       "outputs": [
         "Diamond"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Tanned Blue dragonhide",
+      "skill": "Crafting",
+      "level_req": 50,
+      "xp_per_unit": 450,
+      "outputs": [
+        "Blue d'hide quiver",
+        "Blue d'hide coif",
+        "Blue d'hide body",
+        "Blue d'hide chaps",
+        "Blue d'hide vambraces",
+        "Blue d'hide boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Tanned Red dragonhide",
+      "skill": "Crafting",
+      "level_req": 60,
+      "xp_per_unit": 650,
+      "outputs": [
+        "Red d'hide quiver",
+        "Red d'hide coif",
+        "Red d'hide body",
+        "Red d'hide chaps",
+        "Red d'hide vambraces",
+        "Red d'hide boots"
+      ],
+      "tick_seconds": 2.0
+    },
+    {
+      "input": "Tanned Black dragonhide",
+      "skill": "Crafting",
+      "level_req": 70,
+      "xp_per_unit": 900,
+      "outputs": [
+        "Black d'hide quiver",
+        "Black d'hide coif",
+        "Black d'hide body",
+        "Black d'hide chaps",
+        "Black d'hide vambraces",
+        "Black d'hide boots"
       ],
       "tick_seconds": 2.0
     },
@@ -3532,6 +3715,114 @@
       ]
     },
     {
+      "name": "Green dragon",
+      "combat_level": 88,
+      "hp": 95,
+      "slayer_req": 55,
+      "tick_seconds": 58,
+      "gp_min": 350,
+      "gp_max": 550,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Greater bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Green dragonhide",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.5
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        }
+      ]
+    },
+    {
       "name": "Kurask",
       "combat_level": 75,
       "hp": 80,
@@ -3600,6 +3891,114 @@
           "qty_min": 1,
           "qty_max": 1,
           "chance": 0.08
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        }
+      ]
+    },
+    {
+      "name": "Blue dragon",
+      "combat_level": 95,
+      "hp": 105,
+      "slayer_req": 65,
+      "tick_seconds": 60,
+      "gp_min": 400,
+      "gp_max": 620,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Greater bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Blue dragonhide",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.5
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
         },
         {
           "item": "Lockpick",
@@ -4000,6 +4399,114 @@
       ]
     },
     {
+      "name": "Red dragon",
+      "combat_level": 102,
+      "hp": 115,
+      "slayer_req": 75,
+      "tick_seconds": 62,
+      "gp_min": 450,
+      "gp_max": 700,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Greater bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Red dragonhide",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.5
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        }
+      ]
+    },
+    {
       "name": "Abyssal demon",
       "combat_level": 95,
       "hp": 100,
@@ -4118,9 +4625,121 @@
           "chance": 0.1
         }
       ]
+    },
+    {
+      "name": "Black dragon",
+      "combat_level": 110,
+      "hp": 125,
+      "slayer_req": 85,
+      "tick_seconds": 65,
+      "gp_min": 500,
+      "gp_max": 800,
+      "difficulty": "hard",
+      "drops": [
+        {
+          "item": "Greater bones",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 1.0
+        },
+        {
+          "item": "Black dragonhide",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.5
+        },
+        {
+          "item": "Runite ore",
+          "qty_min": 1,
+          "qty_max": 2,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut sapphire",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.2
+        },
+        {
+          "item": "Uncut emerald",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.08
+        },
+        {
+          "item": "Uncut ruby",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.03
+        },
+        {
+          "item": "Uncut diamond",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.01
+        },
+        {
+          "item": "Legendary dragon hoard",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Lockpick",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.002
+        },
+        {
+          "item": "Flax",
+          "qty_min": 3,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 5,
+          "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 3,
+          "qty_max": 3,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
+        }
+      ]
     }
   ],
   "loot_values": [
+    {
+      "item": "Adamant arrows",
+      "sell_value": 12
+    },
     {
       "item": "Adamant bar",
       "sell_value": 1100
@@ -4128,6 +4747,10 @@
     {
       "item": "Adamantite ore",
       "sell_value": 25
+    },
+    {
+      "item": "Air rune",
+      "sell_value": 1
     },
     {
       "item": "Ancient coin hoard",
@@ -4140,6 +4763,18 @@
     {
       "item": "Big bones",
       "sell_value": 6
+    },
+    {
+      "item": "Black dragonhide",
+      "sell_value": 2200
+    },
+    {
+      "item": "Blood rune",
+      "sell_value": 10
+    },
+    {
+      "item": "Blue dragonhide",
+      "sell_value": 800
     },
     {
       "item": "Bonecrusher",
@@ -4158,8 +4793,16 @@
       "sell_value": 30
     },
     {
+      "item": "Bronze arrows",
+      "sell_value": 1
+    },
+    {
       "item": "Bronze bar",
       "sell_value": 100
+    },
+    {
+      "item": "Chaos rune",
+      "sell_value": 3
     },
     {
       "item": "Coal",
@@ -4202,8 +4845,16 @@
       "sell_value": 5
     },
     {
+      "item": "Death rune",
+      "sell_value": 6
+    },
+    {
       "item": "Diamond",
       "sell_value": 3000
+    },
+    {
+      "item": "Earth rune",
+      "sell_value": 1
     },
     {
       "item": "Emerald",
@@ -4212,6 +4863,10 @@
     {
       "item": "Feather",
       "sell_value": 1
+    },
+    {
+      "item": "Fire rune",
+      "sell_value": 2
     },
     {
       "item": "Flax",
@@ -4224,6 +4879,14 @@
     {
       "item": "Greater bones",
       "sell_value": 18
+    },
+    {
+      "item": "Green dragonhide",
+      "sell_value": 400
+    },
+    {
+      "item": "Iron arrows",
+      "sell_value": 2
     },
     {
       "item": "Iron bar",
@@ -4264,6 +4927,14 @@
     {
       "item": "Maple shortbow (u)",
       "sell_value": 300
+    },
+    {
+      "item": "Mind rune",
+      "sell_value": 1
+    },
+    {
+      "item": "Mithril arrows",
+      "sell_value": 7
     },
     {
       "item": "Mithril bar",
@@ -4318,8 +4989,16 @@
       "sell_value": 4
     },
     {
+      "item": "Red dragonhide",
+      "sell_value": 1400
+    },
+    {
       "item": "Ruby",
       "sell_value": 1600
+    },
+    {
+      "item": "Rune arrows",
+      "sell_value": 22
     },
     {
       "item": "Rune bar",
@@ -4338,12 +5017,32 @@
       "sell_value": 1
     },
     {
+      "item": "Steel arrows",
+      "sell_value": 4
+    },
+    {
       "item": "Steel bar",
       "sell_value": 400
     },
     {
       "item": "Super combat potion",
       "sell_value": 300
+    },
+    {
+      "item": "Tanned Black dragonhide",
+      "sell_value": 3300
+    },
+    {
+      "item": "Tanned Blue dragonhide",
+      "sell_value": 1200
+    },
+    {
+      "item": "Tanned Green dragonhide",
+      "sell_value": 600
+    },
+    {
+      "item": "Tanned Red dragonhide",
+      "sell_value": 2100
     },
     {
       "item": "Task Extension",
@@ -4366,12 +5065,20 @@
       "sell_value": 50
     },
     {
+      "item": "Water rune",
+      "sell_value": 1
+    },
+    {
       "item": "Willow logs",
       "sell_value": 7
     },
     {
       "item": "Willow shortbow (u)",
       "sell_value": 75
+    },
+    {
+      "item": "Wrath rune",
+      "sell_value": 17
     },
     {
       "item": "Yew logs",
@@ -5489,5 +6196,188 @@
         "budget": 1500
       }
     ]
-  }
+  },
+  "ammo": {
+    "arrows": [
+      {
+        "tier": "Bronze",
+        "dps": 0,
+        "price": 2
+      },
+      {
+        "tier": "Iron",
+        "dps": 2,
+        "price": 4
+      },
+      {
+        "tier": "Steel",
+        "dps": 4,
+        "price": 8
+      },
+      {
+        "tier": "Mithril",
+        "dps": 6,
+        "price": 15
+      },
+      {
+        "tier": "Adamant",
+        "dps": 8,
+        "price": 25
+      },
+      {
+        "tier": "Rune",
+        "dps": 10,
+        "price": 45
+      }
+    ],
+    "bow_max_arrow_tier": {
+      "Shortbow": "Bronze",
+      "Oak shortbow": "Iron",
+      "Willow shortbow": "Mithril",
+      "Maple shortbow": "Adamant",
+      "Yew shortbow": "Rune",
+      "Magic shortbow": "Rune"
+    },
+    "runes": [
+      {
+        "name": "Mind rune",
+        "dps": 0,
+        "price": 3
+      },
+      {
+        "name": "Chaos rune",
+        "dps": 3,
+        "price": 6
+      },
+      {
+        "name": "Death rune",
+        "dps": 6,
+        "price": 12
+      },
+      {
+        "name": "Blood rune",
+        "dps": 9,
+        "price": 20
+      },
+      {
+        "name": "Wrath rune",
+        "dps": 12,
+        "price": 35
+      },
+      {
+        "name": "Air rune",
+        "dps": 0,
+        "price": 1
+      },
+      {
+        "name": "Water rune",
+        "dps": 0,
+        "price": 2
+      },
+      {
+        "name": "Earth rune",
+        "dps": 0,
+        "price": 3
+      },
+      {
+        "name": "Fire rune",
+        "dps": 0,
+        "price": 4
+      }
+    ],
+    "staff_ammo_cost": {
+      "Staff of air": {
+        "Mind rune": 1
+      },
+      "Battlestaff": {
+        "Chaos rune": 1,
+        "Fire rune": 4
+      },
+      "Trident of the seas": {
+        "Death rune": 1,
+        "Water rune": 6,
+        "Fire rune": 6
+      },
+      "Sanguinesti staff": {
+        "Blood rune": 1,
+        "Air rune": 10,
+        "Fire rune": 10
+      },
+      "Tumeken's shadow": {
+        "Wrath rune": 1,
+        "Air rune": 12,
+        "Fire rune": 12,
+        "Earth rune": 8
+      }
+    }
+  },
+  "runecrafting": {
+    "essence_item": "Pure essence",
+    "multiplier_cap": 6,
+    "recipes": [
+      {
+        "rune": "Air rune",
+        "level_req": 1,
+        "xp": 5
+      },
+      {
+        "rune": "Mind rune",
+        "level_req": 2,
+        "xp": 6
+      },
+      {
+        "rune": "Water rune",
+        "level_req": 5,
+        "xp": 7
+      },
+      {
+        "rune": "Earth rune",
+        "level_req": 9,
+        "xp": 8
+      },
+      {
+        "rune": "Fire rune",
+        "level_req": 14,
+        "xp": 10
+      },
+      {
+        "rune": "Chaos rune",
+        "level_req": 35,
+        "xp": 30
+      },
+      {
+        "rune": "Death rune",
+        "level_req": 65,
+        "xp": 60
+      },
+      {
+        "rune": "Blood rune",
+        "level_req": 77,
+        "xp": 90
+      },
+      {
+        "rune": "Wrath rune",
+        "level_req": 95,
+        "xp": 150
+      }
+    ]
+  },
+  "dragonhide": [
+    {
+      "color": "Green",
+      "tan_price": 200
+    },
+    {
+      "color": "Blue",
+      "tan_price": 400
+    },
+    {
+      "color": "Red",
+      "tan_price": 700
+    },
+    {
+      "color": "Black",
+      "tan_price": 1100
+    }
+  ]
 }
