@@ -58,6 +58,9 @@
     <a href="#thieving">Thieving</a>
     <a href="#butler">Butler</a>
     <a href="#hunter">Hunter</a>
+    <a href="#herblore">Herblore</a>
+    <a href="#superior">Superior &amp; scrolls</a>
+    <a href="#pets">Pets</a>
     <a href="#sellvalues">Sell values</a>
     <a href="#constants">Formulas</a>
   </nav>
@@ -431,6 +434,56 @@
     </div>
   </details>
 
+  <details class="rpg-section" id="herblore">
+    <summary><h2>Herblore (!use)</h2></summary>
+    <p class="section-note">
+      No Farming in this game — herbs drop from every slayer monster instead (see Monsters
+      above), tier-matched to the monster's own level. <code>Druidic Ritual</code> (a novice
+      quest, no requirements) unlocks the skill. <code>!use &lt;herb&gt; [qty|all]</code> brews a
+      Regular/Super potion (herb + a Hunter material + a <code id="herblore-vial"></code>, buyable
+      via <code>!buy</code>); <code>!use &lt;potion&gt;</code> drinks a gathering potion;
+      <code>!use &lt;rare Hunter material&gt;</code> upgrades a Super potion into an Extended one
+      (bigger effect budget, no fresh herb needed). The Hunter potion works like Super combat
+      potion — auto-consumed on your next <code>!huntrumour</code>, no drinking step.
+    </p>
+    <h3>Herbs</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="herblore-herbs-table">
+        <thead><tr><th class="num">Level req</th><th>Herb</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+    <h3>Potions</h3>
+    <div class="table-scroll">
+      <table class="data-table" id="herblore-recipes-table">
+        <thead><tr>
+          <th class="num">Level req</th><th>Potion</th><th>Inputs</th><th>Effect</th>
+          <th class="num">Budget</th><th class="num">XP</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
+  <details class="rpg-section" id="superior">
+    <summary><h2>Superior slayer monsters &amp; Champion scrolls</h2></summary>
+    <p class="section-note" id="superior-note"></p>
+  </details>
+
+  <details class="rpg-section" id="pets">
+    <summary><h2>Skilling pets</h2></summary>
+    <p class="section-note" id="pets-note"></p>
+    <div class="table-scroll">
+      <table class="data-table" id="pets-table">
+        <thead><tr><th>Skill</th><th>Pet</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="no-results">No matches.</p>
+    </div>
+  </details>
+
   <details class="rpg-section" id="sellvalues">
     <summary><h2>Full sell-value index (!sell)</h2></summary>
     <p class="section-note">
@@ -559,6 +612,9 @@ function render(data) {
   renderThieving(data.thieving);
   renderButler(data.butler);
   renderHunter(data.hunter);
+  renderHerblore(data.herblore);
+  renderSuperior(data.superior);
+  renderPets(data.pets);
 
   renderConstants(data.constants);
   setupSearch();
@@ -676,6 +732,43 @@ function renderHunter(h) {
     `${h.extend_multiplier}x, same shape as Slayer's Task Extension.`;
   renderRows("hunter-shop-table", h.shop, r => `
     <tr><td>${esc(r.item)}</td><td class="num">${r.points.toLocaleString()}</td></tr>`);
+}
+
+function renderHerblore(hb) {
+  document.getElementById("herblore-vial").textContent = hb.vial_item + ` (${hb.vial_price.toLocaleString()}gp)`;
+  renderRows("herblore-herbs-table", hb.herbs, r => `
+    <tr><td class="num">${r.level_req}</td><td>${esc(r.name)}</td></tr>`);
+  renderRows("herblore-recipes-table", hb.recipes, r => {
+    const inputsStr = r.inputs.map(i => `${i.qty}x ${esc(i.item)}`).join(", ");
+    const effectStr = r.boosts_skill
+      ? `+${r.speed_pct}% ${esc(r.boosts_skill)} speed`
+      : `+${r.speed_pct}% Hunter speed (1 task/dose)`;
+    const budgetStr = r.budget != null ? `${r.budget.toLocaleString()} resources` : "1 task";
+    return `
+      <tr><td class="num">${r.level_req}</td><td>${esc(r.output)}</td><td>${inputsStr}</td>
+      <td>${effectStr}</td><td class="num">${budgetStr}</td><td class="num">${r.xp.toLocaleString()}</td></tr>`;
+  });
+}
+
+function renderSuperior(s) {
+  document.getElementById("superior-note").innerHTML =
+    `A 1 in ${Math.round(1 / s.chance).toLocaleString()} chance per kill that it becomes a "superior" ` +
+    `encounter — counts as ${s.xp_multiplier}x a normal kill's worth of Slayer xp, and gets a second, ` +
+    `independent roll at its Champion scroll (see below). ` +
+    `<br><br>Every kill (superior or not) also has a 1 in ${Math.round(1 / s.champion_scroll_chance).toLocaleString()} ` +
+    `chance to drop that monster's own named Champion scroll (e.g. "Champion scroll (Goblin)") — a rare, ` +
+    `purely cosmetic collectible with no other use yet, a placeholder collection-log slot for monsters until ` +
+    `real bosses exist.`;
+}
+
+function renderPets(p) {
+  document.getElementById("pets-note").innerHTML =
+    `A rare passive chance to pick up a pet while training Woodcutting, Mining, Fishing, Hunter, or ` +
+    `Thieving — never from combat. Chance scales with how much xp a single gather stop / Hunter task / ` +
+    `Thieving claim actually granted: <code>xp_gained / ${p.xp_constant.toLocaleString()}</code> — so a long ` +
+    `session isn't shortchanged relative to many short ones, and one shared number balances all five skills ` +
+    `despite their very different pacing. Purely cosmetic, no stat bonus.`;
+  renderRows("pets-table", p.pets, r => `<tr><td>${esc(r.skill)}</td><td>${esc(r.name)}</td></tr>`);
 }
 
 function setupSearch() {

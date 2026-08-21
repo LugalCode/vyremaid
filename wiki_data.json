@@ -2058,6 +2058,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2093,6 +2099,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -2136,6 +2148,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2177,6 +2195,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -2220,6 +2244,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2255,6 +2285,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Guam",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -2339,6 +2375,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -2430,6 +2472,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Marrentill",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2513,6 +2561,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -2598,6 +2652,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2682,6 +2742,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2759,6 +2825,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Harralander",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -2844,6 +2916,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -2915,6 +2993,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -3006,6 +3090,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -3071,6 +3161,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -3156,6 +3252,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Ranarr",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -3240,6 +3342,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -3317,6 +3425,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Avantoe",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -3402,6 +3516,12 @@
           "qty_min": 3,
           "qty_max": 5,
           "chance": 0.1
+        },
+        {
+          "item": "Torstol",
+          "qty_min": 1,
+          "qty_max": 1,
+          "chance": 0.1
         }
       ]
     },
@@ -3479,6 +3599,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -3563,6 +3689,12 @@
           "item": "Flax",
           "qty_min": 3,
           "qty_max": 5,
+          "chance": 0.1
+        },
+        {
+          "item": "Torstol",
+          "qty_min": 1,
+          "qty_max": 1,
           "chance": 0.1
         }
       ]
@@ -4056,6 +4188,19 @@
         "Defence": 1000
       },
       "item_reward": "Vampire stake",
+      "unlocks_monster": null,
+      "unlocks_resource": null
+    },
+    {
+      "name": "Druidic Ritual",
+      "tier": "novice",
+      "points": 1,
+      "requirements": {},
+      "quest_requirements": [],
+      "xp_rewards": {
+        "Herblore": 500
+      },
+      "item_reward": null,
       "unlocks_monster": null,
       "unlocks_resource": null
     }
@@ -4653,5 +4798,276 @@
     "outfit_per_piece_speed_pct": 3,
     "outfit_full_set_speed_pct": 10,
     "extend_multiplier": 1.5
+  },
+  "superior": {
+    "chance": 0.002,
+    "xp_multiplier": 3,
+    "champion_scroll_chance": 0.0002
+  },
+  "pets": {
+    "xp_constant": 5000000,
+    "pets": [
+      {
+        "skill": "Woodcutting",
+        "name": "Beaver"
+      },
+      {
+        "skill": "Mining",
+        "name": "Rock golem"
+      },
+      {
+        "skill": "Fishing",
+        "name": "Heron"
+      },
+      {
+        "skill": "Hunter",
+        "name": "Herbi"
+      },
+      {
+        "skill": "Thieving",
+        "name": "Rocky"
+      }
+    ]
+  },
+  "herblore": {
+    "herbs": [
+      {
+        "level_req": 1,
+        "name": "Guam"
+      },
+      {
+        "level_req": 15,
+        "name": "Marrentill"
+      },
+      {
+        "level_req": 30,
+        "name": "Harralander"
+      },
+      {
+        "level_req": 45,
+        "name": "Ranarr"
+      },
+      {
+        "level_req": 60,
+        "name": "Avantoe"
+      },
+      {
+        "level_req": 75,
+        "name": "Torstol"
+      }
+    ],
+    "vial_item": "Vial of water",
+    "vial_price": 1000,
+    "hunter_potion_item": "Hunter potion",
+    "recipes": [
+      {
+        "output": "Regular Woodcutting potion",
+        "level_req": 1,
+        "xp": 600,
+        "inputs": [
+          {
+            "item": "Guam",
+            "qty": 1
+          },
+          {
+            "item": "Wagtail feather",
+            "qty": 1
+          },
+          {
+            "item": "Vial of water",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Woodcutting",
+        "speed_pct": 10,
+        "budget": 500
+      },
+      {
+        "output": "Regular Mining potion",
+        "level_req": 15,
+        "xp": 2500,
+        "inputs": [
+          {
+            "item": "Marrentill",
+            "qty": 1
+          },
+          {
+            "item": "Swamp lizard hide",
+            "qty": 1
+          },
+          {
+            "item": "Vial of water",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Mining",
+        "speed_pct": 10,
+        "budget": 500
+      },
+      {
+        "output": "Regular Fishing potion",
+        "level_req": 30,
+        "xp": 4800,
+        "inputs": [
+          {
+            "item": "Harralander",
+            "qty": 1
+          },
+          {
+            "item": "Glacialis wing",
+            "qty": 1
+          },
+          {
+            "item": "Vial of water",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Fishing",
+        "speed_pct": 10,
+        "budget": 500
+      },
+      {
+        "output": "Hunter potion",
+        "level_req": 30,
+        "xp": 4800,
+        "inputs": [
+          {
+            "item": "Harralander",
+            "qty": 1
+          },
+          {
+            "item": "Warlock fur",
+            "qty": 1
+          },
+          {
+            "item": "Vial of water",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": null,
+        "speed_pct": 10,
+        "budget": null
+      },
+      {
+        "output": "Super Woodcutting potion",
+        "level_req": 45,
+        "xp": 7200,
+        "inputs": [
+          {
+            "item": "Ranarr",
+            "qty": 1
+          },
+          {
+            "item": "Snowy knight fur",
+            "qty": 1
+          },
+          {
+            "item": "Vial of water",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Woodcutting",
+        "speed_pct": 20,
+        "budget": 500
+      },
+      {
+        "output": "Extended Woodcutting potion",
+        "level_req": 55,
+        "xp": 8500,
+        "inputs": [
+          {
+            "item": "Dashing kebbit fur",
+            "qty": 1
+          },
+          {
+            "item": "Super Woodcutting potion",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Woodcutting",
+        "speed_pct": 20,
+        "budget": 1500
+      },
+      {
+        "output": "Super Mining potion",
+        "level_req": 60,
+        "xp": 9500,
+        "inputs": [
+          {
+            "item": "Avantoe",
+            "qty": 1
+          },
+          {
+            "item": "Orange salamander hide",
+            "qty": 1
+          },
+          {
+            "item": "Vial of water",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Mining",
+        "speed_pct": 20,
+        "budget": 500
+      },
+      {
+        "output": "Extended Mining potion",
+        "level_req": 70,
+        "xp": 11000,
+        "inputs": [
+          {
+            "item": "Tecu salamander hide",
+            "qty": 1
+          },
+          {
+            "item": "Super Mining potion",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Mining",
+        "speed_pct": 20,
+        "budget": 1500
+      },
+      {
+        "output": "Super Fishing potion",
+        "level_req": 75,
+        "xp": 12000,
+        "inputs": [
+          {
+            "item": "Torstol",
+            "qty": 1
+          },
+          {
+            "item": "Grey chinchompa",
+            "qty": 1
+          },
+          {
+            "item": "Vial of water",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Fishing",
+        "speed_pct": 20,
+        "budget": 500
+      },
+      {
+        "output": "Extended Fishing potion",
+        "level_req": 85,
+        "xp": 13500,
+        "inputs": [
+          {
+            "item": "Herbiboar meat",
+            "qty": 1
+          },
+          {
+            "item": "Super Fishing potion",
+            "qty": 1
+          }
+        ],
+        "boosts_skill": "Fishing",
+        "speed_pct": 20,
+        "budget": 1500
+      }
+    ]
   }
 }
